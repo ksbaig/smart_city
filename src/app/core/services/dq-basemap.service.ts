@@ -12,7 +12,6 @@ import { Injectable } from "@angular/core";
 import Graphic from "@arcgis/core/Graphic";
 import FeatureLayer from "@arcgis/core/layers/FeatureLayer";
 import GraphicsLayer from "@arcgis/core/layers/GraphicsLayer";
-import GeoJSONLayer from "@arcgis/core/layers/GeoJSONLayer";
 import WebTileLayer from "@arcgis/core/layers/WebTileLayer";
 import Basemap from "@arcgis/core/Basemap";
 import Point from "@arcgis/core/geometry/Point";
@@ -88,8 +87,8 @@ export class DqBasemapService {
   private panoramicPointsLayer?: GraphicsLayer;
   private atmLayer?: GraphicsLayer;
   private branchLayer?: GraphicsLayer;
-  private kingFahdRoadLayer?: GeoJSONLayer;
-  private kingFahdUtilitiesLayer?: GeoJSONLayer;
+  private kingFahdRoadLayer?: GraphicsLayer;
+  private kingFahdUtilitiesLayer?: GraphicsLayer;
   private kingFahdUtilityCategoryCounts = new Map<string, number>();
 
   /** Parcel FeatureLayer loaded directly from DQ_Basemap/FeatureServer/28. */
@@ -247,55 +246,30 @@ export class DqBasemapService {
     }
 
     if (!this.kingFahdRoadLayer) {
-      this.kingFahdRoadLayer = new GeoJSONLayer({
+      this.kingFahdRoadLayer = new GraphicsLayer({
         id: "king-fahd-road",
         title: "King Fahd Road",
         listMode: "show",
-        legendEnabled: true,
-        url: KING_FAHD_ROAD_URL,
-        renderer: {
-          type: "simple",
-          symbol: {
-            type: "simple-line",
-            color: [230, 81, 0, 1],
-            width: 5,
-            style: "solid",
-          },
-        } as any,
       });
+    } else {
+      this.kingFahdRoadLayer.removeAll();
     }
 
     if (!this.kingFahdUtilitiesLayer) {
-      this.kingFahdUtilitiesLayer = new GeoJSONLayer({
+      this.kingFahdUtilitiesLayer = new GraphicsLayer({
         id: "king-fahd-road-utilities",
         title: "King Fahd Road Utilities",
         listMode: "show",
-        legendEnabled: true,
-        url: KING_FAHD_UTILITIES_URL,
-        renderer: this.buildKingFahdUtilityRenderer() as any,
-        popupTemplate: {
-          title: "{name}",
-          content: [
-            {
-              type: "fields",
-              fieldInfos: [
-                { fieldName: "asset_type", label: "Asset Type" },
-                { fieldName: "asset_id", label: "Asset ID" },
-                { fieldName: "distance_from_road_m", label: "Distance from Road (m)" },
-                { fieldName: "side_of_road", label: "Side of Road" },
-              ],
-            },
-          ],
-        } as any,
       });
+    } else {
+      this.kingFahdUtilitiesLayer.removeAll();
     }
 
     await Promise.all([
-      this.kingFahdRoadLayer.load(),
-      this.kingFahdUtilitiesLayer.load(),
-      this.refreshKingFahdUtilityCategoryCounts(),
+      this.addKingFahdRoadGraphic(this.kingFahdRoadLayer),
+      this.addKingFahdUtilityGraphics(this.kingFahdUtilitiesLayer),
     ]);
-    const utilityCount = (await this.kingFahdUtilitiesLayer.queryFeatureCount().catch(() => 0)) ?? 0;
+    const utilityCount = this.kingFahdUtilitiesLayer.graphics.length;
     console.log(`[king-fahd] loaded road and ${utilityCount} utility features.`);
 
     if (!this.webMap.findLayerById(this.kingFahdRoadLayer.id)) {
@@ -304,8 +278,19 @@ export class DqBasemapService {
     if (!this.webMap.findLayerById(this.kingFahdUtilitiesLayer.id)) {
       this.webMap.add(this.kingFahdUtilitiesLayer);
     }
+    this.webMap.reorder(this.kingFahdRoadLayer, this.webMap.layers.length - 2);
+    this.webMap.reorder(this.kingFahdUtilitiesLayer, this.webMap.layers.length - 1);
 
     console.log("[king-fahd] King Fahd Road and utilities loaded. Default Riyadh view retained.");
+  }
+
+  private utilityMarker(color: [number, number, number]): SimpleMarkerSymbol {
+    return new SimpleMarkerSymbol({
+      style: "circle",
+      color: [color[0], color[1], color[2], 0.95],
+      size: 8,
+      outline: { color: [255, 255, 255, 1], width: 1 },
+    });
   }
 
   private utilityColorByType(assetType: string): [number, number, number] {
@@ -331,66 +316,34 @@ export class DqBasemapService {
     }
   }
 
-  private utilityLegendLabel(assetType: string): string {
-    return assetType
-      .split("_")
-      .filter(Boolean)
-      .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
-      .join(" ");
+  private async addKingFahdRoadGraphic(layer: GraphicsLayer): Promise<void> {
+    const response = await fetch(KING_FAHD_ROAD_URL);
+    if (!response.ok) {
+      throw new Error(`Failed to load ${KING_FAHD_ROAD_URL}: ${response.status}`);
+    }
+    const road = await response.json();
+    const coords = road?.geometry?.coordinates;
+    if (!Array.isArray(coords) || !coords.length) {
+      throw new Error("King Fahd road file has no valid coordinates.");
+    }
+
+    layer.add(
+      new Graphic({
+        geometry: new Polyline({
+          paths: [coords],
+          spatialReference: { wkid: 4326 },
+        }),
+        symbol: new SimpleLineSymbol({
+          color: [230, 81, 0, 1],
+          width: 5,
+          style: "solid",
+        }),
+        attributes: road?.properties ?? {},
+      })
+    );
   }
 
-  private buildKingFahdUtilityRenderer(): unknown {
-    const assetTypes = [
-      "streetlight",
-      "trash_bin",
-      "fire_hydrant",
-      "atm",
-      "bank_branch",
-      "petrol_station",
-      "mosque",
-      "bus_stop",
-      "traffic_signal",
-      "cctv_camera",
-      "parking_meter",
-      "public_bench",
-      "telecom_cabinet",
-      "electrical_transformer",
-      "water_valve",
-      "manhole",
-      "public_toilet",
-    ];
-
-    const uniqueValueInfos = assetTypes.map((assetType) => {
-      const color = this.utilityColorByType(assetType);
-      return {
-        value: assetType,
-        label: this.utilityLegendLabel(assetType),
-        symbol: {
-          type: "simple-marker",
-          style: "circle",
-          color: [color[0], color[1], color[2], 0.95],
-          size: 8,
-          outline: { color: [255, 255, 255, 1], width: 1 },
-        },
-      };
-    });
-
-    return {
-      type: "unique-value",
-      field: "asset_type",
-      defaultLabel: "Other Utilities",
-      defaultSymbol: {
-        type: "simple-marker",
-        style: "circle",
-        color: [33, 150, 243, 0.95],
-        size: 8,
-        outline: { color: [255, 255, 255, 1], width: 1 },
-      },
-      uniqueValueInfos,
-    };
-  }
-
-  private async refreshKingFahdUtilityCategoryCounts(): Promise<void> {
+  private async addKingFahdUtilityGraphics(layer: GraphicsLayer): Promise<void> {
     const response = await fetch(KING_FAHD_UTILITIES_URL);
     if (!response.ok) {
       throw new Error(`Failed to load ${KING_FAHD_UTILITIES_URL}: ${response.status}`);
@@ -409,6 +362,18 @@ export class DqBasemapService {
 
       const assetType = String(feature?.properties?.asset_type ?? "").toLowerCase();
       categoryCounts.set(assetType, (categoryCounts.get(assetType) ?? 0) + 1);
+
+      layer.add(
+        new Graphic({
+          geometry: new Point({
+            longitude,
+            latitude,
+            spatialReference: { wkid: 4326 },
+          }),
+          symbol: this.utilityMarker(this.utilityColorByType(assetType)),
+          attributes: feature?.properties ?? {},
+        })
+      );
     }
 
     // Store categories for legend display
@@ -419,7 +384,7 @@ export class DqBasemapService {
       .map(([type, count]) => `${type}(${count})`)
       .join(", ");
     console.log(
-      `[king-fahd-utilities] loaded ${features.length} features across ${categoryCounts.size} categories: ${categoryList}`
+      `[king-fahd-utilities] loaded ${layer.graphics.length} graphics across ${categoryCounts.size} categories: ${categoryList}`
     );
   }
 

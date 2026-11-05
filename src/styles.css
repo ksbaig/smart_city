@@ -1,4 +1,14 @@
-@import './app/header-logo.css';
+.dashboard-header {
+	position: relative;
+}
+
+.header-logo {
+	position: absolute;
+	top: 6px;
+	right: 32px;
+	height: 48px;
+	z-index: 10;
+}
 
 /* Ensure the selected-road container is tall enough for the logo */
 .selected-road {
