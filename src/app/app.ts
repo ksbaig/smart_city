@@ -3118,6 +3118,7 @@ export class App implements OnInit {
         if (!host || !view) return;
         // destroy existing widget if any
         try { this.legendWidget?.destroy?.(); } catch {}
+        host.replaceChildren();
 
         const excludedLegendTitles = new Set([
           "global_basemap_jan2026",
@@ -3224,36 +3225,76 @@ export class App implements OnInit {
               }
             });
 
-            // Add utility categories to legend as a separate section
-            if (Object.keys(utilityCategoryCounts).length > 0) {
-              const legendList = host.querySelector('.esri-legend__service');
-              if (legendList) {
-                const utilitySection = document.createElement('div');
-                utilitySection.className = 'esri-legend__service';
-                utilitySection.style.marginTop = '16px';
+            // GraphicsLayer instances have no renderer for ArcGIS Legend to inspect,
+            // so render their symbols explicitly rather than relying on widget rows.
+            const utilityColors: Record<string, string> = {
+              streetlight: "#ffc107",
+              trash_bin: "#78909c",
+              fire_hydrant: "#e53935",
+              atm: "#10b981",
+              bank_branch: "#2563eb",
+              petrol_station: "#f57c00",
+              mosque: "#009688",
+              bus_stop: "#7c4dff",
+              traffic_signal: "#ff9800",
+              cctv_camera: "#37474f",
+              parking_meter: "#795548",
+              public_bench: "#689f38",
+              telecom_cabinet: "#3f51b5",
+              electrical_transformer: "#ffd600",
+              water_valve: "#00bcd4",
+              manhole: "#546e7a",
+              public_toilet: "#ec407a",
+            };
+            const customSection = document.createElement('div');
+            customSection.style.marginTop = '16px';
+            customSection.style.padding = '8px';
+            customSection.style.borderTop = '1px solid rgba(0, 0, 0, 0.15)';
 
-                const utilityTitle = document.createElement('div');
-                utilityTitle.style.fontWeight = 'bold';
-                utilityTitle.style.marginBottom = '8px';
-                utilityTitle.textContent = 'King Fahd Road Utilities';
-                utilitySection.appendChild(utilityTitle);
+            const roadTitle = document.createElement('div');
+            roadTitle.style.fontWeight = 'bold';
+            roadTitle.style.marginBottom = '8px';
+            roadTitle.textContent = 'King Fahd Road';
+            customSection.appendChild(roadTitle);
 
-                const entries = Object.entries(utilityCategoryCounts)
-                  .sort((a, b) => a[0].localeCompare(b[0]));
+            const roadEntry = document.createElement('div');
+            roadEntry.style.display = 'flex';
+            roadEntry.style.alignItems = 'center';
+            roadEntry.style.gap = '8px';
+            roadEntry.style.marginBottom = '12px';
+            const roadSwatch = document.createElement('span');
+            roadSwatch.style.display = 'inline-block';
+            roadSwatch.style.width = '28px';
+            roadSwatch.style.borderTop = '4px solid #e65100';
+            roadEntry.append(roadSwatch, document.createTextNode('Road'));
+            customSection.appendChild(roadEntry);
 
-                for (const [category, count] of entries) {
-                  const entry = document.createElement('div');
-                  entry.style.paddingLeft = '8px';
-                  entry.style.marginBottom = '4px';
-                  entry.style.fontSize = '12px';
-                  const label = category.charAt(0).toUpperCase() + category.slice(1).replace(/_/g, ' ');
-                  entry.textContent = `${label} (${count})`;
-                  utilitySection.appendChild(entry);
-                }
+            const utilityTitle = document.createElement('div');
+            utilityTitle.style.fontWeight = 'bold';
+            utilityTitle.style.marginBottom = '8px';
+            utilityTitle.textContent = 'King Fahd Road Utilities';
+            customSection.appendChild(utilityTitle);
 
-                legendList.parentNode?.appendChild(utilitySection);
-              }
+            const entries = Object.entries(utilityCategoryCounts)
+              .sort((a, b) => a[0].localeCompare(b[0]));
+            for (const [category, count] of entries) {
+              const entry = document.createElement('div');
+              entry.style.display = 'flex';
+              entry.style.alignItems = 'center';
+              entry.style.gap = '8px';
+              entry.style.marginBottom = '4px';
+              entry.style.fontSize = '12px';
+              const swatch = document.createElement('span');
+              swatch.style.display = 'inline-block';
+              swatch.style.width = '10px';
+              swatch.style.height = '10px';
+              swatch.style.borderRadius = '50%';
+              swatch.style.backgroundColor = utilityColors[category] || '#2196f3';
+              const label = category.charAt(0).toUpperCase() + category.slice(1).replace(/_/g, ' ');
+              entry.append(swatch, document.createTextNode(`${label} (${count})`));
+              customSection.appendChild(entry);
             }
+            host.appendChild(customSection);
           } catch (e) {
             console.warn('[Legend] Failed to patch legend labels with counts', e);
           }
