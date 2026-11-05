@@ -1,0 +1,198 @@
+.pending-updates {
+  display: grid;
+  gap: 10px;
+}
+
+.pending-updates-table-wrap {
+  width: 100%;
+  overflow: auto;
+  border: 1px solid #d9e2ef;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(13, 24, 47, 0.08);
+  background: linear-gradient(180deg, #eaf3ff 0%, #d4e6ff 60%, #b5d1ff 100%);
+}
+
+.pending-updates-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: 14px;
+  color: #1b2537;
+}
+
+.pending-updates-table th,
+.pending-updates-table td {
+  border-right: 1px solid #e4ebf5;
+  border-bottom: 1px solid #e8eef7;
+  padding: 8px 10px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.pending-updates-table th {
+  background: #f3f7fd;
+  font-weight: 700;
+}
+
+.pending-updates-table-vertical thead th {
+  background: transparent;
+  font-size: 16px;
+  line-height: 1.1;
+  color: #132039;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.pending-updates-table-vertical thead th.attribute-col {
+  width: 320px;
+  min-width: 300px;
+}
+
+.pending-updates-table-vertical thead th.edit-col {
+  min-width: 140px;
+  text-align: center;
+}
+
+.pending-updates-table-vertical tbody tr:hover {
+  background: #f8fbff;
+}
+
+.pending-updates-table-vertical .attribute-cell {
+  color: #1d2b45;
+  font-size: 12px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.pending-updates-table-vertical tbody th.attribute-cell {
+  background: transparent;
+}
+
+.pending-updates-table-vertical .attribute-cell i {
+  color: #2762c6;
+  font-size: 12px;
+}
+
+.pending-updates-table-vertical .data-cell {
+  font-size: 12px;
+  font-weight: 500;
+  color: #17243b;
+}
+
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 4px 10px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.1;
+  border: 1px solid transparent;
+}
+
+.status-badge.pending {
+  background: #fff4e5;
+  color: #b97200;
+  border-color: #ffe2b6;
+}
+
+.status-badge.investment {
+  background: #ecfdf5;
+  color: #0c8e5b;
+  border-color: #c8f4df;
+}
+
+.status-badge.developed,
+.status-badge.sold,
+.status-badge.allotted {
+  background: #dcfce7;
+  color: #1f7b3a;
+  border-color: #b7efcb;
+}
+
+.status-badge.lease {
+  background: #dbeafe;
+  color: #1d4ed8;
+  border-color: #b9d6fd;
+}
+
+.pending-updates-table-vertical thead tr th:first-child {
+  border-top-left-radius: 12px;
+}
+
+.pending-updates-table-vertical thead tr th:last-child {
+  border-top-right-radius: 12px;
+}
+
+.pending-updates-table-vertical tr th:last-child,
+.pending-updates-table-vertical tr td:last-child {
+  border-right: none;
+}
+
+.pending-updates-table-vertical tbody tr:last-child th,
+.pending-updates-table-vertical tbody tr:last-child td {
+  border-bottom: none;
+}
+
+@media (max-width: 1366px) {
+  .pending-updates-table-vertical .attribute-cell {
+    font-size: 11px;
+  }
+
+  .pending-updates-table-vertical .data-cell {
+    font-size: 11px;
+  }
+
+  .status-badge {
+    font-size: 11px;
+    padding: 4px 8px;
+  }
+}
+
+@media (max-width: 900px) {
+  .pending-updates-table-vertical thead th {
+    font-size: 14px;
+  }
+
+  .pending-updates-table-vertical thead th.attribute-col {
+    min-width: 240px;
+  }
+
+  .pending-updates-table-vertical .attribute-cell {
+    font-size: 10px;
+    gap: 8px;
+  }
+
+  .pending-updates-table-vertical .attribute-cell i {
+    font-size: 10px;
+  }
+
+  .pending-updates-table-vertical .data-cell {
+    font-size: 10px;
+  }
+
+  .status-badge {
+    font-size: 10px;
+    padding: 3px 7px;
+    border-radius: 8px;
+  }
+}
+
+.pending-updates-status,
+.pending-updates-error,
+.pending-updates-empty {
+  border: 1px solid #d6d9dd;
+  background: #f7f8fa;
+  padding: 12px;
+  color: #303840;
+  font-size: 13px;
+}
+
+.pending-updates-error {
+  border-color: #d98282;
+  color: #8a2020;
+  background: #fff4f4;
+}

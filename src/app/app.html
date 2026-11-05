@@ -1,0 +1,1940 @@
+<section class="landing-page" [class.rtl]="isArabic" [class.toolbar-vertical]="toolbarVertical" [class.login-open]="loginRequired" [ngClass]="'theme-' + currentTheme" [attr.dir]="isArabic ? 'rtl' : 'ltr'" [attr.lang]="isArabic ? 'ar' : 'en'">
+  <ng-container *ngIf="loginRequired">
+    <app-login-overlay (loginSuccess)="onLoginSuccess($event)"></app-login-overlay>
+  </ng-container>
+
+  <!-- Hidden file input for document uploads -->
+  <input
+    #docFileInput
+    type="file"
+    style="display:none"
+    (change)="onFileSelected($event)"
+  />
+
+  <header class="dashboard-header" (contextmenu)="onHeaderContextMenu($event)">
+    <h1>Smart city</h1>
+    <div class="selected-road" (dblclick)="onSelectedRoadDoubleClick($event)">
+      <span class="selected-road-user">User Smart City</span>
+      <img hidden class="header-logo" src="/assets/img/RBLOGO.png" alt="RB Logo" />
+    </div>
+  </header>
+
+  <aside class="left-sidebar">
+    <button type="button" class="left-sidebar-logo" aria-label="Main menu">
+      <i class="bi bi-compass"></i>
+    </button>
+    <div class="left-sidebar-buttons">
+      <button
+        type="button"
+        class="left-sidebar-btn"
+        [class.active]="!mapSearchOverlayCollapsed"
+        aria-label="Toggle search overlay"
+        (click)="toggleMapSearchOverlayCollapse()"
+      >
+        <i class="bi bi-search"></i>
+      </button>
+      <button
+        type="button"
+        class="left-sidebar-btn"
+        [class.active]="isRightPanelSectionVisible('voiceAgent')"
+        aria-label="AI agent"
+        title="AI agent"
+        (click)="toggleRightPanelSection('voiceAgent')"
+      >
+        <i class="bi bi-mic"></i>
+      </button>
+      <button
+        type="button"
+        class="left-sidebar-btn"
+        [class.active]="isRightPanelSectionVisible('dashboard')"
+        aria-label="Dashboard button"
+        [attr.aria-pressed]="isRightPanelSectionVisible('dashboard')"
+        title="Dashboard button"
+        (click)="toggleRightPanelSection('dashboard')"
+      >
+        <i class="bi bi-layers"></i>
+      </button>
+      <button
+        type="button"
+        class="left-sidebar-btn"
+        [class.active]="isRightPanelSectionVisible('legend')"
+        [attr.aria-pressed]="isRightPanelSectionVisible('legend')"
+        aria-label="Legend"
+        title="Legend"
+        (click)="openLegendPanel()"
+      >
+        <i class="bi bi-file-earmark-text"></i>
+      </button>
+      <button
+        id="left-sidebar-home-copy"
+        name="leftSidebarHomeCopy"
+        type="button"
+        class="left-sidebar-btn"
+        aria-label="ATM Reports"
+        title="ATM Reports"
+        (click)="goHomeSidebar()"
+      >
+        <i class="bi bi-cash-stack"></i>
+      </button>
+      <button
+        id="left-sidebar-pending-copy"
+        name="leftSidebarPendingCopy"
+        type="button"
+        class="left-sidebar-btn"
+        [class.active]="isRightPanelSectionVisible('reports')"
+        aria-label="Reports"
+        title="Reports"
+        (click)="toggleReportsPanel()"
+      >
+        <i class="bi bi-map"></i>
+      </button>
+      <button
+        id="left-sidebar-draw-copy"
+        name="leftSidebarDrawCopy"
+        type="button"
+        class="left-sidebar-btn"
+        aria-label="Draw"
+        title="Draw"
+        (click)="startDrawPolygonToolbar()"
+      >
+        <i class="bi bi-pencil"></i>
+      </button>
+      <button
+        id="left-sidebar-clear-copy"
+        name="leftSidebarClearCopy"
+        type="button"
+        class="left-sidebar-btn"
+        aria-label="Clear graphics"
+        title="Clear graphics"
+        (click)="clearGraphics()"
+      >
+        <i class="bi bi-x-lg"></i>
+      </button>
+      <button
+        id="left-sidebar-plot-sheet-copy"
+        name="leftSidebarPlotSheetCopy"
+        type="button"
+        class="left-sidebar-btn"
+        aria-label="Plot Sheet 1"
+        title="Plot Sheet 1"
+        (click)="openPlotSheet1Dialog()"
+      >
+        <i class="bi bi-printer"></i>
+      </button>
+    </div>
+    <div class="left-sidebar-bottom" *ngIf="false">
+      <button type="button" class="left-sidebar-btn" aria-label="Settings">
+        <i class="bi bi-gear"></i>
+      </button>
+    </div>
+  </aside>
+
+  <!-- Header right-click context menu -->
+  <div
+    class="hdr-ctx-menu"
+    *ngIf="headerContextMenuOpen"
+    [style.left.px]="headerContextMenuX"
+    [style.top.px]="headerContextMenuY"
+    (mouseleave)="closeHeaderContextMenu()"
+  >
+    <button type="button" (click)="openCommentsPopup()">💬 Comments</button>
+    <button type="button" (click)="openHowToUse()">📖 How to use</button>
+    <button type="button" (click)="openAbout()">ℹ️ About</button>
+  </div>
+
+  <!-- Selected-road double-click menu -->
+  <div
+    class="hdr-ctx-menu"
+    *ngIf="selectedRoadContextMenuOpen"
+    [style.left.px]="selectedRoadContextMenuX"
+    [style.top.px]="selectedRoadContextMenuY"
+    (mouseleave)="closeSelectedRoadContextMenu()"
+  >
+    <button type="button" (click)="openCommentsPopup(); closeSelectedRoadContextMenu()">
+      💬 Comments
+    </button>
+    <button type="button" (click)="openHowToUse(); closeSelectedRoadContextMenu()">
+      📖 How to use
+    </button>
+    <button type="button" (click)="openAbout(); closeSelectedRoadContextMenu()">
+      ℹ️ About
+    </button>
+    <hr />
+    <button type="button" (click)="togglePopupOnMapClick(); closeSelectedRoadContextMenu()">
+      {{ showPopupOnMapClick ? 'Disable popup' : 'Enable popup' }}
+    </button>
+    <button type="button" (click)="openLegendPanel(); closeSelectedRoadContextMenu()">
+      Show Legend
+    </button>
+    <button type="button" (click)="hidePanoramicLayerAction(); closeSelectedRoadContextMenu()">
+      Hide panoramic layer
+    </button>
+  </div>
+
+  <!-- Global click shield to close context menu -->
+  <div
+    class="hdr-ctx-shield"
+    *ngIf="headerContextMenuOpen || selectedRoadContextMenuOpen"
+    (click)="closeHeaderContextMenu(); closeSelectedRoadContextMenu()"
+    (contextmenu)="closeHeaderContextMenu(); closeSelectedRoadContextMenu()"
+  ></div>
+
+  <div
+    class="dashboard-grid"
+    [style.--right-panel-width.px]="rightPanelWidth"
+    [class.panel-left-collapsed]="leftPanelCollapsed"
+    [class.panel-right-collapsed]="rightPanelCollapsed"
+    [class.panel-both-collapsed]="leftPanelCollapsed && rightPanelCollapsed"
+  >
+    <main class="panel panel-center">
+      <div class="map-card">
+        <div class="theme-menu-backdrop" *ngIf="themeMenuOpen" (click)="closeThemeMenu()"></div>
+
+        <div *ngIf="!mapSearchOverlayCollapsed" #mapSearchOverlay class="map-search-overlay" (mousedown)="startMapSearchDrag($event)" (touchstart)="startMapSearchDrag($event)">
+          <button
+            type="button"
+            class="map-search-overlay-toggle"
+            (mousedown)="$event.stopPropagation()"
+            (touchstart)="$event.stopPropagation()"
+            (click)="toggleMapSearchOverlayCollapse()"
+            aria-label="Collapse search panel"
+            title="Collapse search panel"
+          >
+            <span>{{ mapSearchOverlayCollapsed ? '⬇️' : '⬆️' }}</span>
+          </button>
+          <section class="map-search-card panel" [class.collapsed]="mapSearchOverlayCollapsed">
+            <div class="map-search-card-header">
+              <div class="map-search-card-icon">
+                <i class="bi bi-geo-alt-fill" aria-hidden="true"></i>
+              </div>
+              <div class="map-search-card-header-text">
+                <div class="map-search-card-title">Location ID</div>
+                <div class="map-search-card-subtitle">Search and navigate to an ATM or branch</div>
+              </div>
+            </div>
+
+            <div class="map-search-card-body">
+              <div class="map-search-input-row">
+                <div class="map-search-input-icon"><i class="bi bi-search"></i></div>
+                <input
+                  id="parcel-name"
+                  type="text"
+                  placeholder="Search ATM / Branch ID"
+                  [(ngModel)]="parcelSearchText"
+                  (keyup.enter)="onParcelSearch()"
+                />
+              </div>
+
+              <div class="map-search-actions">
+                <button type="button" class="btn-search" (click)="onParcelSearch()" [disabled]="isParcelSearching">
+                  <i class="bi bi-search"></i>
+                  <span>{{ isParcelSearching ? '...' : 'Search' }}</span>
+                </button>
+                <button type="button" class="btn-outline" (click)="clearGraphics()" [title]="t('clearGraphics')">
+                  <i class="bi bi-trash"></i>
+                  <span>{{ t('clearGraphics') }}</span>
+                </button>
+              </div>
+
+              <div class="map-search-actions dashboard-action dashboard-action-double">
+                <button
+                  type="button"
+                  class="btn-dashboard"
+                  (click)="openPresentationPlotDialog()"
+                  [disabled]="!canDownloadSelection()"
+                  [title]="'Open presentation plot'"
+                >
+                  <i class="bi bi-download"></i>
+                  <span>Download</span>
+                </button>
+                <button
+                  id="360View"
+                  name="360View"
+                  type="button"
+                  class="btn-dashboard"
+                  (click)="openPanoramaDialog()"
+                  [title]="'360View'"
+                >
+                  <i class="bi bi-camera-video"></i>
+                  <span>360View</span>
+                </button>
+                <button
+                  id="street360view"
+                  name="street360view"
+                  type="button"
+                  class="btn-dashboard"
+                  (click)="openStreetView()"
+                  [title]="'360view'"
+                >
+                  <i class="bi bi-camera-video"></i>
+                  <span>360view</span>
+                </button>
+                <button
+                  id="dashborad_component"
+                  name="dashborad_component"
+                  type="button"
+                  class="btn-dashboard"
+                  (click)="openDashboardComponent()"
+                  [title]="'Dashboard'"
+                >
+                  <i class="bi bi-speedometer2"></i>
+                  <span>Dashboard</span>
+                </button>
+              </div>
+
+              <div class="map-search-actions dashboard-action" *ngIf="false">
+                <button
+                  id="Dashboard1"
+                  name="Dashboard1"
+                  type="button"
+                  class="btn-dashboard"
+                  (click)="openDashboard1Panel()"
+                  [title]="'Dashboard'"
+                >
+                  <i class="bi bi-speedometer2"></i>
+                  <span>Dashboard</span>
+                </button>
+              </div>
+
+              <ng-container *ngIf="hasParcelSearchRun && parcelMatches.length !== 1">
+                <div class="matching-roads map-search-status" *ngIf="!parcelMatches.length">{{ parcelStatusText }}</div>
+                <ul class="result-list map-search-results" *ngIf="parcelMatches.length">
+                  <li *ngFor="let parcel of parcelMatches">
+                    <span>{{ parcel.displayName }}</span>
+                    <button type="button" (click)="onApplyMasterplan(parcel)">{{ t('apply') }}</button>
+                  </li>
+                </ul>
+              </ng-container>
+            </div>
+          </section>
+        </div>
+
+        <!-- Comments popup at top of map -->
+        <div class="map-comments-popup" *ngIf="commentsPopupOpen">
+          <div class="map-comments-popup-header">
+            <span>💬 Comments</span>
+            <button type="button" class="map-comments-close" (click)="closeCommentsPopup()" aria-label="Close">×</button>
+          </div>
+          <div class="map-comments-popup-body">
+            <app-comments
+              [showCloseButton]="true"
+              (closeRequested)="closeCommentsPopup()"
+            ></app-comments>
+          </div>
+        </div>
+
+        <div class="map-overlay-controls vertical" [class.collapsed]="mapOverlayCollapsed" style="background-color: transparent;">
+          <button
+            type="button"
+            class="view-toggle-btn map-overlay-collapse-toggle"
+            (click)="toggleMapOverlayCollapse()"
+            [attr.aria-expanded]="!mapOverlayCollapsed"
+            [attr.aria-label]="mapOverlayCollapsed ? 'Expand toolbar' : 'Collapse toolbar'"
+            title="{{ mapOverlayCollapsed ? 'Expand toolbar' : 'Collapse toolbar' }}"
+          >
+            <span class="panel-right-toggle-icon map-overlay-collapse-toggle-icon" [class.open]="!mapOverlayCollapsed">❯</span>
+          </button>
+          <div class="map-overlay-body" [class.collapsed]="mapOverlayCollapsed">
+          <div class="panoramic-click-message" *ngIf="panoramicClickMessage">
+            {{ panoramicClickMessage }}
+          </div>
+            <div class="map-view-controls">
+              <div class="sat-menu-wrap" (click)="$event.stopPropagation()">
+                <button
+                  type="button"
+                  class="btn-clear-graphics map-action-clear"
+                  (click)="openSatelliteMenu($event)"
+                  [title]="basemapMode === 'satellite' ? t('basemapWebmap') : t('basemapSatellite')"
+                >
+                  <i class="bi bi-satellite"></i>
+                  {{ basemapMode === 'satellite' ? t('basemapWebmap') : t('basemapSatellite') }}
+                </button>
+
+                <div class="sat-menu" *ngIf="satelliteMenuOpen" (mouseleave)="closeSatelliteMenu()">
+                  <button type="button" (click)="applyDefaultView()">Ragular</button>
+                  <button type="button" (click)="applySatelliteAndSelectedParcelView()">Hybrid</button>
+                  <button type="button" (click)="applySatelliteOnlyView()">Setellite</button>
+                </div>
+              </div>
+              <div class="action-buttons-row map-action-buttons">
+                <button
+                  type="button"
+                  class="btn-attributes btn-action-half"
+                  (click)="selectedParcel ? openAttributesDialog() : showParcelHint()"
+                  title="Information"
+                >
+                  <i class="bi bi-info-circle"></i>
+                  Information
+                </button>
+                <button
+                  type="button"
+                  class="btn-kroki btn-action-half"
+                  (click)="selectedParcel ? openKrokiDialog() : showParcelHint()"
+                  [title]="t('kroki')"
+                >
+                  <i class="bi bi-info-circle"></i>
+                  {{ t('kroki') }}
+                </button>
+              </div>
+              <div class="btn-360-split">
+                <!-- 360 view arrow button removed as requested -->
+              </div>
+              <div class="btn-3d-split">
+                <button type="button" class="btn-3d-arrow" (click)="open3DOverlay()" [disabled]="isSceneLoading" title="3D view on map" aria-label="Open 3D view on map">&#9664;</button>
+                <button type="button" class="view-toggle-btn btn-3d-main" (click)="toggle3D()" [disabled]="isSceneLoading" [title]="t('open3dScene')">
+                  <i class="bi bi-cube"></i>
+                  {{ isSceneLoading ? '...' : t('view3d') }}
+                </button>
+              </div>
+                <div class="parcel-hint-anchor vertical">
+                <!-- Plot Sheet button removed from overlay -->
+                <button
+                  type="button"
+                  class="view-toggle-btn"
+                  [ngClass]="{ 'active-panaromic-view1': isPanaromicView1Active }"
+                  [style.background]="isPanaromicView1Active ? '#ffe066' : null"
+                  [style.background-image]="isPanaromicView1Active ? 'none' : null"
+                  [style.color]="isPanaromicView1Active ? '#333' : null"
+                  [style.border]="isPanaromicView1Active ? '2px solid #ffd700' : null"
+                  id="PanaromicView"
+                  name="PanaromicView"
+                  (click)="onPanaromicView1()"
+                  [disabled]="!isOnline || !panoramicServiceAvailable"
+                  [title]="!isOnline || !panoramicServiceAvailable ? 'Panoramic view unavailable while offline or portal is unreachable' : 'Panaromic'"
+                >
+                  <i class="bi bi-camera2"></i>
+                </button>
+                <button
+                  type="button"
+                  class="view-toggle-btn"
+                  (click)="selectedParcel ? openPlotPrintDialog() : showParcelHint()"
+                  [title]="'Open Plot Print Template in new tab'"
+                >
+                  <i class="bi bi-printer"></i>
+                  Print Template
+                </button>
+                <div class="parcel-required-hint" [class.visible]="parcelHintVisible">
+                  &#128269; Search for a parcel first
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="toolbar-orientation-picker map-top-toolbar-toggle" *ngIf="false">
+          <!-- Orientation radio hidden -->
+        </div>
+
+        <custom-esri-toolbar
+          [view]="mapView"
+          (toggleLayer)="toggleLayerToolbar()"
+          (startMeasurement)="startMeasurementToolbar()"
+          (startDrawPolygon)="startDrawPolygonToolbar()"
+          (clearGraphics)="clearGraphics()"
+          (openGeoAISearch)="openGeoAISearchToolbar()"
+          (openLegend)="openLegendPanel()"
+          (openPlotSheetDialog)="openPlotSheet1Dialog()"
+        ></custom-esri-toolbar>
+
+        <div #mapHost class="map-surface" aria-label="ArcGIS map"></div>
+        <!-- Panorama or 3D scene overlay shown on top of the map when invoked from context menu -->
+        <div #panoramaOverlay class="panorama-overlay" *ngIf="panoramaOverlayOpen || sceneOverlayOpen || panoramaIframeOpen">
+          <div
+            class="panorama-overlay-header"
+            (mousedown)="startPanoramaOverlayDrag($event)"
+            (touchstart)="startPanoramaOverlayDrag($event)"
+          >
+            <button
+              type="button"
+              class="btn-360-arrow"
+              (click)="openPanoramaOverlay()"
+              title="360 view on map"
+              aria-label="Open 360 view on map"
+            >
+              &#9664;
+            </button>
+            <button type="button" class="panorama-overlay-close" (click)="closePanoramaOverlay()">✕</button>
+          </div>
+
+          <div *ngIf="panoramaOverlayOpen" class="panorama-overlay-body">
+            <div #panoramaOverlayHost class="panorama-overlay-host"></div>
+            <img
+              *ngIf="panoramaFallbackUrl && panoramaError"
+              [src]="panoramaFallbackUrl"
+              alt="Fallback panorama image"
+              class="panorama-overlay-fallback"
+            />
+            <div class="panorama-overlay-status" *ngIf="panoramaLoading">{{ t('loading360') }}</div>
+            <div class="panorama-overlay-status panorama-overlay-error" *ngIf="panoramaError">{{ panoramaError }}</div>
+          </div>
+
+          <div *ngIf="sceneOverlayOpen" class="scene-overlay-body">
+            <div #sceneOverlayHost class="scene-overlay-host"></div>
+            <div class="panorama-overlay-status" *ngIf="isSceneLoading">{{ t('loading3d') }}</div>
+            <div class="panorama-overlay-status panorama-overlay-error" *ngIf="sceneError && !isSceneLoading">{{ sceneError }}</div>
+          </div>
+
+          <div *ngIf="panoramaIframeOpen" class="panorama-iframe-body">
+            <iframe
+              class="panorama-iframe-host"
+              [src]="panoramaIframeUrl"
+              title="360 view"
+              frameborder="0"
+              allowfullscreen
+            ></iframe>
+            <div class="panorama-overlay-status" *ngIf="panoramaError">{{ panoramaError }}</div>
+          </div>
+        </div>
+
+        <!-- Street View 360° Panel -->
+        <div class="street-view-panel" *ngIf="streetViewOpen" [class.loading]="streetViewLoading">
+          <div class="street-view-header">
+            <h3>360° Street View</h3>
+            <div class="street-view-info" *ngIf="streetViewDistanceText && !streetViewError">
+              <span class="distance-badge">{{ streetViewDistanceText }}</span>
+            </div>
+            <button type="button" class="street-view-close" (click)="closeStreetView()" aria-label="Close Street View">×</button>
+          </div>
+          <div class="street-view-body">
+            <div *ngIf="streetViewLoading" class="street-view-loading">
+              <div class="spinner"></div>
+              <span>Loading Street View...</span>
+            </div>
+            <div *ngIf="streetViewError" class="street-view-error">
+              {{ streetViewError }}
+            </div>
+            <div 
+              *ngIf="!streetViewLoading && !streetViewError" 
+              id="street-view-panorama-host" 
+              class="street-view-panorama-host"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <aside #rightPanelHost class="panel panel-right" [class.collapsed]="rightPanelCollapsed">
+      <div
+        class="panel-right-resizer"
+        *ngIf="!rightPanelCollapsed"
+        (mousedown)="startRightPanelResize($event)"
+        title="Drag to widen panel"
+        aria-hidden="true"
+      ></div>
+      <button
+        type="button"
+        class="panel-right-toggle"
+        (click)="toggleRightPanelCollapse()"
+        [attr.aria-expanded]="!rightPanelCollapsed"
+        [attr.aria-label]="rightPanelCollapsed ? 'Expand right panel' : 'Collapse right panel'"
+      >
+        <span class="panel-right-toggle-icon" [class.open]="!rightPanelCollapsed">❯</span>
+      </button>
+
+      <div class="archive-panel" *ngIf="!rightPanelCollapsed">
+        <section class="right-panel-section" *ngIf="isRightPanelSectionVisible('legend')">
+          <button
+            type="button"
+            class="right-panel-header"
+            (click)="toggleRightPanelSection('legend')"
+            [attr.aria-expanded]="rightPanelLegendOpen"
+          >
+            <span class="right-panel-title-row">
+              <h2>Legend</h2>
+            </span>
+            <span class="right-panel-chevron" [class.open]="rightPanelLegendOpen">▾</span>
+          </button>
+
+          <div class="right-panel-body" *ngIf="rightPanelLegendOpen">
+            <div class="legend-image">
+              <div id="legend-host" #legendHost style="padding:8px;"></div>
+            </div>
+          </div>
+        </section>
+        <section class="right-panel-section" *ngIf="selectedParcel && isRightPanelSectionVisible('result')">
+          <button
+            type="button"
+            class="right-panel-header"
+            (click)="toggleRightPanelSection('result')"
+            [attr.aria-expanded]="rightPanelResultOpen"
+          >
+            <span class="right-panel-title-row">
+              <span class="step-badge">1</span>
+              <h2>{{ t('currentSearchResult') }}</h2>
+            </span>
+            <span class="right-panel-chevron" [class.open]="rightPanelResultOpen">▾</span>
+          </button>
+
+          <div class="right-panel-body" *ngIf="rightPanelResultOpen">
+            <div class="plot-detail-card">
+
+              <div class="plot-detail-head plot-detail-banner">
+                <!-- Left column -->
+                <div class="plot-detail-banner-left">
+                  <span class="plot-detail-banner-label">CURRENT SEARCH RESULT</span>
+                  <span class="plot-detail-banner-title">{{ selectedParcel.displayName }}</span>
+                  <span class="plot-detail-banner-subtitle">
+                    {{ bannerZoneName }}
+                    <ng-container *ngIf="bannerZoneName !== '—' && bannerLandUse !== '—'"> · </ng-container>
+                    {{ bannerLandUse }}
+                  </span>
+                </div>
+                <!-- Right column -->
+                <div class="plot-detail-banner-right">
+                  <span class="plot-detail-banner-status" *ngIf="bannerPlotStatus !== '—'">{{ bannerPlotStatus }}</span>
+                  <span class="plot-detail-banner-area" *ngIf="bannerArea !== '—'">{{ bannerArea }} m²</span>
+                </div>
+              </div>
+
+              <!-- Cards (filled) mode -->
+              <div class="plot-detail-grid" *ngIf="plotShapeMode === 'filled'">
+                <div class="plot-detail-row" *ngFor="let row of plotDetailRows">
+                  <span class="plot-detail-icon"><i [class]="getSearchResultIconClass(row.icon || getIconForLabel(row.label))" aria-hidden="true"></i></span>
+                  <span class="plot-detail-label">{{ row.label }}</span>
+                  <span class="plot-detail-value" *ngIf="row.tone !== 'status'">{{ row.value }}</span>
+                  <span class="plot-detail-pill" *ngIf="row.tone === 'status'">{{ row.value }}</span>
+                </div>
+              </div>
+
+              <!-- Cards1 mode — premium icon cards (pasted image style) -->
+              <div class="plot-detail-grid-cards1" *ngIf="plotShapeMode === 'cards1'">
+                <div class="c1-card" *ngFor="let row of plotDetailRows">
+                  <div class="c1-icon" [ngClass]="'c1-icon--' + (row.icon || getIconForLabel(row.label))">
+                    <i [class]="getSearchResultIconClass(row.icon || getIconForLabel(row.label))" aria-hidden="true"></i>
+                  </div>
+                  <div class="c1-body">
+                    <span class="c1-label">{{ row.label }}</span>
+                    <span class="c1-value" *ngIf="row.tone !== 'status'">{{ row.value }}</span>
+                    <span class="c1-pill" *ngIf="row.tone === 'status'">{{ row.value }}</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Presentation (outline) mode -->
+              <div class="plot-detail-grid-outline" *ngIf="plotShapeMode === 'outline'">
+                <div class="plot-detail-square" *ngFor="let row of plotDetailRows">
+                  <span class="plot-detail-label">{{ row.label }}</span>
+                  <span class="plot-detail-value" *ngIf="row.tone !== 'status'">{{ row.value }}</span>
+                  <span class="plot-detail-pill" *ngIf="row.tone === 'status'">{{ row.value }}</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="right-panel-result-actions">
+              <button
+                type="button"
+                class="btn-secondary"
+                (click)="openAddedAttributesEditor()"
+                [disabled]="!canEditSelectedParcelAttributes"
+              >
+                Edit
+              </button>
+              <button id="Btnmoredetail" type="button" class="btn-secondary" (click)="toggleMoreDetails()">
+                {{ showMoreDetails ? 'Hide Details' : 'More Detail' }}
+              </button>
+            </div>
+
+            <app-added-attributes-editor
+              *ngIf="addedAttributesEditorOpen"
+              [title]="bannerZoneName"
+              [fields]="addedAttributeFields"
+              [saving]="addedAttributesSaving"
+              (saveRequested)="onAddedAttributesSaveClicked($event)"
+              (deleteRequested)="deleteAddedAttributes()"
+              (cancelRequested)="closeAddedAttributesEditor()"
+            ></app-added-attributes-editor>
+          </div>
+        </section>
+
+        <div class="approval-confirm-backdrop" *ngIf="approvalConfirmDialogOpen">
+          <section class="approval-confirm-dialog" role="dialog" aria-modal="true" aria-label="Approval status confirmation">
+            <h3 class="approval-confirm-title">Approval status</h3>
+
+            <div class="approval-status-box">
+              <div class="approval-status-row" *ngFor="let row of approvalStatusRows">
+                <span>{{ row.approver }}</span>
+                <span>{{ row.status }}</span>
+              </div>
+            </div>
+
+            <div class="approval-confirm-box">
+              <p class="approval-current-user">Current user - {{ approvalCurrentUser }}</p>
+              <p class="approval-confirm-copy">Do you want to save these edits to the selected plot?</p>
+              <div class="approval-confirm-actions">
+                <button type="button" class="btn-ok" (click)="confirmAddedAttributesSave()">OK</button>
+                <button type="button" class="btn-cancel" (click)="cancelAddedAttributesConfirmation()">Cancel</button>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <section class="right-panel-section" *ngIf="isRightPanelSectionVisible('reports')">
+          <button
+            type="button"
+            class="right-panel-header"
+            (click)="toggleRightPanelSection('reports')"
+            [attr.aria-expanded]="rightPanelReportsOpen"
+          >
+            <span class="right-panel-title-row">
+              <span class="step-badge">R</span>
+              <h2>Reports</h2>
+            </span>
+            <span class="right-panel-chevron" [class.open]="rightPanelReportsOpen">▾</span>
+          </button>
+
+          <div class="right-panel-body reports-panel-body" *ngIf="rightPanelReportsOpen">
+            <div class="matching-roads map-search-status" *ngIf="branchReportsLoading">Loading {{ reportEntityPluralLabel }} reports...</div>
+            <div class="matching-roads map-search-status" *ngIf="branchReportsError">{{ branchReportsError }}</div>
+            <div class="reports-shell" *ngIf="!branchReportsLoading && !branchReportsError">
+              <div class="reports-title-row">
+                <h3 class="reports-title">{{ reportsTitle }}</h3>
+                <span class="reports-badge">DEMO DATA</span>
+              </div>
+              <p class="reports-subtitle">
+                {{ reportQueryHelpText }}
+              </p>
+
+              <div class="reports-query-bar">
+                <div class="reports-query-input-wrap">
+                  <i class="bi bi-search"></i>
+                  <input
+                    type="text"
+                    class="reports-query-input"
+                    [placeholder]="reportQueryExample"
+                    [(ngModel)]="branchReportQuery"
+                    (keyup.enter)="onBranchReportsSubmit()"
+                  />
+                </div>
+                <button type="button" class="reports-query-run" (click)="onBranchReportsSubmit()">
+                  <i class="bi bi-play-fill"></i>
+                  Run report
+                </button>
+                <button type="button" class="reports-query-reset" (click)="onBranchReportsReset()">
+                  <i class="bi bi-arrow-clockwise"></i>
+                  Reset
+                </button>
+                <button type="button" class="reports-query-export" (click)="exportBranchReportsPdf()">
+                  <i class="bi bi-file-earmark-pdf"></i>
+                  Export PDF
+                </button>
+              </div>
+
+              <div class="reports-summary-grid">
+                <div class="reports-summary-card">
+                  <div class="reports-summary-label">{{ branchReportStatusLabel }} {{ reportEntityPluralLabel }}</div>
+                  <div class="reports-summary-value">{{ branchReportDisplayedRows.length }}</div>
+                </div>
+                <div class="reports-summary-card">
+                  <div class="reports-summary-label">Districts</div>
+                  <div class="reports-summary-value">{{ branchReportDistrictCount }}</div>
+                </div>
+                <div class="reports-summary-card">
+                  <div class="reports-summary-label">Report date</div>
+                  <div class="reports-summary-value">{{ branchReportDateLabel }}</div>
+                </div>
+              </div>
+
+              <div class="reports-grid-wrap">
+                <table class="reports-grid-table">
+                  <thead>
+                    <tr>
+                      <th>Status</th>
+                      <th>{{ reportIdHeader }}</th>
+                      <th>Bank</th>
+                      <th>District</th>
+                      <th>{{ reportNameHeader }}</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr *ngFor="let row of branchReportDisplayedRows">
+                      <td>
+                        <span class="reports-status-pill">{{ row.Performance_Status }}</span>
+                      </td>
+                      <td>{{ row.Entity_ID }}</td>
+                      <td>{{ row.Bank_Name }}</td>
+                      <td>{{ row.District }}</td>
+                      <td>{{ row.Entity_Name }}</td>
+                    </tr>
+                    <tr *ngIf="!branchReportDisplayedRows.length">
+                      <td colspan="5">No {{ reportEntityPluralLabel }} reports found for this query.</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <div class="reports-footer">
+                Showing {{ branchReportDisplayedRows.length }} result(s)
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="right-panel-section" *ngIf="isRightPanelSectionVisible('voiceAgent')">
+          <button type="button" class="right-panel-header" (click)="toggleRightPanelSection('voiceAgent')" [attr.aria-expanded]="rightPanelVoiceAgentOpen">
+            <span class="right-panel-title-row"><span class="step-badge"><i class="bi bi-mic-fill"></i></span><h2>AI Agent</h2></span>
+            <span class="right-panel-chevron" [class.open]="rightPanelVoiceAgentOpen">▾</span>
+          </button>
+          <div class="right-panel-body" *ngIf="rightPanelVoiceAgentOpen">
+            <ng-container *ngComponentOutlet="localBankingVioceAgentComponent"></ng-container>
+          </div>
+        </section>
+
+        <section class="right-panel-section" *ngIf="isRightPanelSectionVisible('dashboard')">
+          <button
+            type="button"
+            class="right-panel-header"
+            (click)="toggleRightPanelSection('dashboard')"
+            [attr.aria-expanded]="rightPanelDashboardOpen"
+          >
+            <span class="right-panel-title-row">
+              <span class="step-badge">D</span>
+              <h2>Dashboard</h2>
+            </span>
+            <span class="right-panel-chevron" [class.open]="rightPanelDashboardOpen">▾</span>
+          </button>
+
+          <div class="right-panel-body" *ngIf="rightPanelDashboardOpen">
+            <div class="plot-status-dashboard">
+              <div class="dashboard-card">
+                <header class="dashboard-card-header">Branch Performance Status</header>
+                <div class="dashboard-card-body">
+                  <div class="plot-status-dashboard-chart" *ngIf="!branchPerformanceLoading && !branchPerformanceError">
+                    <svg viewBox="0 0 220 220" class="donut-chart" aria-label="Branch performance pie chart">
+                      <circle cx="110" cy="110" r="90" fill="none" stroke="#f3f4f6" stroke-width="40"></circle>
+                      <ng-container *ngFor="let slice of branchPerformanceChartSlices">
+                        <circle
+                          cx="110"
+                          cy="110"
+                          r="90"
+                          fill="none"
+                          [attr.stroke]="slice.color"
+                          stroke-width="40"
+                          stroke-linecap="butt"
+                          [attr.stroke-dasharray]="slice.dashArray"
+                          [attr.stroke-dashoffset]="slice.dashOffset"
+                          transform="rotate(-90 110 110)"
+                          class="donut-slice"
+                          (click)="onBranchPerformanceSliceClick(slice)"
+                        ></circle>
+                      </ng-container>
+                      <circle cx="110" cy="110" r="45" fill="#fff"></circle>
+                      <text x="110" y="102" text-anchor="middle" alignment-baseline="middle" font-size="16" fill="#334155">
+                        Branches
+                      </text>
+                      <text x="110" y="122" text-anchor="middle" alignment-baseline="middle" font-size="18" fill="#0f172a" font-weight="700">
+                        {{ branchPerformanceTotal }}
+                      </text>
+                    </svg>
+                  </div>
+                  <div class="matching-roads map-search-status" *ngIf="branchPerformanceLoading">Loading branch dashboard...</div>
+                  <div class="matching-roads map-search-status" *ngIf="branchPerformanceError">{{ branchPerformanceError }}</div>
+                  <div class="plot-status-dashboard-legend">
+                    <div class="legend-item" *ngFor="let slice of branchPerformanceChartSlices" (click)="onBranchPerformanceSliceClick(slice)">
+                      <span class="legend-swatch" [style.background]="slice.color"></span>
+                      <span>{{ slice.label }}: {{ slice.value }}</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="dashboard-card">
+                <header class="dashboard-card-header">ATM Performance Status</header>
+                <div class="dashboard-card-body">
+                  <div class="plot-status-dashboard-chart" *ngIf="!atmPerformanceLoading && !atmPerformanceError">
+                    <svg viewBox="0 0 220 220" class="donut-chart" aria-label="ATM performance pie chart">
+                      <circle cx="110" cy="110" r="90" fill="none" stroke="#f3f4f6" stroke-width="40"></circle>
+                      <ng-container *ngFor="let slice of atmPerformanceChartSlices">
+                        <circle
+                          cx="110"
+                          cy="110"
+                          r="90"
+                          fill="none"
+                          [attr.stroke]="slice.color"
+                          stroke-width="40"
+                          stroke-linecap="butt"
+                          [attr.stroke-dasharray]="slice.dashArray"
+                          [attr.stroke-dashoffset]="slice.dashOffset"
+                          transform="rotate(-90 110 110)"
+                          class="donut-slice"
+                          (click)="onAtmPerformanceSliceClick(slice)"
+                        ></circle>
+                      </ng-container>
+                      <circle cx="110" cy="110" r="45" fill="#fff"></circle>
+                      <text x="110" y="102" text-anchor="middle" alignment-baseline="middle" font-size="16" fill="#334155">
+                        ATMs
+                      </text>
+                      <text x="110" y="122" text-anchor="middle" alignment-baseline="middle" font-size="18" fill="#0f172a" font-weight="700">
+                        {{ atmPerformanceTotal }}
+                      </text>
+                    </svg>
+                  </div>
+                  <div class="matching-roads map-search-status" *ngIf="atmPerformanceLoading">Loading ATM dashboard...</div>
+                  <div class="matching-roads map-search-status" *ngIf="atmPerformanceError">{{ atmPerformanceError }}</div>
+                  <div class="plot-status-dashboard-legend">
+                    <div class="legend-item" *ngFor="let slice of atmPerformanceChartSlices" (click)="onAtmPerformanceSliceClick(slice)">
+                      <span class="legend-swatch" [style.background]="slice.color"></span>
+                      <span>{{ slice.label }}: {{ slice.value }}</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="right-panel-section" *ngIf="isRightPanelSectionVisible('scene')">
+          <button
+            type="button"
+            class="right-panel-header"
+            (click)="toggleRightPanelSection('scene')"
+            [attr.aria-expanded]="rightPanelSceneOpen"
+          >
+            <span class="right-panel-title-row">
+              <span class="step-badge">3D</span>
+              <h2>{{ t('view3dPanel') }}</h2>
+            </span>
+            <span class="right-panel-chevron" [class.open]="rightPanelSceneOpen">▾</span>
+          </button>
+
+          <div class="right-panel-body" *ngIf="rightPanelSceneOpen">
+            <div class="scene-panel-body">
+              <div class="scene-panel-hint">{{ t('view3dHint') }}</div>
+              <div class="scene-panel-stage">
+                <div #sceneHost class="scene-panel-host"></div>
+                <div class="scene-panel-status" *ngIf="isSceneLoading">{{ t('loading3d') }}</div>
+                <div class="scene-panel-status scene-panel-status-error" *ngIf="sceneError && !isSceneLoading">{{ sceneError }}</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="right-panel-section" *ngIf="isRightPanelSectionVisible('panorama')">
+          <button
+            type="button"
+            class="right-panel-header"
+            (click)="toggleRightPanelSection('panorama')"
+            [attr.aria-expanded]="rightPanelPanoramaOpen"
+          >
+            <span class="right-panel-title-row">
+              <span class="step-badge">360</span>
+              <h2>{{ t('panel360Title') }}</h2>
+            </span>
+            <span class="right-panel-chevron" [class.open]="rightPanelPanoramaOpen">▾</span>
+          </button>
+
+          <div class="right-panel-body" *ngIf="rightPanelPanoramaOpen">
+            <div class="panorama-body panorama-panel-body">
+              <div class="panorama-hint">{{ t('panel360Hint') }}</div>
+              <div class="panorama-stage panorama-panel-stage">
+                <div #panoramaHost class="panorama-host" [class.hidden]="!!panoramaError"></div>
+                <div class="panorama-status" *ngIf="panoramaLoading">{{ t('loading360') }}</div>
+                <div class="panorama-status panorama-status-error" *ngIf="panoramaError">{{ panoramaError }}</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="right-panel-section" *ngIf="canOpenCctv && isRightPanelSectionVisible('cctv')">
+          <button
+            type="button"
+            class="right-panel-header"
+            (click)="toggleRightPanelSection('cctv')"
+            [attr.aria-expanded]="rightPanelCctvOpen"
+          >
+            <span class="right-panel-title-row">
+              <span class="step-badge">C</span>
+              <h2>{{ t('cctvPanelTitle') }}</h2>
+            </span>
+            <span class="right-panel-chevron" [class.open]="rightPanelCctvOpen">▾</span>
+          </button>
+
+          <div class="right-panel-body" *ngIf="rightPanelCctvOpen">
+            <div class="cctv-body cctv-panel-body">
+              <div class="cctv-hint">{{ t('cctvHint') }}</div>
+              <div class="cctv-stage cctv-panel-stage">
+                <video
+                  class="cctv-video"
+                  [src]="cctvVideoUrl"
+                  controls
+                  autoplay
+                  loop
+                  playsinline
+                  preload="auto"
+                >
+                  Your browser does not support MP4 playback.
+                </video>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="right-panel-section" *ngIf="selectedParcel && krokiData && isRightPanelSectionVisible('kroki')">
+          <button
+            type="button"
+            class="right-panel-header"
+            (click)="toggleRightPanelSection('kroki')"
+            [attr.aria-expanded]="rightPanelKrokiOpen"
+          >
+            <span class="right-panel-title-row">
+              <span class="step-badge">K</span>
+              <h2>KROKI</h2>
+            </span>
+            <span class="right-panel-chevron" [class.open]="rightPanelKrokiOpen">▾</span>
+          </button>
+
+          <div class="right-panel-body" *ngIf="rightPanelKrokiOpen && krokiData as k">
+            <div class="kroki-body kroki-panel-body">
+              <div class="kroki-map" [class.kroki-map-blank]="krokiMode === 'blank'">
+                <div class="kroki-mode-toggle">
+                  <button
+                    type="button"
+                    [class.active]="krokiMode === 'blank'"
+                    (click)="setKrokiMode('blank')"
+                  >Blank</button>
+                  <button
+                    type="button"
+                    [class.active]="krokiMode === 'satellite'"
+                    (click)="setKrokiMode('satellite')"
+                  >Satellite</button>
+                  <button
+                    type="button"
+                    [class.active]="krokiMode === 'dwg'"
+                    (click)="setKrokiMode('dwg')"
+                  >DWG</button>
+                </div>
+                <div
+                  #krokiMapHost
+                  *ngIf="krokiMode !== 'dwg'"
+                  class="kroki-live-map"
+                  aria-label="Kroki live map"
+                ></div>
+                <div *ngIf="krokiMode === 'dwg'" class="kroki-dwg-host">
+                  <div *ngIf="!useApsViewer" class="kroki-aps-viewer-disabled">
+                    <p>Autodesk CAD preview is disabled. Use the Open file button below to view the DWG.</p>
+                  </div>
+                  <ng-container *ngIf="hasConfiguredCadPreview && (apsViewerFallback || apsModelUrn === 'PLACEHOLDER_URN')">
+                    <div *ngIf="krokiCadPreviewLoading" class="kroki-dwg-loading">Checking CAD preview files...</div>
+                    <iframe
+                      *ngIf="!krokiCadPreviewLoading && krokiCadPreviewKind === 'pdf'"
+                      [src]="krokiCadPreviewUrl"
+                      title="A1.pdf preview"
+                      class="kroki-dwg-iframe"
+                    ></iframe>
+                    <img
+                      *ngIf="!krokiCadPreviewLoading && krokiCadPreviewKind === 'svg'"
+                      [src]="krokiCadPreviewUrl || ''"
+                      alt="A1.svg preview"
+                      class="kroki-dwg-image"
+                    />
+                  </ng-container>
+                  <div class="kroki-dwg-fallback">
+                    <p>
+                      Using
+                      <strong *ngIf="krokiCadPreviewKind === 'pdf'">A1.pdf</strong>
+                      <strong *ngIf="krokiCadPreviewKind === 'svg'">A1.svg</strong>
+                      <strong *ngIf="krokiCadPreviewKind === 'none'">A1.dwg fallback</strong>
+                    </p>
+                    <button type="button" class="btn-open-cad" (click)="openKrokiCadInNewTab()">Open file</button>
+                  </div>
+                </div>
+              </div>
+              <aside class="kroki-side">
+                <div class="kroki-title">
+                  <strong>Diplomatic Quarter</strong>
+                  <p>Surveying plan for the proposed site</p>
+                  <p class="kroki-plot-name">Plot {{ selectedParcel.displayName }}</p>
+                </div>
+                <div class="kroki-legend">
+                  <span class="legend-swatch"></span>
+                  <span>Proposed Site Location</span>
+                </div>
+                <table class="kroki-table">
+                  <thead>
+                    <tr><th>sr</th><th>Lat</th><th>Long</th></tr>
+                  </thead>
+                  <tbody>
+                    <tr *ngFor="let v of k.vertices">
+                      <td>{{ v.index }}</td>
+                      <td>{{ v.lat }}</td>
+                      <td>{{ v.lng }}</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <table class="kroki-table">
+                  <thead>
+                    <tr><th>Plot</th><th>Area (m²)</th></tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Plot Area</td>
+                      <td>{{ k.area }}</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="kroki-footer">
+                  <div class="kroki-north">N&nbsp;↑</div>
+                  <div class="kroki-date">Date: {{ k.date }}</div>
+                </div>
+              </aside>
+            </div>
+          </div>
+        </section>
+
+        <section class="right-panel-section" *ngIf="isRightPanelSectionVisible('sources')">
+          <button
+            type="button"
+            class="right-panel-header"
+            (click)="toggleRightPanelSection('sources')"
+            [attr.aria-expanded]="rightPanelSourcesOpen"
+          >
+            <span class="right-panel-title-row">
+              <span class="step-badge">2</span>
+              <h2>{{ t('archiveDataSources') }}</h2>
+            </span>
+            <span class="right-panel-chevron" [class.open]="rightPanelSourcesOpen">▾</span>
+          </button>
+
+          <div class="right-panel-body" *ngIf="rightPanelSourcesOpen">
+            <p class="right-panel-description">{{ t('archiveDataDesc') }}</p>
+
+            <ul class="source-list">
+              <li *ngFor="let source of archiveSources">
+                <span class="source-icon" [class]="'source-icon ' + source.iconClass">{{ source.code }}</span>
+                <div class="source-copy">
+                  <a
+                    href="#"
+                    class="source-link"
+                    (click)="$event.preventDefault(); openSampleDialog(source.code)"
+                  >{{ source.title }}</a>
+                  <small>{{ source.subtitle }}</small>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="right-panel-section" *ngIf="selectedParcel && isRightPanelSectionVisible('files')">
+          <button
+            type="button"
+            class="right-panel-header"
+            (click)="toggleRightPanelSection('files')"
+            [attr.aria-expanded]="rightPanelFilesOpen"
+          >
+            <span class="right-panel-title-row">
+              <span class="step-badge">3</span>
+              <h2>{{ t('parcelArchiveFiles') }}</h2>
+            </span>
+            <span class="right-panel-chevron" [class.open]="rightPanelFilesOpen">▾</span>
+          </button>
+
+          <div class="right-panel-body" *ngIf="rightPanelFilesOpen">
+            <div class="parcel-files">
+              <h3>Parcel {{ selectedParcel.id }}</h3>
+              <div *ngIf="isLoadingArchive" class="loading">Loading archive files...</div>
+              <div *ngFor="let group of groupedFiles" class="file-group">
+                <h4>{{ group.type }}</h4>
+                <ul>
+                  <li *ngFor="let file of group.files">
+                    <a [href]="file.filePath" target="_blank" rel="noopener">{{ file.fileName }}</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="right-panel-section" *ngIf="uploadedDocuments.length && isRightPanelSectionVisible('uploads')">
+          <button
+            type="button"
+            class="right-panel-header"
+            (click)="toggleRightPanelSection('uploads')"
+            [attr.aria-expanded]="rightPanelUploadsOpen"
+          >
+            <span class="right-panel-title-row">
+              <span class="step-badge">+</span>
+              <h2>{{ t('uploadedDocuments') }}</h2>
+            </span>
+            <span class="right-panel-chevron" [class.open]="rightPanelUploadsOpen">▾</span>
+          </button>
+
+          <div class="right-panel-body" *ngIf="rightPanelUploadsOpen">
+            <div class="uploaded-docs">
+              <ul class="uploaded-list">
+                <li *ngFor="let doc of uploadedDocuments; let i = index" class="uploaded-item">
+                  <div class="upload-left">
+                    <span class="upload-spinner" *ngIf="doc.uploading">&#x23F3;</span>
+                    <span class="upload-icon" *ngIf="!doc.uploading">&#x1F4CE;</span>
+                    <div class="upload-info">
+                      <a
+                        *ngIf="doc.filePath && !doc.uploading"
+                        [href]="doc.filePath"
+                        target="_blank"
+                        rel="noopener"
+                        class="upload-name"
+                      >{{ doc.fileName }}</a>
+                      <span
+                        *ngIf="!doc.filePath || doc.uploading"
+                        class="upload-name uploading-name"
+                      >{{ doc.fileName }}</span>
+                      <span class="upload-uploading" *ngIf="doc.uploading">Uploading...</span>
+                      <span class="upload-desc" *ngIf="doc.description && !doc.uploading">{{ doc.description }}</span>
+                    </div>
+                  </div>
+                  <button
+                    type="button"
+                    class="btn-edit-desc"
+                    (click)="openDescriptionFor(i)"
+                    [disabled]="doc.uploading"
+                    title="Add / edit description"
+                  >&#x270E;</button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- Comments section -->
+        <section class="right-panel-section" *ngIf="isRightPanelSectionVisible('comments')">
+          <button
+            type="button"
+            class="right-panel-header"
+            (click)="toggleRightPanelSection('comments')"
+            [attr.aria-expanded]="rightPanelCommentsOpen"
+          >
+            <span class="right-panel-title-row">
+              <span class="step-badge">💬</span>
+              <h2>Comments</h2>
+            </span>
+            <span class="right-panel-chevron" [class.open]="rightPanelCommentsOpen">▾</span>
+          </button>
+
+          <div class="right-panel-body" *ngIf="rightPanelCommentsOpen">
+            <app-comments></app-comments>
+          </div>
+        </section>
+
+      </div>
+    </aside>
+  </div>
+</section>
+
+<!-- How to Use Dialog -->
+<div class="attr-modal-backdrop" *ngIf="howToUseOpen" (click)="howToUseOpen = false">
+  <div class="attr-modal htu-modal" (click)="$event.stopPropagation()">
+    <header class="attr-modal-header">
+      <h3>📖 How to Use</h3>
+      <button type="button" class="attr-close" (click)="howToUseOpen = false" aria-label="Close">×</button>
+    </header>
+    <div class="attr-modal-body htu-body">
+      <ol>
+        <li>Use the <strong>left sidebar</strong> to open map search, AI Agent, Dashboard, Legend, Reports and drawing tools.</li>
+        <li>Search by <strong>ATM ID</strong> or <strong>Branch ID</strong>, then select a result to highlight it on the map.</li>
+        <li>Use the <strong>AI Agent</strong> to run text or voice queries and display filtered ATM/branch results on the map.</li>
+        <li>Open the <strong>Dashboard</strong> to view ATM and Branch performance summaries and detailed metrics.</li>
+        <li>Switch the <strong>base map</strong> between Webmap and Satellite for different viewing contexts.</li>
+        <li>Use the <strong>right panel</strong> for 3D scene, 360° view, CCTV, KROKI, reports and comments.</li>
+        <li>Right-click the <strong>header</strong> to open Comments, this guide, or About.</li>
+        <li>Use <strong>Comments</strong> to record and track notes. Data is saved locally and can be exported as JSON or TXT.</li>
+      </ol>
+    </div>
+  </div>
+</div>
+
+<!-- About Dialog -->
+<div class="attr-modal-backdrop" *ngIf="aboutOpen" (click)="aboutOpen = false">
+  <div class="attr-modal about-modal" (click)="$event.stopPropagation()">
+    <header class="attr-modal-header">
+      <h3>ℹ️ About</h3>
+      <button type="button" class="attr-close" (click)="aboutOpen = false" aria-label="Close">×</button>
+    </header>
+    <div class="attr-modal-body about-body">
+      <p><strong>Smart City Network System</strong></p>
+      <p>A map-based banking intelligence platform for ATM and branch operations in Riyadh.</p>
+      <ul>
+        <li>ATM and Branch locator with interactive map search</li>
+        <li>Base map switching between Webmap and Satellite view</li>
+        <li>ATM Dashboard and Branches Dashboard with performance metrics</li>
+        <li>AI query assistant (text and voice) to filter and display results on map</li>
+        <li>Integrated 3D scene, 360° view, CCTV, reports and comments</li>
+      </ul>
+      <p class="about-version">Version 1.0 &nbsp;·&nbsp; May 2026</p>
+    </div>
+  </div>
+</div>
+
+<!-- Plot Sheet Dialog -->
+<div class="attr-modal-backdrop" *ngIf="plotSheetDialogOpen" (click)="closePlotSheetDialog()">
+  <div class="attr-modal plot-sheet-modal" (click)="$event.stopPropagation()">
+    <header class="attr-modal-header">
+      <h3>{{ t('plotSheet') }} &mdash; {{ selectedParcel?.displayName || selectedParcel?.id }}</h3>
+      <button type="button" class="attr-close" (click)="closePlotSheetDialog()" aria-label="Close">×</button>
+    </header>
+    <div class="attr-modal-body plot-sheet-body">
+      <div class="plot-sheet-status" *ngIf="plotSheetLoading">{{ t('generatingPlotSheet') }}</div>
+      <div class="plot-sheet-status plot-sheet-status-error" *ngIf="plotSheetError">{{ plotSheetError }}</div>
+
+      <div class="plot-sheet-scroll" *ngIf="!plotSheetLoading">
+        <div #plotSheetTemplate class="ps-sheet">
+          <!-- Header bar -->
+          <header class="ps-header">
+            <div class="ps-header-left">
+              <div class="ps-logo">DQ</div>
+              <div class="ps-title-block">
+                <div class="ps-eyebrow">Diplomatic Quarter Office</div>
+                <h2 class="ps-title">Plot Regulation Sheet</h2>
+                <div class="ps-subtitle">DQ (Diplomatic Quarter) Investment Department</div>
+              </div>
+            </div>
+            <div class="ps-header-right">
+              <div class="ps-meta-block">
+                <div class="ps-meta-label">PLOT No.</div>
+                <div class="ps-meta-value">{{ selectedParcel?.displayName || selectedParcel?.id }}</div>
+              </div>
+              <div class="ps-meta-block">
+                <div class="ps-meta-label">Generated</div>
+                <div class="ps-meta-value">{{ plotSheetGeneratedAt }}</div>
+              </div>
+            </div>
+          </header>
+
+          <!-- Body grid -->
+          <div class="ps-body">
+            <aside class="ps-side">
+              <!-- Plot details card -->
+              <section class="ps-card">
+                <header class="ps-card-header">PLOT DETAILS &amp; GUIDELINES</header>
+                <div class="ps-card-body">
+                  <table class="ps-kv-table">
+                    <tbody>
+                      <tr *ngFor="let row of plotSheetDetails">
+                        <th>{{ row.label }}</th>
+                        <td>{{ row.value }}</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </section>
+
+              <!-- Legend -->
+              <section class="ps-card">
+                <header class="ps-card-header">LEGEND</header>
+                <div class="ps-card-body ps-legend">
+                  <div class="ps-legend-row">
+                    <span class="ps-legend-swatch ps-legend-dashed"></span>
+                    <span>Original plot boundary</span>
+                  </div>
+                  <div class="ps-legend-row">
+                    <span class="ps-legend-swatch ps-legend-blue"></span>
+                    <span>Inset boundary (3 m inside)</span>
+                  </div>
+                  <div class="ps-legend-row">
+                    <span class="ps-legend-swatch ps-legend-hatch"></span>
+                    <span>Covered area hatch</span>
+                  </div>
+                  <div class="ps-legend-row">
+                    <span class="ps-legend-swatch ps-legend-point"></span>
+                    <span>Vertex point</span>
+                  </div>
+                  <div class="ps-legend-row">
+                    <span class="ps-legend-swatch ps-legend-arrow">▲</span>
+                    <span>North reference</span>
+                  </div>
+                  <div class="ps-legend-row">
+                    <span class="ps-legend-swatch ps-legend-scale"></span>
+                    <span>Scale bar</span>
+                  </div>
+                </div>
+              </section>
+
+              <!-- Location plan -->
+              <section class="ps-card">
+                <div class="ps-card-header-row">
+                  <span class="ps-card-header">LOCATION PLAN</span>
+                  <div class="location-radio-group">
+                    <label class="pill-radio pill-radio-small" [class.active]="locationMode === 'coordinates'">
+                      <input
+                        type="radio"
+                        name="locationMode"
+                        [checked]="locationMode === 'coordinates'"
+                        (change)="setLocationMode('coordinates')"
+                      />
+                      <span>Coords</span>
+                    </label>
+                    <label class="pill-radio pill-radio-small" [class.active]="locationMode === 'summary'">
+                      <input
+                        type="radio"
+                        name="locationMode"
+                        [checked]="locationMode === 'summary'"
+                        (change)="setLocationMode('summary')"
+                      />
+                      <span>Plot</span>
+                    </label>
+                  </div>
+                </div>
+                <div class="ps-card-body ps-location">
+                  <div class="ps-location-pill">{{ selectedParcel?.displayName || selectedParcel?.id }}</div>
+                  <div class="ps-location-label">
+                    {{ locationMode === 'coordinates' ? 'Center Coordinates' : 'Plot Location' }}
+                  </div>
+                  <div class="ps-location-coords">{{ plotSheetCenter.lat }}, {{ plotSheetCenter.lng }}</div>
+                </div>
+              </section>
+
+              <!-- Coordinates table -->
+              <section class="ps-card">
+                <header class="ps-card-header">PLOT COORDINATES TABLE</header>
+                <div class="ps-card-body ps-coords-body">
+                  <table class="ps-coords-table">
+                    <thead>
+                      <tr><th>POINT</th><th>EAST</th><th>NORTH</th></tr>
+                    </thead>
+                    <tbody>
+                      <tr *ngFor="let p of plotSheetCoordinates">
+                        <td>{{ p.idx }}</td>
+                        <td>{{ p.east }}</td>
+                        <td>{{ p.north }}</td>
+                      </tr>
+                      <tr *ngIf="!plotSheetCoordinates.length">
+                        <td colspan="3" class="ps-empty">No geometry available</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </section>
+            </aside>
+
+            <main class="ps-main">
+              <section class="ps-card ps-map-card">
+                <header class="ps-card-header">PLOT SITE PLAN</header>
+                <div class="ps-map-wrap" #plotSheetMapWrap>
+                  <img
+                    *ngIf="plotSheetImageUrl"
+                    [src]="plotSheetImageUrl"
+                    alt="Plot site plan"
+                    class="ps-map-image"
+                    crossorigin="anonymous"
+                  />
+                  <div id="ps1-north-marker" class="ps-north-marker" style="display: none;">
+                    <span id="ps1-north-arrow" class="ps-north-arrow">▲</span>
+                    <span id="ps1-north-label" class="ps-north-label">VIEW 1</span>
+                  </div>
+                </div>
+                <div class="ps-developer">
+                  <div class="ps-developer-label">DEVELOPER</div>
+                  <div class="ps-developer-value">GOSI 1</div>
+                </div>
+              </section>
+            </main>
+          </div>
+
+          <footer class="ps-footer">
+            <div>All coordinates are relative to the active GIS layer projection.</div>
+            <div>Investment Department · Diplomatic Quarter</div>
+          </footer>
+        </div>
+      </div>
+
+      <div class="plot-sheet-actions">
+        <button type="button" class="btn-primary" (click)="downloadPlotSheetPdf()"
+          [disabled]="!plotSheetImageUrl || plotSheetExporting">
+          {{ plotSheetExporting ? '...' : t('downloadPdf') }}
+        </button>
+        <button type="button" class="btn-secondary" (click)="downloadPlotSheetJpg()"
+          [disabled]="!plotSheetImageUrl || plotSheetExporting">
+          {{ plotSheetExporting ? '...' : t('downloadJpg') }}
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Plot Sheet Dialog (duplicate of Plot Sheet) -->
+<div id="ps1-backdrop" class="attr-modal-backdrop" *ngIf="plotSheet1DialogOpen" (click)="closePlotSheet1Dialog()">
+  <div id="ps1-modal" class="attr-modal plot-sheet-modal" (click)="$event.stopPropagation()">
+    <header class="attr-modal-header">
+      <h3>Plot Sheet &mdash; {{ selectedParcel?.displayName || selectedParcel?.id }}</h3>
+      <button type="button" class="attr-close" (click)="closePlotSheet1Dialog()" aria-label="Close">×</button>
+    </header>
+    <div id="ps1-body" class="attr-modal-body plot-sheet-body">
+      <div id="ps1-status-loading" class="plot-sheet-status" *ngIf="plotSheet1Loading">Generating Plot Sheet…</div>
+      <div id="ps1-status-error" class="plot-sheet-status plot-sheet-status-error" *ngIf="plotSheet1Error">{{ plotSheet1Error }}</div>
+
+      <div id="ps1-scroll" class="plot-sheet-scroll" *ngIf="!plotSheet1Loading">
+        <div id="ps1-template" #plotSheet1Template class="ps-sheet ps-sheet-1">
+          <!-- Header bar -->
+          <header class="ps-header">
+            <div id="ps1-header-left" class="ps-header-left">
+              <div id="ps1-logo" class="ps-logo">DQ</div>
+              <div id="ps1-title-block" class="ps-title-block">
+                <div id="ps1-eyebrow" class="ps-eyebrow">Diplomatic Quarter Office</div>
+                <h2 id="ps1-title" class="ps-title">Plot Regulation Sheet</h2>
+                <div id="ps1-subtitle" class="ps-subtitle">DQ (Diplomatic Quarter) Investment Department</div>
+              </div>
+            </div>
+            <div id="ps1-header-right" class="ps-header-right">
+              <div id="ps1-meta-plotno" class="ps-meta-block">
+                <div id="ps1-meta-label-plotno" class="ps-meta-label">PLOT No.</div>
+                <div id="ps1-meta-value-plotno" class="ps-meta-value">{{ selectedParcel?.displayName || selectedParcel?.id }}</div>
+              </div>
+              <div id="ps1-meta-generated" class="ps-meta-block">
+                <div id="ps1-meta-label-generated" class="ps-meta-label">Generated</div>
+                <div id="ps1-meta-value-generated" class="ps-meta-value">{{ plotSheet1GeneratedAt }}</div>
+              </div>
+            </div>
+          </header>
+
+          <!-- Body grid -->
+          <div id="ps1-grid" class="ps-body">
+            <aside id="ps1-side" class="ps-side">
+              <!-- Plot details card -->
+              <section class="ps-card">
+                <header class="ps-card-header">PLOT DETAILS &amp; GUIDELINES</header>
+                <div id="ps1-details-body" class="ps-card-body">
+                  <table class="ps-kv-table">
+                    <tbody>
+                      <tr *ngFor="let row of plotSheetDetails">
+                        <th>{{ row.label }}</th>
+                        <td>{{ row.value }}</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </section>
+
+              <!-- Legend -->
+              <section class="ps-card">
+                <header class="ps-card-header">LEGEND</header>
+                <div id="ps1-legend-body" class="ps-card-body ps-legend">
+                  <div class="ps-legend-row">
+                    <span class="ps-legend-swatch ps-legend-dashed"></span>
+                    <span>Original plot boundary</span>
+                  </div>
+                  <div class="ps-legend-row">
+                    <span class="ps-legend-swatch ps-legend-blue"></span>
+                    <span>Inset boundary (3 m inside)</span>
+                  </div>
+                  <div class="ps-legend-row">
+                    <span class="ps-legend-swatch ps-legend-hatch"></span>
+                    <span>Covered area hatch</span>
+                  </div>
+                  <div class="ps-legend-row">
+                    <span class="ps-legend-swatch ps-legend-point"></span>
+                    <span>Vertex point</span>
+                  </div>
+                  <div class="ps-legend-row">
+                    <span class="ps-legend-swatch ps-legend-arrow">▲</span>
+                    <span>North reference</span>
+                  </div>
+                  <div class="ps-legend-row">
+                    <span class="ps-legend-swatch ps-legend-scale"></span>
+                    <span>Scale bar</span>
+                  </div>
+                </div>
+              </section>
+
+              <!-- Location plan -->
+              <section class="ps-card">
+                <div id="ps1-location-header-row" class="ps-card-header-row" style="display:none">
+                  <span class="ps-card-header">LOCATION PLAN</span>
+                  <div id="ps1-location-radio-group" class="location-radio-group">
+                    <label class="pill-radio pill-radio-small" [class.active]="locationMode === 'coordinates'">
+                      <input
+                        type="radio"
+                        name="locationMode1"
+                        [checked]="locationMode === 'coordinates'"
+                        (change)="setLocationMode('coordinates')"
+                      />
+                      <span>Coords</span>
+                    </label>
+                    <label class="pill-radio pill-radio-small" [class.active]="locationMode === 'summary'">
+                      <input
+                        type="radio"
+                        name="locationMode1"
+                        [checked]="locationMode === 'summary'"
+                        (change)="setLocationMode('summary')"
+                      />
+                      <span>Plot</span>
+                    </label>
+                  </div>
+                </div>
+                <div id="ps1-location-body" class="ps-card-body ps-location" style="display:none">
+                  <div id="ps1-location-pill" class="ps-location-pill">{{ selectedParcel?.displayName || selectedParcel?.id }}</div>
+                  <div id="ps1-location-label" class="ps-location-label">
+                    {{ locationMode === 'coordinates' ? 'Center Coordinates' : 'Plot Location' }}
+                  </div>
+                  <div id="ps1-location-coords" class="ps-location-coords">{{ plotSheetCenter.lat }}, {{ plotSheetCenter.lng }}</div>
+                </div>
+              </section>
+            </aside>
+
+            <main id="ps1-main" class="ps-main">
+              <div class="ps1-main-left">
+                <div id="divlocation" #divlocationHost name="divlocation" class="ps1-divlocation"></div>
+                <section id="ps1-extra-box-3" class="ps1-extra-box">
+                  <ng-container *ngIf="showPlotSheet1Grid; else gridPlaceholder">
+                    <div class="ps1-grid-header">PLOT COORDINATES TABLE</div>
+                    <div class="ps1-grid-wrap">
+                      <table class="ps1-grid-table">
+                        <thead>
+                          <tr>
+                            <th>POINT</th>
+                            <th>EAST</th>
+                            <th>NORTH</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr *ngFor="let p of plotSheetCoordinatesAll">
+                            <td>{{ p.idx }}</td>
+                            <td>{{ p.east }}</td>
+                            <td>{{ p.north }}</td>
+                          </tr>
+                          <tr *ngIf="!plotSheetCoordinatesAll.length">
+                            <td colspan="3" class="ps-empty">No geometry available</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </ng-container>
+                  <ng-template #gridPlaceholder>
+                    <div class="ps1-box-title">green div</div>
+                    <div class="ps1-box-label">id =psl-extra-box-3</div>
+                    <div class="ps1-box-line">Click Btnshowgrid to load vertices</div>
+                  </ng-template>
+                </section>
+              </div>
+
+              <section id="ps1-map-card" class="ps-card ps-map-card ps1-map-card">
+                <header class="ps-card-header">PLOT SITE PLAN</header>
+                <div id="ps1-map-wrap" class="ps-map-wrap ps1-map-wrap" #plotSheet1MapWrap>
+                  <img
+                    *ngIf="plotSheet1ImageUrl"
+                    [src]="plotSheet1ImageUrl"
+                    alt="Plot site plan"
+                    class="ps-map-image"
+                    crossorigin="anonymous"
+                  />
+                  <div id="ps1-north-marker" class="ps-north-marker" style="display: none;">
+                    <span id="ps1-north-arrow" class="ps-north-arrow">▲</span>
+                    <span id="ps1-north-label" class="ps-north-label">VIEW 1</span>
+                  </div>
+                </div>
+                <div id="ps1-developer" class="ps-developer">
+                  <div id="ps1-developer-label" class="ps-developer-label">DEVELOPER</div>
+                  <div id="ps1-developer-value" class="ps-developer-value">GOSI 1</div>
+                </div>
+              </section>
+            </main>
+          </div>
+
+          <!-- Row group: dashed row on left, green box on right -->
+          <div id="ps1-extra-row-group-01" class="ps1-extra-row-group">
+            <!-- Three placeholder boxes spanning full width below the body -->
+            <section id="ps1-extra-row" class="ps1-extra-row">
+              <div id="ps1-extra-box-1" class="ps1-extra-box">
+                <div class="ps1-box-label">id =psl-extra-box-1</div>
+                <div id="ps1-extra-box-1-scene-host" class="ps1-scene-host"></div>
+              </div>
+              <div id="ps1-extra-box-2" class="ps1-extra-box">
+                <div class="ps1-box-label">id =psl-extra-box-2</div>
+                <div id="ps1-extra-box-2-preview" class="ps1-scene-preview-host"></div>
+              </div>
+            </section>
+            <!-- Right column removed: divlocation and ps1-extra-box-3 are now inside #ps1-main -->
+          </div>
+
+          <footer class="ps-footer">
+            <div>All coordinates are relative to the active GIS layer projection.</div>
+            <div>Investment Department · Diplomatic Quarter</div>
+          </footer>
+        </div>
+      </div>
+
+      <div class="plot-sheet-actions">
+        <button type="button" class="btn-primary" (click)="downloadPlotSheet1Pdf()"
+          [disabled]="!plotSheet1ImageUrl || plotSheet1Exporting">
+          {{ plotSheet1Exporting ? '...' : t('downloadPdf') }}
+        </button>
+        <!-- Context menu for hidden action buttons -->
+        <div class="ps1-context-menu-wrap" (click)="$event.stopPropagation()">
+          <button type="button" class="btn-secondary ps1-context-trigger" (click)="togglePlotSheet1ContextMenu()" title="More options">
+            &#8942; Options
+          </button>
+          <div class="ps1-context-menu" *ngIf="plotSheet1ContextMenuOpen">
+            <button type="button" (click)="loadPlotSheet3D(); closePlotSheet1ContextMenu()" [disabled]="isPlotSheet3DLoading">
+              {{ isPlotSheet3DLoading ? 'Loading 3D...' : '3DV' }}
+            </button>
+            <button id="Btnshowgrid" name="Btnshowgrid" type="button" (click)="onBtnShowGrid(); closePlotSheet1ContextMenu()">
+              Btnshowgrid
+            </button>
+            <button id="btnshow3d" name="btnshow3d" type="button" (click)="onBtnShow3d(); closePlotSheet1ContextMenu()" [disabled]="isPlotSheet3DLoading">
+              btnshow3d
+            </button>
+            <button id="btndivlocation" type="button" (click)="onBtnDivLocation(); closePlotSheet1ContextMenu()">
+              Location Map
+            </button>
+          </div>
+        </div>
+        <button type="button" class="btn-secondary" (click)="downloadPlotSheet1Jpg()"
+          [disabled]="!plotSheet1ImageUrl || plotSheet1Exporting">
+          {{ plotSheet1Exporting ? '...' : t('downloadJpg') }}
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+<app-presentation-plot
+  *ngIf="presentationPlotDialogOpen"
+  [parcel]="selectedParcel"
+  (closed)="closePresentationPlotDialog()"
+></app-presentation-plot>
+<app-component-download
+  [selectedLocation]="selectedDownloadLocation"
+  (closeModal)="closeDownloadModal()"
+></app-component-download>
+<div class="attr-modal-backdrop" *ngIf="dashboardComponentOpen" (click)="closeDashboardComponent()">
+  <div class="attr-modal dashboard-component-modal" (click)="$event.stopPropagation()">
+    <button type="button" class="attr-close" (click)="closeDashboardComponent()" aria-label="Close">×</button>
+    @if (dashboardComponentType === 'atm') {
+      <app-component-atm-dashboard [initialSearch]="dashboardComponentSearch"></app-component-atm-dashboard>
+    } @else if (dashboardComponentType === 'branch') {
+      <app-component-branches-dashboard [initialSearch]="dashboardComponentSearch"></app-component-branches-dashboard>
+    }
+  </div>
+</div>
+<div class="attr-modal-backdrop" *ngIf="plotPrintDialogOpen" (click)="closePlotPrintDialog()">
+  <div class="attr-modal plot-print-modal" (click)="$event.stopPropagation()">
+    <button type="button" class="attr-close" (click)="closePlotPrintDialog()" aria-label="Close">×</button>
+    <div class="plot-print-export-actions">
+      <button type="button" class="btn-primary" (click)="downloadPlotPrintA1Pdf()" [disabled]="plotPrintExporting">
+        {{ plotPrintExporting ? '...' : 'Download A1 PDF' }}
+      </button>
+      <button type="button" class="btn-secondary" (click)="openPlotPrintA1Preview()" [disabled]="plotPrintExporting">
+        {{ plotPrintExporting ? '...' : 'Open A1 Preview' }}
+      </button>
+      <button type="button" class="btn-secondary" (click)="printPlotPrintA1()" [disabled]="plotPrintExporting">
+        {{ plotPrintExporting ? '...' : 'Print A1' }}
+      </button>
+    </div>
+    <div #plotPrintTemplate>
+      <app-plot-print [parcel]="selectedParcel" [generatedAt]="plotPrintGeneratedAt"></app-plot-print>
+    </div>
+  </div>
+</div>
+<div class="attr-modal-backdrop" *ngIf="attributesDialogOpen" (click)="closeAttributesDialog()">
+  <div class="attr-modal" (click)="$event.stopPropagation()">
+    <header class="attr-modal-header">
+      <h3>{{ t('plotAttributes') }} &mdash; {{ selectedParcel?.displayName }}</h3>
+      <button type="button" class="attr-close" (click)="closeAttributesDialog()" aria-label="Close">×</button>
+    </header>
+    <div class="attr-modal-body">
+      <table class="attr-table">
+        <thead>
+          <tr><th>{{ t('field') }}</th><th>{{ t('data') }}</th></tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let row of plotDetailRows">
+            <td>{{ row.label }}</td>
+            <td>{{ row.value }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<!-- Sample Record Dialog -->
+<div class="attr-modal-backdrop" *ngIf="sampleDialogOpen" (click)="closeSampleDialog()">
+  <div class="attr-modal sample-modal" (click)="$event.stopPropagation()">
+    <header class="attr-modal-header sample-modal-header" [attr.data-code]="sampleDialogCode">
+      <h3>{{ sampleDialogTitle }}</h3>
+      <button type="button" class="attr-close" (click)="closeSampleDialog()" aria-label="Close">×</button>
+    </header>
+    <div class="attr-modal-body sample-body" [ngSwitch]="sampleDialogCode">
+
+      <!-- DEED -->
+      <ng-container *ngSwitchCase="'DEED'">
+        <div class="sample-grid">
+          <div class="sample-doc">
+            <div class="doc-paper">
+              <h4>Warranty Deed</h4>
+              <p class="doc-line">This document, made on the date specified below, between</p>
+              <p><strong>John A. Smith</strong> (Grantor) and <strong>ABC Land Holdings, LLC</strong> (Grantee).</p>
+              <p class="doc-line">Witnesseth, the Grantor, in consideration of the sum of valuable consideration paid by the Grantee, hereby grants, bargains, sells and conveys unto the Grantee, the following described real property:</p>
+              <p><em>LOT 12 IN BLOCK 45 OF MAPLE ADDITION TO SPRINGFIELD.</em></p>
+              <div class="doc-sign">
+                <div>Grantor: <span class="sig">John Smith</span></div>
+                <div>Grantee: <span class="sig">ABC Land Holdings</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="sample-side">
+            <h4 class="side-title">Deed Details</h4>
+            <table class="sample-table">
+              <tbody>
+                <tr><th>Deed No.</th><td>D2024-001245</td></tr>
+                <tr><th>Grantor</th><td>John A. Smith</td></tr>
+                <tr><th>Grantee</th><td>ABC Land Holdings, LLC</td></tr>
+                <tr><th>Property Address</th><td>{{ sampleAddress }}</td></tr>
+                <tr><th>Date Recorded</th><td>2024-01-15</td></tr>
+                <tr><th>Book / Page</th><td>4887 / 215</td></tr>
+                <tr><th>Legal Description</th><td>LOT 12 IN BLOCK 45 OF MAPLE ADDITION TO SPRINGFIELD</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </ng-container>
+
+      <!-- SRV -->
+      <ng-container *ngSwitchCase="'SRV'">
+        <div class="sample-grid">
+          <div class="sample-doc">
+            <div class="doc-paper survey-paper">
+              <div class="survey-diagram">
+                <div class="survey-label top">S 89°15'45" E&nbsp;&nbsp;120.00'</div>
+                <div class="survey-label left">60.00'</div>
+                <div class="survey-label right">60.00'</div>
+                <div class="survey-label bottom">S 89°15'45" W&nbsp;&nbsp;120.00'</div>
+                <div class="survey-rect">
+                  <strong>LOT 12</strong>
+                  <span>7,200 SQ. FT.</span>
+                  <span>0.17 ACRES</span>
+                </div>
+                <div class="survey-side-l">LOT 11</div>
+                <div class="survey-side-r">LOT 13</div>
+                <div class="survey-pob">P.O.B.</div>
+              </div>
+              <div class="survey-street">MAPLE STREET (50' R.O.W.)</div>
+            </div>
+          </div>
+          <div class="sample-side">
+            <div class="survey-stamp">
+              <div class="north-arrow">N&nbsp;↑</div>
+              <h4>PROPERTY SURVEY</h4>
+              <p>123 MAPLE STREET<br/>SPRINGFIELD, IL 62701</p>
+              <hr/>
+              <p><strong>ABC Land Surveying, Inc.</strong><br/>(217) 555-0100<br/>info&#64;abcls.com</p>
+              <table class="sample-table compact">
+                <tbody>
+                  <tr><th>DATE:</th><td>01/10/2024</td></tr>
+                  <tr><th>JOB NO:</th><td>24-1001</td></tr>
+                  <tr><th>SHEET:</th><td>1 OF 1</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </ng-container>
+
+      <!-- REG -->
+      <ng-container *ngSwitchCase="'REG'">
+        <div class="sample-grid">
+          <div class="sample-doc">
+            <div class="doc-paper zoning-paper">
+              <div class="zoning-grid">
+                <div class="zone z-r1"><strong>R-1</strong><span>Single Family Residential</span></div>
+                <div class="zone z-r2"><strong>R-2</strong><span>Multi-Family Residential</span></div>
+                <div class="zone z-c1"><strong>C-1</strong><span>Commercial</span></div>
+                <div class="zone z-r1"><strong>R-1</strong><span>Single Family Residential</span></div>
+                <div class="zone z-r2"><strong>R-2</strong><span>Multi-Family Residential</span></div>
+                <div class="zone z-p1"><strong>P-1</strong><span>Public Park</span></div>
+              </div>
+              <div class="zoning-roads">PINE ROAD &nbsp;|&nbsp; S MAIN STREET</div>
+            </div>
+          </div>
+          <div class="sample-side">
+            <h4 class="side-title">Zoning Map &mdash; City of Springfield</h4>
+            <ul class="zone-legend">
+              <li><span class="sw z-r1"></span> R-1 Single Family Residential</li>
+              <li><span class="sw z-r2"></span> R-2 Multi-Family Residential</li>
+              <li><span class="sw z-c1"></span> C-1 Commercial</li>
+              <li><span class="sw z-p1"></span> P-1 Public Park</li>
+              <li><span class="sw z-i1"></span> I-1 Industrial</li>
+            </ul>
+          </div>
+        </div>
+        <h4 class="block-title">Regulation Details</h4>
+        <table class="sample-table wide">
+          <tbody>
+            <tr><th>Zoning District</th><td>C-1 Commercial</td><th>Setbacks</th><td>Front: 10 ft, Side: 0 ft, Rear: 10 ft</td></tr>
+            <tr><th>Overlay District</th><td>Downtown Overlay</td><th>Max. Building Height</th><td>45 ft</td></tr>
+            <tr><th>Zoning Ordinance</th><td>Sec. 155.210</td><th>Max. Lot Coverage</th><td>80%</td></tr>
+            <tr><th>Parking Requirement</th><td colspan="3">1 space / 300 sq ft</td></tr>
+          </tbody>
+        </table>
+      </ng-container>
+
+      <!-- PRM -->
+      <ng-container *ngSwitchCase="'PRM'">
+        <h4 class="block-title">Permit List</h4>
+        <table class="sample-table wide">
+          <thead>
+            <tr><th>Permit No.</th><th>Type</th><th>Issue Date</th><th>Status</th><th>Description</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>BP-2024-0532</td><td>Building Permit</td><td>2024-02-05</td><td>Issued</td><td>New 2-Story Office Building</td></tr>
+            <tr><td>FP-2024-0121</td><td>Fire Protection</td><td>2024-02-06</td><td>Issued</td><td>Fire Sprinkler System</td></tr>
+            <tr><td>EP-2024-0087</td><td>Electrical Permit</td><td>2024-02-10</td><td>Issued</td><td>Electrical Installation</td></tr>
+            <tr><td>MP-2024-0076</td><td>Mechanical Permit</td><td>2024-02-11</td><td>Issued</td><td>HVAC System</td></tr>
+            <tr><td>PL-2024-0103</td><td>Plumbing Permit</td><td>2024-02-12</td><td>Issued</td><td>Plumbing Fixtures</td></tr>
+            <tr><td>SI-2024-0032</td><td>Sign Permit</td><td>2024-02-15</td><td>Issued</td><td>Building Signage</td></tr>
+          </tbody>
+        </table>
+        <h4 class="block-title">Permit Summary</h4>
+        <table class="sample-table wide">
+          <tbody>
+            <tr><th>Project Description</th><td>New 2-Story Office Building</td><th>Property Address</th><td>{{ sampleAddress }}</td></tr>
+            <tr><th>Valuation</th><td>$1,250,000</td><th>Parcel No.</th><td>{{ sampleParcelNo }}</td></tr>
+            <tr><th>Contractor</th><td>Springfield Builders, Inc.</td><th>Status</th><td>Active</td></tr>
+          </tbody>
+        </table>
+      </ng-container>
+
+      <!-- Generic fallback for X / CAD / PDF / MAP / A / DOC -->
+      <ng-container *ngSwitchDefault>
+        <div class="sample-empty">
+          <p>Sample record for <strong>{{ sampleDialogTitle }}</strong>.</p>
+          <p>This source type doesn't have a custom sample template yet. Below is the parcel context this record would be linked to.</p>
+        </div>
+      </ng-container>
+
+      <!-- Parcel Information block (always shown) -->
+      <h4 class="block-title">Parcel Information</h4>
+      <table class="sample-table wide">
+        <tbody>
+          <tr>
+            <th>Parcel No.</th>
+            <td>{{ sampleParcelNo }}</td>
+            <th>Address</th>
+            <td>{{ sampleAddress }}</td>
+          </tr>
+          <tr>
+            <th>Area</th>
+            <td colspan="3">{{ sampleParcelArea }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<!-- Add Description Dialog -->
+<div class="attr-modal-backdrop" *ngIf="descriptionDialogOpen" (click)="cancelDescription()">
+  <div class="attr-modal desc-modal" (click)="$event.stopPropagation()">
+    <header class="attr-modal-header">
+      <h3>Add Description &mdash; {{ uploadedDocuments[descriptionTargetIndex]?.fileName }}</h3>
+      <button type="button" class="attr-close" (click)="cancelDescription()" aria-label="Close">×</button>
+    </header>
+    <div class="attr-modal-body desc-body">
+      <label class="desc-label">DOCUMENT DESCRIPTION</label>
+      <textarea
+        class="desc-textarea"
+        [(ngModel)]="descriptionText"
+        placeholder="Enter a description for this document..."
+        rows="5"
+        autofocus
+      ></textarea>
+      <div class="desc-actions">
+        <button type="button" class="btn-primary" (click)="saveDescription()">Save</button>
+        <button type="button" class="btn-secondary" (click)="cancelDescription()">Cancel</button>
+      </div>
+    </div>
+  </div>
+</div>

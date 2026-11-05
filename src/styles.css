@@ -1,0 +1,248 @@
+@import './app/header-logo.css';
+
+/* Ensure the selected-road container is tall enough for the logo */
+.selected-road {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: transparent !important;
+	height: 80px !important;
+	width: 80px !important;
+	min-width: 0 !important;
+	max-width: 100px;
+	padding: 0 !important;
+}
+
+.selected-road .header-logo:not([hidden]) {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	display: block;
+	background: none;
+}
+
+.selected-road .header-logo[hidden] {
+	display: none !important;
+}
+
+/* Remove any border from the vertical map overlay controls */
+.map-overlay-controls.vertical {
+	border: none !important;
+}
+/* Force Dashboard button to match Search button style */
+#Dashboard {
+	background: linear-gradient(135deg, #2d8cf0 0%, #1d6fd1 55%, #124a9b 100%) !important;
+	color: #fff !important;
+	font-size: 18px !important;
+	font-weight: 700 !important;
+	border: 1px solid rgba(255,255,255,0.18) !important;
+	border-radius: 999px !important;
+	height: 42px !important;
+	padding: 0 24px !important;
+	margin: 0 auto 0 auto !important;
+	display: inline-block !important;
+	letter-spacing: normal !important;
+	box-shadow: none !important;
+	width: auto !important;
+	outline: none !important;
+}
+/* Make the search panel auto-expand to fit all buttons */
+.map-search-card.panel {
+	height: auto !important;
+	min-height: 180px;
+	max-height: none !important;
+	overflow: visible !important;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+/* Ensure only the outer .map-overlay-controls.vertical div is transparent, not its children */
+.map-overlay-controls.vertical {
+	background: transparent !important;
+	box-shadow: none !important;
+}
+.map-overlay-controls.vertical > * {
+	background: initial;
+}
+/* Make map-overlay-controls.vertical background transparent */
+.map-overlay-controls.vertical {
+	background: transparent !important;
+}
+/* Make map-search-overlay div rounded */
+.map-search-overlay {
+	border-radius: 18px !important;
+	overflow: hidden;
+}
+
+/* Match the ArcGIS legend panel background to the header green gradient */
+#legend-host.esri-legend.esri-widget.esri-widget--panel,
+#legend-host.esri-legend.esri-widget.esri-widget--panel .esri-widget,
+#legend-host.esri-legend.esri-widget.esri-widget--panel .esri-widget--panel,
+#legend-host.esri-legend.esri-widget.esri-widget--panel .esri-legend,
+#legend-host.esri-legend.esri-widget.esri-widget--panel .esri-legend__service,
+#legend-host.esri-legend.esri-widget.esri-widget--panel .esri-legend__group-layer-child,
+#legend-host.esri-legend.esri-widget.esri-widget--panel .esri-legend__layer,
+#legend-host.esri-legend.esri-widget.esri-widget--panel .esri-legend__layer-cell,
+#legend-host.esri-legend.esri-widget.esri-widget--panel section.esri-legend__service,
+#legend-host.esri-legend.esri-widget.esri-widget--panel section.esri-legend__group-layer,
+#legend-host.esri-legend.esri-widget.esri-widget--panel section.esri-legend__group-layer-child {
+	background: linear-gradient(180deg, #eaf3ff 0%, #d4e6ff 60%, #b5d1ff 100%) !important;
+	background-color: transparent !important;
+	background-image: none !important;
+	box-shadow: none !important;
+	border: none !important;
+}
+
+#legend-host .esri-legend__service,
+#legend-host .esri-legend__group-layer-child,
+#legend-host .esri-legend__layer,
+#legend-host .esri-legend__layer-cell {
+	background-color: transparent !important;
+}
+
+/* Force white background for parcel-name input */
+#parcel-name {
+	background: #fff !important;
+	background-image: none !important;
+	color: #222 !important;
+	box-shadow: none !important;
+	border-radius: 8px !important;
+	border: 1px solid #cfcfcf !important;
+	position: relative !important;
+	z-index: 10 !important;
+}
+/* You can add global styles to this file, and also import other style files */
+
+/* Force visible borders for the plot-sheet elements inserted in markdown */
+#ps1-map-card-border,
+#ps1-map-card,
+#ps1-map-wrap,
+#divlocation,
+#ps1-extra-box-1,
+#ps1-extra-box-2 {
+	border: 1px solid #000 !important;
+	box-sizing: border-box !important;
+}
+
+/* Do not apply border to the pasted image itself (allow surrounding divs to keep borders) */
+#pasted-image {
+	border: none !important;
+	border-radius: 0 !important;
+	width: 600px !important;
+	display: block !important;
+	margin-left: 60px !important;
+}
+
+/* Also cover images rendered without the id but with this class */
+.ps-map-image {
+	border: none !important;
+	border-radius: 0 !important;
+	width: 600px !important;
+	display: block !important;
+	margin-left: 60px !important;
+}
+
+/* Add a slight padding so borders don't touch inner content */
+#ps1-map-card-border { padding: 6px !important; }
+
+/* Set background color for requested elements */
+#ps1-map-card,
+#ps1-map-wrap,
+#pasted-image,
+.ps-map-image {
+	background-color: #ebebeb !important;
+}
+
+/* Apply black border around the main body container requested */
+#ps1-body {
+	border: 1px solid #000 !important;
+	box-sizing: border-box !important;
+}
+
+/* Make borders sharp (no rounded corners) for map containers and common cards */
+#ps1-map-card-border,
+#ps1-map-card,
+#ps1-map-wrap,
+#divlocation,
+#ps1-extra-box-1,
+#ps1-extra-box-2,
+#ps1-extra-box-3,
+#ps1-body,
+.card,
+.glass-card {
+	border-radius: 0 !important;
+}
+
+/* Ensure images and map-image classes are square at corners */
+img,
+.ps-map-image,
+#pasted-image {
+	border-radius: 0 !important;
+}
+
+/* Apply a sharp black border to ps-card sections (no rounded corners) */
+section.ps-card,
+.ps-card {
+	border: 1px solid #000 !important;
+	border-radius: 0 !important;
+	box-sizing: border-box !important;
+}
+
+/* Move the map card and wrapper down by 2px */
+#ps1-map-card,
+#ps1-map-wrap {
+	transform: translateY(2px) !important;
+	will-change: transform !important;
+}
+
+/* Shift extra boxes left 50px and up 15px (visual only) */
+#ps1-extra-box-1,
+#ps1-extra-box-2 {
+	transform: translate(-50px, -15px) !important;
+	will-change: transform !important;
+}
+
+/* Ensure #ps1-extra-box-3 has the same border treatment as other extra boxes */
+#ps1-extra-box-3 {
+	border: 1px solid #000 !important;
+	box-sizing: border-box !important;
+	border-radius: 0 !important;
+	background-color: transparent !important;
+}
+
+/* Scene host box width */
+#ps1-extra-box-1-scene-host {
+	width: 268px !important;
+	box-sizing: border-box !important;
+}
+
+/* Extra box 1 width */
+#ps1-extra-box-1 {
+	/* increased by 30px from 290px */
+	width: 320px !important;
+	/* increase height by ~30px from observed 216.6px */
+	min-height: 246.6px !important;
+	box-sizing: border-box !important;
+}
+
+/* Increase size of ps1-extra-box-2 by 30px (width and height) */
+#ps1-extra-box-2 {
+  width: 320px !important;
+  min-height: 246.6px !important;
+  box-sizing: border-box !important;
+}
+
+/* (reverted) no forced size decrease for ps1-extra-box-2 */
+
+/* Ensure the image wrapper does not show a border around the pasted image */
+#ps1-map-wrap {
+	border-radius: 0 !important;
+	border: none !important;
+}
+
+/* Extra safeguard: remove any border/shadow from images inside the wrapper */
+#ps1-map-wrap img,
+#ps1-map-wrap img.ps-map-image {
+	border: none !important;
+	box-shadow: none !important;
+}

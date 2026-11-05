@@ -1,0 +1,87 @@
+// Theme variables
+:root {
+  --color-primary: #2D8CF0;
+  --color-secondary: #4FA3FF;
+  --color-accent: #8BC8FF;
+  --color-light: #DDEEFF;
+  --color-bg: #F3F8FF;
+}
+[data-theme="dark"] {
+  --color-primary: #124A9B;
+  --color-secondary: #1D6FD1;
+  --color-accent: #2F74C0;
+  --color-light: #1A4F93;
+  --color-bg: #0F203A;
+}
+
+.app-background, .background-visual {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  overflow: hidden;
+  pointer-events: none;
+}
+.background-visual {
+  background: linear-gradient(135deg, var(--color-light), var(--color-accent), var(--color-secondary), var(--color-primary));
+  background-size: 200% 200%;
+  animation: bg-move 18s ease-in-out infinite alternate;
+}
+// Bokeh circles
+.background-visual::before, .background-visual::after {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(60px);
+  opacity: 0.35;
+  pointer-events: none;
+  will-change: transform, opacity;
+}
+.background-visual::before {
+  width: 520px;
+  height: 520px;
+  left: 10vw;
+  top: 12vh;
+  background: radial-gradient(circle, rgba(168, 211, 255, 0.7) 0%, rgba(79, 163, 255, 0.22) 100%);
+  animation: float1 22s ease-in-out infinite alternate;
+}
+.background-visual::after {
+  width: 340px;
+  height: 340px;
+  right: 8vw;
+  bottom: 10vh;
+  background: radial-gradient(circle, rgba(45, 140, 240, 0.5) 0%, rgba(139, 200, 255, 0.2) 100%);
+  animation: float2 28s ease-in-out infinite alternate;
+}
+// Optional subtle noise
+.background-visual {
+  /* Uncomment if you want a noise texture overlay */
+  /* background-image: url('/assets/noise.png'); */
+  /* mix-blend-mode: overlay; */
+}
+@keyframes bg-move {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
+@keyframes float1 {
+  0% { transform: translateY(0) scale(1); }
+  100% { transform: translateY(-30px) scale(1.08); }
+}
+@keyframes float2 {
+  0% { transform: translateY(0) scale(1); }
+  100% { transform: translateY(40px) scale(0.95); }
+}
+// Glass card utility
+.glass-card {
+  background: rgba(255,255,255,0.65);
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(44, 62, 80, 0.08);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1.5px solid rgba(139, 200, 255, 0.2);
+}
+[data-theme="dark"] .glass-card {
+  background: rgba(34, 49, 63, 0.55);
+  border: 1.5px solid rgba(45, 140, 240, 0.22);
+}

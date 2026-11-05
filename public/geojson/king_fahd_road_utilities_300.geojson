@@ -1,0 +1,6386 @@
+{
+  "type": "FeatureCollection",
+  "name": "utilities_along_uploaded_road_demo",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "streetlight-001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.645918,
+          24.7605834
+        ]
+      },
+      "properties": {
+        "asset_id": "streetlight-001",
+        "asset_type": "streetlight",
+        "name": "Streetlight 001",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 49,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "streetlight-002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6467764,
+          24.7606135
+        ]
+      },
+      "properties": {
+        "asset_id": "streetlight-002",
+        "asset_type": "streetlight",
+        "name": "Streetlight 002",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 31,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "streetlight-003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6465242,
+          24.7601707
+        ]
+      },
+      "properties": {
+        "asset_id": "streetlight-003",
+        "asset_type": "streetlight",
+        "name": "Streetlight 003",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 13,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "streetlight-004",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6472304,
+          24.760136
+        ]
+      },
+      "properties": {
+        "asset_id": "streetlight-004",
+        "asset_type": "streetlight",
+        "name": "Streetlight 004",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 50,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "streetlight-005",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6466379,
+          24.7595484
+        ]
+      },
+      "properties": {
+        "asset_id": "streetlight-005",
+        "asset_type": "streetlight",
+        "name": "Streetlight 005",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 32,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "streetlight-006",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6471918,
+          24.7594488
+        ]
+      },
+      "properties": {
+        "asset_id": "streetlight-006",
+        "asset_type": "streetlight",
+        "name": "Streetlight 006",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 14,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "streetlight-007",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6467515,
+          24.758926
+        ]
+      },
+      "properties": {
+        "asset_id": "streetlight-007",
+        "asset_type": "streetlight",
+        "name": "Streetlight 007",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 51,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "streetlight-008",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6476458,
+          24.7589713
+        ]
+      },
+      "properties": {
+        "asset_id": "streetlight-008",
+        "asset_type": "streetlight",
+        "name": "Streetlight 008",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 33,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "streetlight-009",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6473578,
+          24.7585134
+        ]
+      },
+      "properties": {
+        "asset_id": "streetlight-009",
+        "asset_type": "streetlight",
+        "name": "Streetlight 009",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 15,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "streetlight-010",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6480998,
+          24.7584939
+        ]
+      },
+      "properties": {
+        "asset_id": "streetlight-010",
+        "asset_type": "streetlight",
+        "name": "Streetlight 010",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 52,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "streetlight-011",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6474714,
+          24.757891
+        ]
+      },
+      "properties": {
+        "asset_id": "streetlight-011",
+        "asset_type": "streetlight",
+        "name": "Streetlight 011",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 34,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "streetlight-012",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6480611,
+          24.7578067
+        ]
+      },
+      "properties": {
+        "asset_id": "streetlight-012",
+        "asset_type": "streetlight",
+        "name": "Streetlight 012",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 16,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "streetlight-013",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.647585,
+          24.7572686
+        ]
+      },
+      "properties": {
+        "asset_id": "streetlight-013",
+        "asset_type": "streetlight",
+        "name": "Streetlight 013",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 53,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "streetlight-014",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6485151,
+          24.7573292
+        ]
+      },
+      "properties": {
+        "asset_id": "streetlight-014",
+        "asset_type": "streetlight",
+        "name": "Streetlight 014",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 35,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "streetlight-015",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6481913,
+          24.756856
+        ]
+      },
+      "properties": {
+        "asset_id": "streetlight-015",
+        "asset_type": "streetlight",
+        "name": "Streetlight 015",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 17,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "streetlight-016",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6489691,
+          24.7568517
+        ]
+      },
+      "properties": {
+        "asset_id": "streetlight-016",
+        "asset_type": "streetlight",
+        "name": "Streetlight 016",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 54,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "streetlight-017",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6483049,
+          24.7562336
+        ]
+      },
+      "properties": {
+        "asset_id": "streetlight-017",
+        "asset_type": "streetlight",
+        "name": "Streetlight 017",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 36,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "streetlight-018",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6489305,
+          24.7561646
+        ]
+      },
+      "properties": {
+        "asset_id": "streetlight-018",
+        "asset_type": "streetlight",
+        "name": "Streetlight 018",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 18,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "streetlight-019",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6484186,
+          24.7556112
+        ]
+      },
+      "properties": {
+        "asset_id": "streetlight-019",
+        "asset_type": "streetlight",
+        "name": "Streetlight 019",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 55,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "streetlight-020",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6493845,
+          24.7556871
+        ]
+      },
+      "properties": {
+        "asset_id": "streetlight-020",
+        "asset_type": "streetlight",
+        "name": "Streetlight 020",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 37,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "streetlight-021",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6490248,
+          24.7551986
+        ]
+      },
+      "properties": {
+        "asset_id": "streetlight-021",
+        "asset_type": "streetlight",
+        "name": "Streetlight 021",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 19,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "streetlight-022",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6498385,
+          24.7552096
+        ]
+      },
+      "properties": {
+        "asset_id": "streetlight-022",
+        "asset_type": "streetlight",
+        "name": "Streetlight 022",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 56,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "streetlight-023",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6491384,
+          24.7545762
+        ]
+      },
+      "properties": {
+        "asset_id": "streetlight-023",
+        "asset_type": "streetlight",
+        "name": "Streetlight 023",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 38,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "streetlight-024",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6497998,
+          24.7545224
+        ]
+      },
+      "properties": {
+        "asset_id": "streetlight-024",
+        "asset_type": "streetlight",
+        "name": "Streetlight 024",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 20,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "streetlight-025",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6492521,
+          24.7539539
+        ]
+      },
+      "properties": {
+        "asset_id": "streetlight-025",
+        "asset_type": "streetlight",
+        "name": "Streetlight 025",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 57,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "streetlight-026",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6502538,
+          24.754045
+        ]
+      },
+      "properties": {
+        "asset_id": "streetlight-026",
+        "asset_type": "streetlight",
+        "name": "Streetlight 026",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 39,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "streetlight-027",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6498583,
+          24.7535412
+        ]
+      },
+      "properties": {
+        "asset_id": "streetlight-027",
+        "asset_type": "streetlight",
+        "name": "Streetlight 027",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 21,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "streetlight-028",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6507078,
+          24.7535675
+        ]
+      },
+      "properties": {
+        "asset_id": "streetlight-028",
+        "asset_type": "streetlight",
+        "name": "Streetlight 028",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 58,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "streetlight-029",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.649972,
+          24.7529189
+        ]
+      },
+      "properties": {
+        "asset_id": "streetlight-029",
+        "asset_type": "streetlight",
+        "name": "Streetlight 029",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 40,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "streetlight-030",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6506692,
+          24.7528803
+        ]
+      },
+      "properties": {
+        "asset_id": "streetlight-030",
+        "asset_type": "streetlight",
+        "name": "Streetlight 030",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 22,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "streetlight-031",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6500856,
+          24.7522965
+        ]
+      },
+      "properties": {
+        "asset_id": "streetlight-031",
+        "asset_type": "streetlight",
+        "name": "Streetlight 031",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 59,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "streetlight-032",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6511232,
+          24.7524028
+        ]
+      },
+      "properties": {
+        "asset_id": "streetlight-032",
+        "asset_type": "streetlight",
+        "name": "Streetlight 032",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 41,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "streetlight-033",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6506919,
+          24.7518838
+        ]
+      },
+      "properties": {
+        "asset_id": "streetlight-033",
+        "asset_type": "streetlight",
+        "name": "Streetlight 033",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 23,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "streetlight-034",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6515772,
+          24.7519254
+        ]
+      },
+      "properties": {
+        "asset_id": "streetlight-034",
+        "asset_type": "streetlight",
+        "name": "Streetlight 034",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 60,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "streetlight-035",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6508055,
+          24.7512615
+        ]
+      },
+      "properties": {
+        "asset_id": "streetlight-035",
+        "asset_type": "streetlight",
+        "name": "Streetlight 035",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 42,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "streetlight-036",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6515385,
+          24.7512382
+        ]
+      },
+      "properties": {
+        "asset_id": "streetlight-036",
+        "asset_type": "streetlight",
+        "name": "Streetlight 036",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 24,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "streetlight-037",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6509192,
+          24.7506391
+        ]
+      },
+      "properties": {
+        "asset_id": "streetlight-037",
+        "asset_type": "streetlight",
+        "name": "Streetlight 037",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 61,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "streetlight-038",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6519925,
+          24.7507607
+        ]
+      },
+      "properties": {
+        "asset_id": "streetlight-038",
+        "asset_type": "streetlight",
+        "name": "Streetlight 038",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 43,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "streetlight-039",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6515254,
+          24.7502265
+        ]
+      },
+      "properties": {
+        "asset_id": "streetlight-039",
+        "asset_type": "streetlight",
+        "name": "Streetlight 039",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 25,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "streetlight-040",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6524465,
+          24.7502832
+        ]
+      },
+      "properties": {
+        "asset_id": "streetlight-040",
+        "asset_type": "streetlight",
+        "name": "Streetlight 040",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 62,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "streetlight-041",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.651639,
+          24.7496041
+        ]
+      },
+      "properties": {
+        "asset_id": "streetlight-041",
+        "asset_type": "streetlight",
+        "name": "Streetlight 041",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 44,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "streetlight-042",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6524079,
+          24.7495961
+        ]
+      },
+      "properties": {
+        "asset_id": "streetlight-042",
+        "asset_type": "streetlight",
+        "name": "Streetlight 042",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 26,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "streetlight-043",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6517527,
+          24.7489817
+        ]
+      },
+      "properties": {
+        "asset_id": "streetlight-043",
+        "asset_type": "streetlight",
+        "name": "Streetlight 043",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 63,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "streetlight-044",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6528619,
+          24.7491186
+        ]
+      },
+      "properties": {
+        "asset_id": "streetlight-044",
+        "asset_type": "streetlight",
+        "name": "Streetlight 044",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 45,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "streetlight-045",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6523589,
+          24.7485691
+        ]
+      },
+      "properties": {
+        "asset_id": "streetlight-045",
+        "asset_type": "streetlight",
+        "name": "Streetlight 045",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 27,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "streetlight-046",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6533159,
+          24.7486411
+        ]
+      },
+      "properties": {
+        "asset_id": "streetlight-046",
+        "asset_type": "streetlight",
+        "name": "Streetlight 046",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 64,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "streetlight-047",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6524726,
+          24.7479467
+        ]
+      },
+      "properties": {
+        "asset_id": "streetlight-047",
+        "asset_type": "streetlight",
+        "name": "Streetlight 047",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 46,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "streetlight-048",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6532772,
+          24.7479539
+        ]
+      },
+      "properties": {
+        "asset_id": "streetlight-048",
+        "asset_type": "streetlight",
+        "name": "Streetlight 048",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 28,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "streetlight-049",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6525862,
+          24.7473244
+        ]
+      },
+      "properties": {
+        "asset_id": "streetlight-049",
+        "asset_type": "streetlight",
+        "name": "Streetlight 049",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 65,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "streetlight-050",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6537312,
+          24.7474765
+        ]
+      },
+      "properties": {
+        "asset_id": "streetlight-050",
+        "asset_type": "streetlight",
+        "name": "Streetlight 050",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 47,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "trash_bin-001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6531925,
+          24.7469117
+        ]
+      },
+      "properties": {
+        "asset_id": "trash_bin-001",
+        "asset_type": "trash_bin",
+        "name": "Trash bin 001",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 29,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "trash_bin-002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6541852,
+          24.746999
+        ]
+      },
+      "properties": {
+        "asset_id": "trash_bin-002",
+        "asset_type": "trash_bin",
+        "name": "Trash bin 002",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 66,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "trash_bin-003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6533061,
+          24.7462893
+        ]
+      },
+      "properties": {
+        "asset_id": "trash_bin-003",
+        "asset_type": "trash_bin",
+        "name": "Trash bin 003",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 48,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "trash_bin-004",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6541466,
+          24.7463118
+        ]
+      },
+      "properties": {
+        "asset_id": "trash_bin-004",
+        "asset_type": "trash_bin",
+        "name": "Trash bin 004",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 30,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "trash_bin-005",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6539123,
+          24.7458767
+        ]
+      },
+      "properties": {
+        "asset_id": "trash_bin-005",
+        "asset_type": "trash_bin",
+        "name": "Trash bin 005",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 12,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "trash_bin-006",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6546006,
+          24.7458343
+        ]
+      },
+      "properties": {
+        "asset_id": "trash_bin-006",
+        "asset_type": "trash_bin",
+        "name": "Trash bin 006",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 49,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "trash_bin-007",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.654026,
+          24.7452543
+        ]
+      },
+      "properties": {
+        "asset_id": "trash_bin-007",
+        "asset_type": "trash_bin",
+        "name": "Trash bin 007",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 31,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "trash_bin-008",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.654562,
+          24.7451471
+        ]
+      },
+      "properties": {
+        "asset_id": "trash_bin-008",
+        "asset_type": "trash_bin",
+        "name": "Trash bin 008",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 13,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "trash_bin-009",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6541396,
+          24.744632
+        ]
+      },
+      "properties": {
+        "asset_id": "trash_bin-009",
+        "asset_type": "trash_bin",
+        "name": "Trash bin 009",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 50,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "trash_bin-010",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6550159,
+          24.7446697
+        ]
+      },
+      "properties": {
+        "asset_id": "trash_bin-010",
+        "asset_type": "trash_bin",
+        "name": "Trash bin 010",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 32,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "trash_bin-011",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6547459,
+          24.7442193
+        ]
+      },
+      "properties": {
+        "asset_id": "trash_bin-011",
+        "asset_type": "trash_bin",
+        "name": "Trash bin 011",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 14,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "trash_bin-012",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6554699,
+          24.7441922
+        ]
+      },
+      "properties": {
+        "asset_id": "trash_bin-012",
+        "asset_type": "trash_bin",
+        "name": "Trash bin 012",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 51,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "trash_bin-013",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6548595,
+          24.743597
+        ]
+      },
+      "properties": {
+        "asset_id": "trash_bin-013",
+        "asset_type": "trash_bin",
+        "name": "Trash bin 013",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 33,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "trash_bin-014",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6554313,
+          24.743505
+        ]
+      },
+      "properties": {
+        "asset_id": "trash_bin-014",
+        "asset_type": "trash_bin",
+        "name": "Trash bin 014",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 15,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "trash_bin-015",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6549732,
+          24.7429746
+        ]
+      },
+      "properties": {
+        "asset_id": "trash_bin-015",
+        "asset_type": "trash_bin",
+        "name": "Trash bin 015",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 52,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "trash_bin-016",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6558853,
+          24.7430276
+        ]
+      },
+      "properties": {
+        "asset_id": "trash_bin-016",
+        "asset_type": "trash_bin",
+        "name": "Trash bin 016",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 34,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "trash_bin-017",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6555794,
+          24.7425619
+        ]
+      },
+      "properties": {
+        "asset_id": "trash_bin-017",
+        "asset_type": "trash_bin",
+        "name": "Trash bin 017",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 16,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "trash_bin-018",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6563393,
+          24.7425501
+        ]
+      },
+      "properties": {
+        "asset_id": "trash_bin-018",
+        "asset_type": "trash_bin",
+        "name": "Trash bin 018",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 53,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "trash_bin-019",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6556931,
+          24.7419396
+        ]
+      },
+      "properties": {
+        "asset_id": "trash_bin-019",
+        "asset_type": "trash_bin",
+        "name": "Trash bin 019",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 35,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "trash_bin-020",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6563007,
+          24.7418629
+        ]
+      },
+      "properties": {
+        "asset_id": "trash_bin-020",
+        "asset_type": "trash_bin",
+        "name": "Trash bin 020",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 17,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "trash_bin-021",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6558067,
+          24.7413172
+        ]
+      },
+      "properties": {
+        "asset_id": "trash_bin-021",
+        "asset_type": "trash_bin",
+        "name": "Trash bin 021",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 54,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "trash_bin-022",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6567546,
+          24.7413854
+        ]
+      },
+      "properties": {
+        "asset_id": "trash_bin-022",
+        "asset_type": "trash_bin",
+        "name": "Trash bin 022",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 36,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "trash_bin-023",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6564129,
+          24.7409046
+        ]
+      },
+      "properties": {
+        "asset_id": "trash_bin-023",
+        "asset_type": "trash_bin",
+        "name": "Trash bin 023",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 18,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "trash_bin-024",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6572086,
+          24.740908
+        ]
+      },
+      "properties": {
+        "asset_id": "trash_bin-024",
+        "asset_type": "trash_bin",
+        "name": "Trash bin 024",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 55,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "trash_bin-025",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6565266,
+          24.7402822
+        ]
+      },
+      "properties": {
+        "asset_id": "trash_bin-025",
+        "asset_type": "trash_bin",
+        "name": "Trash bin 025",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 37,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "trash_bin-026",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.65717,
+          24.7402208
+        ]
+      },
+      "properties": {
+        "asset_id": "trash_bin-026",
+        "asset_type": "trash_bin",
+        "name": "Trash bin 026",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 19,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "trash_bin-027",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6566402,
+          24.7396598
+        ]
+      },
+      "properties": {
+        "asset_id": "trash_bin-027",
+        "asset_type": "trash_bin",
+        "name": "Trash bin 027",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 56,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "trash_bin-028",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.657624,
+          24.7397433
+        ]
+      },
+      "properties": {
+        "asset_id": "trash_bin-028",
+        "asset_type": "trash_bin",
+        "name": "Trash bin 028",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 38,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "trash_bin-029",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6572465,
+          24.7392472
+        ]
+      },
+      "properties": {
+        "asset_id": "trash_bin-029",
+        "asset_type": "trash_bin",
+        "name": "Trash bin 029",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 20,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "trash_bin-030",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6580779,
+          24.7392658
+        ]
+      },
+      "properties": {
+        "asset_id": "trash_bin-030",
+        "asset_type": "trash_bin",
+        "name": "Trash bin 030",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 57,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "trash_bin-031",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6573601,
+          24.7386248
+        ]
+      },
+      "properties": {
+        "asset_id": "trash_bin-031",
+        "asset_type": "trash_bin",
+        "name": "Trash bin 031",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 39,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "trash_bin-032",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6580394,
+          24.7385786
+        ]
+      },
+      "properties": {
+        "asset_id": "trash_bin-032",
+        "asset_type": "trash_bin",
+        "name": "Trash bin 032",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 21,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "trash_bin-033",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6574738,
+          24.7380024
+        ]
+      },
+      "properties": {
+        "asset_id": "trash_bin-033",
+        "asset_type": "trash_bin",
+        "name": "Trash bin 033",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 58,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "trash_bin-034",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6584933,
+          24.7381012
+        ]
+      },
+      "properties": {
+        "asset_id": "trash_bin-034",
+        "asset_type": "trash_bin",
+        "name": "Trash bin 034",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 40,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "trash_bin-035",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.65808,
+          24.7375898
+        ]
+      },
+      "properties": {
+        "asset_id": "trash_bin-035",
+        "asset_type": "trash_bin",
+        "name": "Trash bin 035",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 22,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "trash_bin-036",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6589473,
+          24.7376237
+        ]
+      },
+      "properties": {
+        "asset_id": "trash_bin-036",
+        "asset_type": "trash_bin",
+        "name": "Trash bin 036",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 59,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fire_hydrant-001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6581937,
+          24.7369674
+        ]
+      },
+      "properties": {
+        "asset_id": "fire_hydrant-001",
+        "asset_type": "fire_hydrant",
+        "name": "Fire hydrant 001",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 41,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fire_hydrant-002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6589087,
+          24.7369365
+        ]
+      },
+      "properties": {
+        "asset_id": "fire_hydrant-002",
+        "asset_type": "fire_hydrant",
+        "name": "Fire hydrant 002",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 23,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fire_hydrant-003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6583073,
+          24.7363451
+        ]
+      },
+      "properties": {
+        "asset_id": "fire_hydrant-003",
+        "asset_type": "fire_hydrant",
+        "name": "Fire hydrant 003",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 60,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fire_hydrant-004",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6593627,
+          24.7364591
+        ]
+      },
+      "properties": {
+        "asset_id": "fire_hydrant-004",
+        "asset_type": "fire_hydrant",
+        "name": "Fire hydrant 004",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 42,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fire_hydrant-005",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6589135,
+          24.7359324
+        ]
+      },
+      "properties": {
+        "asset_id": "fire_hydrant-005",
+        "asset_type": "fire_hydrant",
+        "name": "Fire hydrant 005",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 24,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fire_hydrant-006",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6598166,
+          24.7359816
+        ]
+      },
+      "properties": {
+        "asset_id": "fire_hydrant-006",
+        "asset_type": "fire_hydrant",
+        "name": "Fire hydrant 006",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 61,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fire_hydrant-007",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6590272,
+          24.7353101
+        ]
+      },
+      "properties": {
+        "asset_id": "fire_hydrant-007",
+        "asset_type": "fire_hydrant",
+        "name": "Fire hydrant 007",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 43,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fire_hydrant-008",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6597781,
+          24.7352944
+        ]
+      },
+      "properties": {
+        "asset_id": "fire_hydrant-008",
+        "asset_type": "fire_hydrant",
+        "name": "Fire hydrant 008",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 25,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fire_hydrant-009",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6591409,
+          24.7346877
+        ]
+      },
+      "properties": {
+        "asset_id": "fire_hydrant-009",
+        "asset_type": "fire_hydrant",
+        "name": "Fire hydrant 009",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 62,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fire_hydrant-010",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.660232,
+          24.7348169
+        ]
+      },
+      "properties": {
+        "asset_id": "fire_hydrant-010",
+        "asset_type": "fire_hydrant",
+        "name": "Fire hydrant 010",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 44,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fire_hydrant-011",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6597471,
+          24.734275
+        ]
+      },
+      "properties": {
+        "asset_id": "fire_hydrant-011",
+        "asset_type": "fire_hydrant",
+        "name": "Fire hydrant 011",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 26,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fire_hydrant-012",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.660686,
+          24.7343395
+        ]
+      },
+      "properties": {
+        "asset_id": "fire_hydrant-012",
+        "asset_type": "fire_hydrant",
+        "name": "Fire hydrant 012",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 63,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fire_hydrant-013",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6598607,
+          24.7336527
+        ]
+      },
+      "properties": {
+        "asset_id": "fire_hydrant-013",
+        "asset_type": "fire_hydrant",
+        "name": "Fire hydrant 013",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 45,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fire_hydrant-014",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6606474,
+          24.7336523
+        ]
+      },
+      "properties": {
+        "asset_id": "fire_hydrant-014",
+        "asset_type": "fire_hydrant",
+        "name": "Fire hydrant 014",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 27,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fire_hydrant-015",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6599744,
+          24.7330303
+        ]
+      },
+      "properties": {
+        "asset_id": "fire_hydrant-015",
+        "asset_type": "fire_hydrant",
+        "name": "Fire hydrant 015",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 64,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fire_hydrant-016",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6611014,
+          24.7331748
+        ]
+      },
+      "properties": {
+        "asset_id": "fire_hydrant-016",
+        "asset_type": "fire_hydrant",
+        "name": "Fire hydrant 016",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 46,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fire_hydrant-017",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6605806,
+          24.7326177
+        ]
+      },
+      "properties": {
+        "asset_id": "fire_hydrant-017",
+        "asset_type": "fire_hydrant",
+        "name": "Fire hydrant 017",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 28,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fire_hydrant-018",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6615553,
+          24.7326973
+        ]
+      },
+      "properties": {
+        "asset_id": "fire_hydrant-018",
+        "asset_type": "fire_hydrant",
+        "name": "Fire hydrant 018",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 65,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fire_hydrant-019",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6606943,
+          24.7319953
+        ]
+      },
+      "properties": {
+        "asset_id": "fire_hydrant-019",
+        "asset_type": "fire_hydrant",
+        "name": "Fire hydrant 019",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 47,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fire_hydrant-020",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6615167,
+          24.7320101
+        ]
+      },
+      "properties": {
+        "asset_id": "fire_hydrant-020",
+        "asset_type": "fire_hydrant",
+        "name": "Fire hydrant 020",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 29,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fire_hydrant-021",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6608079,
+          24.7313729
+        ]
+      },
+      "properties": {
+        "asset_id": "fire_hydrant-021",
+        "asset_type": "fire_hydrant",
+        "name": "Fire hydrant 021",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 66,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fire_hydrant-022",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6619707,
+          24.7315327
+        ]
+      },
+      "properties": {
+        "asset_id": "fire_hydrant-022",
+        "asset_type": "fire_hydrant",
+        "name": "Fire hydrant 022",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 48,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fire_hydrant-023",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6614141,
+          24.7309603
+        ]
+      },
+      "properties": {
+        "asset_id": "fire_hydrant-023",
+        "asset_type": "fire_hydrant",
+        "name": "Fire hydrant 023",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 30,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fire_hydrant-024",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6619321,
+          24.7308455
+        ]
+      },
+      "properties": {
+        "asset_id": "fire_hydrant-024",
+        "asset_type": "fire_hydrant",
+        "name": "Fire hydrant 024",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 12,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "atm-001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6615278,
+          24.7303379
+        ]
+      },
+      "properties": {
+        "asset_id": "atm-001",
+        "asset_type": "atm",
+        "name": "ATM 001",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 49,
+        "data_status": "synthetic_demo",
+        "countable": true,
+        "operator": "Demo bank",
+        "bank_id": "demo-bank-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "atm-002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6623861,
+          24.730368
+        ]
+      },
+      "properties": {
+        "asset_id": "atm-002",
+        "asset_type": "atm",
+        "name": "ATM 002",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 31,
+        "data_status": "synthetic_demo",
+        "countable": true,
+        "operator": "Demo bank",
+        "bank_id": "demo-bank-02"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "atm-003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.662134,
+          24.7299253
+        ]
+      },
+      "properties": {
+        "asset_id": "atm-003",
+        "asset_type": "atm",
+        "name": "ATM 003",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 13,
+        "data_status": "synthetic_demo",
+        "countable": true,
+        "operator": "Demo bank",
+        "bank_id": "demo-bank-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "atm-004",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6628401,
+          24.7298905
+        ]
+      },
+      "properties": {
+        "asset_id": "atm-004",
+        "asset_type": "atm",
+        "name": "ATM 004",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 50,
+        "data_status": "synthetic_demo",
+        "countable": true,
+        "operator": "Demo bank",
+        "bank_id": "demo-bank-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "atm-005",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6622477,
+          24.7293029
+        ]
+      },
+      "properties": {
+        "asset_id": "atm-005",
+        "asset_type": "atm",
+        "name": "ATM 005",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 32,
+        "data_status": "synthetic_demo",
+        "countable": true,
+        "operator": "Demo bank",
+        "bank_id": "demo-bank-02"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "atm-006",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6628015,
+          24.7292034
+        ]
+      },
+      "properties": {
+        "asset_id": "atm-006",
+        "asset_type": "atm",
+        "name": "ATM 006",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 14,
+        "data_status": "synthetic_demo",
+        "countable": true,
+        "operator": "Demo bank",
+        "bank_id": "demo-bank-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "atm-007",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6623613,
+          24.7286805
+        ]
+      },
+      "properties": {
+        "asset_id": "atm-007",
+        "asset_type": "atm",
+        "name": "ATM 007",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 51,
+        "data_status": "synthetic_demo",
+        "countable": true,
+        "operator": "Demo bank",
+        "bank_id": "demo-bank-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "atm-008",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6632554,
+          24.7287259
+        ]
+      },
+      "properties": {
+        "asset_id": "atm-008",
+        "asset_type": "atm",
+        "name": "ATM 008",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 33,
+        "data_status": "synthetic_demo",
+        "countable": true,
+        "operator": "Demo bank",
+        "bank_id": "demo-bank-02"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "atm-009",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6629675,
+          24.7282679
+        ]
+      },
+      "properties": {
+        "asset_id": "atm-009",
+        "asset_type": "atm",
+        "name": "ATM 009",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 15,
+        "data_status": "synthetic_demo",
+        "countable": true,
+        "operator": "Demo bank",
+        "bank_id": "demo-bank-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "atm-010",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6637094,
+          24.7282484
+        ]
+      },
+      "properties": {
+        "asset_id": "atm-010",
+        "asset_type": "atm",
+        "name": "ATM 010",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 52,
+        "data_status": "synthetic_demo",
+        "countable": true,
+        "operator": "Demo bank",
+        "bank_id": "demo-bank-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "atm-011",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6630812,
+          24.7276455
+        ]
+      },
+      "properties": {
+        "asset_id": "atm-011",
+        "asset_type": "atm",
+        "name": "ATM 011",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 34,
+        "data_status": "synthetic_demo",
+        "countable": true,
+        "operator": "Demo bank",
+        "bank_id": "demo-bank-02"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "atm-012",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6636708,
+          24.7275612
+        ]
+      },
+      "properties": {
+        "asset_id": "atm-012",
+        "asset_type": "atm",
+        "name": "ATM 012",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 16,
+        "data_status": "synthetic_demo",
+        "countable": true,
+        "operator": "Demo bank",
+        "bank_id": "demo-bank-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bank_branch-001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6631949,
+          24.7270232
+        ]
+      },
+      "properties": {
+        "asset_id": "bank_branch-001",
+        "asset_type": "bank_branch",
+        "name": "Bank branch 001",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 53,
+        "data_status": "synthetic_demo",
+        "countable": true,
+        "operator": "Demo bank",
+        "bank_id": "demo-bank-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bank_branch-002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6641248,
+          24.7270838
+        ]
+      },
+      "properties": {
+        "asset_id": "bank_branch-002",
+        "asset_type": "bank_branch",
+        "name": "Bank branch 002",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 35,
+        "data_status": "synthetic_demo",
+        "countable": true,
+        "operator": "Demo bank",
+        "bank_id": "demo-bank-02"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bank_branch-003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6638011,
+          24.7266105
+        ]
+      },
+      "properties": {
+        "asset_id": "bank_branch-003",
+        "asset_type": "bank_branch",
+        "name": "Bank branch 003",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 17,
+        "data_status": "synthetic_demo",
+        "countable": true,
+        "operator": "Demo bank",
+        "bank_id": "demo-bank-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bank_branch-004",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6645787,
+          24.7266063
+        ]
+      },
+      "properties": {
+        "asset_id": "bank_branch-004",
+        "asset_type": "bank_branch",
+        "name": "Bank branch 004",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 54,
+        "data_status": "synthetic_demo",
+        "countable": true,
+        "operator": "Demo bank",
+        "bank_id": "demo-bank-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bank_branch-005",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6639147,
+          24.7259882
+        ]
+      },
+      "properties": {
+        "asset_id": "bank_branch-005",
+        "asset_type": "bank_branch",
+        "name": "Bank branch 005",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 36,
+        "data_status": "synthetic_demo",
+        "countable": true,
+        "operator": "Demo bank",
+        "bank_id": "demo-bank-02"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bank_branch-006",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6645402,
+          24.7259191
+        ]
+      },
+      "properties": {
+        "asset_id": "bank_branch-006",
+        "asset_type": "bank_branch",
+        "name": "Bank branch 006",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 18,
+        "data_status": "synthetic_demo",
+        "countable": true,
+        "operator": "Demo bank",
+        "bank_id": "demo-bank-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bank_branch-007",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6640284,
+          24.7253658
+        ]
+      },
+      "properties": {
+        "asset_id": "bank_branch-007",
+        "asset_type": "bank_branch",
+        "name": "Bank branch 007",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 55,
+        "data_status": "synthetic_demo",
+        "countable": true,
+        "operator": "Demo bank",
+        "bank_id": "demo-bank-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bank_branch-008",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6649941,
+          24.7254416
+        ]
+      },
+      "properties": {
+        "asset_id": "bank_branch-008",
+        "asset_type": "bank_branch",
+        "name": "Bank branch 008",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 37,
+        "data_status": "synthetic_demo",
+        "countable": true,
+        "operator": "Demo bank",
+        "bank_id": "demo-bank-02"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "petrol_station-001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6646346,
+          24.7249531
+        ]
+      },
+      "properties": {
+        "asset_id": "petrol_station-001",
+        "asset_type": "petrol_station",
+        "name": "Petrol station 001",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 19,
+        "data_status": "synthetic_demo",
+        "countable": true,
+        "brand": "Demo brand",
+        "fuel_types": [
+          "petrol",
+          "diesel"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "petrol_station-002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6654481,
+          24.7249642
+        ]
+      },
+      "properties": {
+        "asset_id": "petrol_station-002",
+        "asset_type": "petrol_station",
+        "name": "Petrol station 002",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 56,
+        "data_status": "synthetic_demo",
+        "countable": true,
+        "brand": "Demo brand",
+        "fuel_types": [
+          "petrol",
+          "diesel"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "petrol_station-003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6647483,
+          24.7243308
+        ]
+      },
+      "properties": {
+        "asset_id": "petrol_station-003",
+        "asset_type": "petrol_station",
+        "name": "Petrol station 003",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 38,
+        "data_status": "synthetic_demo",
+        "countable": true,
+        "brand": "Demo brand",
+        "fuel_types": [
+          "petrol",
+          "diesel"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "petrol_station-004",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6654095,
+          24.724277
+        ]
+      },
+      "properties": {
+        "asset_id": "petrol_station-004",
+        "asset_type": "petrol_station",
+        "name": "Petrol station 004",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 20,
+        "data_status": "synthetic_demo",
+        "countable": true,
+        "brand": "Demo brand",
+        "fuel_types": [
+          "petrol",
+          "diesel"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "petrol_station-005",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6648619,
+          24.7237084
+        ]
+      },
+      "properties": {
+        "asset_id": "petrol_station-005",
+        "asset_type": "petrol_station",
+        "name": "Petrol station 005",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 57,
+        "data_status": "synthetic_demo",
+        "countable": true,
+        "brand": "Demo brand",
+        "fuel_types": [
+          "petrol",
+          "diesel"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "petrol_station-006",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6658635,
+          24.7237995
+        ]
+      },
+      "properties": {
+        "asset_id": "petrol_station-006",
+        "asset_type": "petrol_station",
+        "name": "Petrol station 006",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 39,
+        "data_status": "synthetic_demo",
+        "countable": true,
+        "brand": "Demo brand",
+        "fuel_types": [
+          "petrol",
+          "diesel"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "petrol_station-007",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6654681,
+          24.7232958
+        ]
+      },
+      "properties": {
+        "asset_id": "petrol_station-007",
+        "asset_type": "petrol_station",
+        "name": "Petrol station 007",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 21,
+        "data_status": "synthetic_demo",
+        "countable": true,
+        "brand": "Demo brand",
+        "fuel_types": [
+          "petrol",
+          "diesel"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "petrol_station-008",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6663174,
+          24.723322
+        ]
+      },
+      "properties": {
+        "asset_id": "petrol_station-008",
+        "asset_type": "petrol_station",
+        "name": "Petrol station 008",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 58,
+        "data_status": "synthetic_demo",
+        "countable": true,
+        "brand": "Demo brand",
+        "fuel_types": [
+          "petrol",
+          "diesel"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque-001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6655818,
+          24.7226734
+        ]
+      },
+      "properties": {
+        "asset_id": "mosque-001",
+        "asset_type": "mosque",
+        "name": "Mosque 001",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 40,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque-002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6662789,
+          24.7226349
+        ]
+      },
+      "properties": {
+        "asset_id": "mosque-002",
+        "asset_type": "mosque",
+        "name": "Mosque 002",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 22,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque-003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6656955,
+          24.722051
+        ]
+      },
+      "properties": {
+        "asset_id": "mosque-003",
+        "asset_type": "mosque",
+        "name": "Mosque 003",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 59,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque-004",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6667328,
+          24.7221574
+        ]
+      },
+      "properties": {
+        "asset_id": "mosque-004",
+        "asset_type": "mosque",
+        "name": "Mosque 004",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 41,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque-005",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6663017,
+          24.7216384
+        ]
+      },
+      "properties": {
+        "asset_id": "mosque-005",
+        "asset_type": "mosque",
+        "name": "Mosque 005",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 23,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque-006",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6671868,
+          24.7216799
+        ]
+      },
+      "properties": {
+        "asset_id": "mosque-006",
+        "asset_type": "mosque",
+        "name": "Mosque 006",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 60,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque-007",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6664153,
+          24.721016
+        ]
+      },
+      "properties": {
+        "asset_id": "mosque-007",
+        "asset_type": "mosque",
+        "name": "Mosque 007",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 42,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mosque-008",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6671482,
+          24.7209927
+        ]
+      },
+      "properties": {
+        "asset_id": "mosque-008",
+        "asset_type": "mosque",
+        "name": "Mosque 008",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 24,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bus_stop-001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.666529,
+          24.7203937
+        ]
+      },
+      "properties": {
+        "asset_id": "bus_stop-001",
+        "asset_type": "bus_stop",
+        "name": "Bus stop 001",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 61,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bus_stop-002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6676022,
+          24.7205153
+        ]
+      },
+      "properties": {
+        "asset_id": "bus_stop-002",
+        "asset_type": "bus_stop",
+        "name": "Bus stop 002",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 43,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bus_stop-003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6671352,
+          24.719981
+        ]
+      },
+      "properties": {
+        "asset_id": "bus_stop-003",
+        "asset_type": "bus_stop",
+        "name": "Bus stop 003",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 25,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bus_stop-004",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6680561,
+          24.7200378
+        ]
+      },
+      "properties": {
+        "asset_id": "bus_stop-004",
+        "asset_type": "bus_stop",
+        "name": "Bus stop 004",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 62,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bus_stop-005",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6672489,
+          24.7193586
+        ]
+      },
+      "properties": {
+        "asset_id": "bus_stop-005",
+        "asset_type": "bus_stop",
+        "name": "Bus stop 005",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 44,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bus_stop-006",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6680176,
+          24.7193506
+        ]
+      },
+      "properties": {
+        "asset_id": "bus_stop-006",
+        "asset_type": "bus_stop",
+        "name": "Bus stop 006",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 26,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bus_stop-007",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6673626,
+          24.7187363
+        ]
+      },
+      "properties": {
+        "asset_id": "bus_stop-007",
+        "asset_type": "bus_stop",
+        "name": "Bus stop 007",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 63,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bus_stop-008",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6684715,
+          24.7188731
+        ]
+      },
+      "properties": {
+        "asset_id": "bus_stop-008",
+        "asset_type": "bus_stop",
+        "name": "Bus stop 008",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 45,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bus_stop-009",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6679687,
+          24.7183236
+        ]
+      },
+      "properties": {
+        "asset_id": "bus_stop-009",
+        "asset_type": "bus_stop",
+        "name": "Bus stop 009",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 27,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bus_stop-010",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6689254,
+          24.7183957
+        ]
+      },
+      "properties": {
+        "asset_id": "bus_stop-010",
+        "asset_type": "bus_stop",
+        "name": "Bus stop 010",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 64,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bus_stop-011",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6680824,
+          24.7177013
+        ]
+      },
+      "properties": {
+        "asset_id": "bus_stop-011",
+        "asset_type": "bus_stop",
+        "name": "Bus stop 011",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 46,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bus_stop-012",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6688869,
+          24.7177085
+        ]
+      },
+      "properties": {
+        "asset_id": "bus_stop-012",
+        "asset_type": "bus_stop",
+        "name": "Bus stop 012",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 28,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bus_stop-013",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6681961,
+          24.7170789
+        ]
+      },
+      "properties": {
+        "asset_id": "bus_stop-013",
+        "asset_type": "bus_stop",
+        "name": "Bus stop 013",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 65,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bus_stop-014",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6693409,
+          24.717231
+        ]
+      },
+      "properties": {
+        "asset_id": "bus_stop-014",
+        "asset_type": "bus_stop",
+        "name": "Bus stop 014",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 47,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bus_stop-015",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6688023,
+          24.7166663
+        ]
+      },
+      "properties": {
+        "asset_id": "bus_stop-015",
+        "asset_type": "bus_stop",
+        "name": "Bus stop 015",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 29,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bus_stop-016",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6697948,
+          24.7167535
+        ]
+      },
+      "properties": {
+        "asset_id": "bus_stop-016",
+        "asset_type": "bus_stop",
+        "name": "Bus stop 016",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 66,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bus_stop-017",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6689159,
+          24.7160439
+        ]
+      },
+      "properties": {
+        "asset_id": "bus_stop-017",
+        "asset_type": "bus_stop",
+        "name": "Bus stop 017",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 48,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bus_stop-018",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6697563,
+          24.7160664
+        ]
+      },
+      "properties": {
+        "asset_id": "bus_stop-018",
+        "asset_type": "bus_stop",
+        "name": "Bus stop 018",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 30,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bus_stop-019",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6695221,
+          24.7156312
+        ]
+      },
+      "properties": {
+        "asset_id": "bus_stop-019",
+        "asset_type": "bus_stop",
+        "name": "Bus stop 019",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 12,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bus_stop-020",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6702102,
+          24.7155889
+        ]
+      },
+      "properties": {
+        "asset_id": "bus_stop-020",
+        "asset_type": "bus_stop",
+        "name": "Bus stop 020",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 49,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bus_stop-021",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6696358,
+          24.7150089
+        ]
+      },
+      "properties": {
+        "asset_id": "bus_stop-021",
+        "asset_type": "bus_stop",
+        "name": "Bus stop 021",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 31,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bus_stop-022",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6701717,
+          24.7149017
+        ]
+      },
+      "properties": {
+        "asset_id": "bus_stop-022",
+        "asset_type": "bus_stop",
+        "name": "Bus stop 022",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 13,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bus_stop-023",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6697495,
+          24.7143865
+        ]
+      },
+      "properties": {
+        "asset_id": "bus_stop-023",
+        "asset_type": "bus_stop",
+        "name": "Bus stop 023",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 50,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bus_stop-024",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6706256,
+          24.7144242
+        ]
+      },
+      "properties": {
+        "asset_id": "bus_stop-024",
+        "asset_type": "bus_stop",
+        "name": "Bus stop 024",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 32,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "traffic_signal-001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6703556,
+          24.7139739
+        ]
+      },
+      "properties": {
+        "asset_id": "traffic_signal-001",
+        "asset_type": "traffic_signal",
+        "name": "Traffic signal 001",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 14,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "traffic_signal-002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6710795,
+          24.7139468
+        ]
+      },
+      "properties": {
+        "asset_id": "traffic_signal-002",
+        "asset_type": "traffic_signal",
+        "name": "Traffic signal 002",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 51,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "traffic_signal-003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6704693,
+          24.7133515
+        ]
+      },
+      "properties": {
+        "asset_id": "traffic_signal-003",
+        "asset_type": "traffic_signal",
+        "name": "Traffic signal 003",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 33,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "traffic_signal-004",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.671041,
+          24.7132596
+        ]
+      },
+      "properties": {
+        "asset_id": "traffic_signal-004",
+        "asset_type": "traffic_signal",
+        "name": "Traffic signal 004",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 15,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "traffic_signal-005",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.670583,
+          24.7127291
+        ]
+      },
+      "properties": {
+        "asset_id": "traffic_signal-005",
+        "asset_type": "traffic_signal",
+        "name": "Traffic signal 005",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 52,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "traffic_signal-006",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6714949,
+          24.7127821
+        ]
+      },
+      "properties": {
+        "asset_id": "traffic_signal-006",
+        "asset_type": "traffic_signal",
+        "name": "Traffic signal 006",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 34,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "traffic_signal-007",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6711892,
+          24.7123165
+        ]
+      },
+      "properties": {
+        "asset_id": "traffic_signal-007",
+        "asset_type": "traffic_signal",
+        "name": "Traffic signal 007",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 16,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "traffic_signal-008",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6719489,
+          24.7123046
+        ]
+      },
+      "properties": {
+        "asset_id": "traffic_signal-008",
+        "asset_type": "traffic_signal",
+        "name": "Traffic signal 008",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 53,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "traffic_signal-009",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6713029,
+          24.7116941
+        ]
+      },
+      "properties": {
+        "asset_id": "traffic_signal-009",
+        "asset_type": "traffic_signal",
+        "name": "Traffic signal 009",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 35,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "traffic_signal-010",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6719104,
+          24.7116174
+        ]
+      },
+      "properties": {
+        "asset_id": "traffic_signal-010",
+        "asset_type": "traffic_signal",
+        "name": "Traffic signal 010",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 17,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "traffic_signal-011",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6714166,
+          24.7110718
+        ]
+      },
+      "properties": {
+        "asset_id": "traffic_signal-011",
+        "asset_type": "traffic_signal",
+        "name": "Traffic signal 011",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 54,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "traffic_signal-012",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6723643,
+          24.71114
+        ]
+      },
+      "properties": {
+        "asset_id": "traffic_signal-012",
+        "asset_type": "traffic_signal",
+        "name": "Traffic signal 012",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 36,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "traffic_signal-013",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6720227,
+          24.7106591
+        ]
+      },
+      "properties": {
+        "asset_id": "traffic_signal-013",
+        "asset_type": "traffic_signal",
+        "name": "Traffic signal 013",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 18,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "traffic_signal-014",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6728182,
+          24.7106625
+        ]
+      },
+      "properties": {
+        "asset_id": "traffic_signal-014",
+        "asset_type": "traffic_signal",
+        "name": "Traffic signal 014",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 55,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "traffic_signal-015",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6721364,
+          24.7100367
+        ]
+      },
+      "properties": {
+        "asset_id": "traffic_signal-015",
+        "asset_type": "traffic_signal",
+        "name": "Traffic signal 015",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 37,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "traffic_signal-016",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6727797,
+          24.7099753
+        ]
+      },
+      "properties": {
+        "asset_id": "traffic_signal-016",
+        "asset_type": "traffic_signal",
+        "name": "Traffic signal 016",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 19,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "traffic_signal-017",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6722501,
+          24.7094144
+        ]
+      },
+      "properties": {
+        "asset_id": "traffic_signal-017",
+        "asset_type": "traffic_signal",
+        "name": "Traffic signal 017",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 56,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "traffic_signal-018",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6732336,
+          24.7094978
+        ]
+      },
+      "properties": {
+        "asset_id": "traffic_signal-018",
+        "asset_type": "traffic_signal",
+        "name": "Traffic signal 018",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 38,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "traffic_signal-019",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6728562,
+          24.7090017
+        ]
+      },
+      "properties": {
+        "asset_id": "traffic_signal-019",
+        "asset_type": "traffic_signal",
+        "name": "Traffic signal 019",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 20,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "traffic_signal-020",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6736876,
+          24.7090204
+        ]
+      },
+      "properties": {
+        "asset_id": "traffic_signal-020",
+        "asset_type": "traffic_signal",
+        "name": "Traffic signal 020",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 57,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "traffic_signal-021",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6729699,
+          24.7083794
+        ]
+      },
+      "properties": {
+        "asset_id": "traffic_signal-021",
+        "asset_type": "traffic_signal",
+        "name": "Traffic signal 021",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 39,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "traffic_signal-022",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.673649,
+          24.7083332
+        ]
+      },
+      "properties": {
+        "asset_id": "traffic_signal-022",
+        "asset_type": "traffic_signal",
+        "name": "Traffic signal 022",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 21,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "traffic_signal-023",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6730836,
+          24.707757
+        ]
+      },
+      "properties": {
+        "asset_id": "traffic_signal-023",
+        "asset_type": "traffic_signal",
+        "name": "Traffic signal 023",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 58,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "traffic_signal-024",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.674103,
+          24.7078557
+        ]
+      },
+      "properties": {
+        "asset_id": "traffic_signal-024",
+        "asset_type": "traffic_signal",
+        "name": "Traffic signal 024",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 40,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cctv_camera-001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6736898,
+          24.7073444
+        ]
+      },
+      "properties": {
+        "asset_id": "cctv_camera-001",
+        "asset_type": "cctv_camera",
+        "name": "CCTV camera 001",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 22,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cctv_camera-002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6745569,
+          24.7073783
+        ]
+      },
+      "properties": {
+        "asset_id": "cctv_camera-002",
+        "asset_type": "cctv_camera",
+        "name": "CCTV camera 002",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 59,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cctv_camera-003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6738035,
+          24.706722
+        ]
+      },
+      "properties": {
+        "asset_id": "cctv_camera-003",
+        "asset_type": "cctv_camera",
+        "name": "CCTV camera 003",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 41,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cctv_camera-004",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6745184,
+          24.7066911
+        ]
+      },
+      "properties": {
+        "asset_id": "cctv_camera-004",
+        "asset_type": "cctv_camera",
+        "name": "CCTV camera 004",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 23,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cctv_camera-005",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6739172,
+          24.7060996
+        ]
+      },
+      "properties": {
+        "asset_id": "cctv_camera-005",
+        "asset_type": "cctv_camera",
+        "name": "CCTV camera 005",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 60,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cctv_camera-006",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6749723,
+          24.7062136
+        ]
+      },
+      "properties": {
+        "asset_id": "cctv_camera-006",
+        "asset_type": "cctv_camera",
+        "name": "CCTV camera 006",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 42,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cctv_camera-007",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6745233,
+          24.705687
+        ]
+      },
+      "properties": {
+        "asset_id": "cctv_camera-007",
+        "asset_type": "cctv_camera",
+        "name": "CCTV camera 007",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 24,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cctv_camera-008",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6754262,
+          24.7057361
+        ]
+      },
+      "properties": {
+        "asset_id": "cctv_camera-008",
+        "asset_type": "cctv_camera",
+        "name": "CCTV camera 008",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 61,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cctv_camera-009",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.674637,
+          24.7050646
+        ]
+      },
+      "properties": {
+        "asset_id": "cctv_camera-009",
+        "asset_type": "cctv_camera",
+        "name": "CCTV camera 009",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 43,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cctv_camera-010",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6753877,
+          24.7050489
+        ]
+      },
+      "properties": {
+        "asset_id": "cctv_camera-010",
+        "asset_type": "cctv_camera",
+        "name": "CCTV camera 010",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 25,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cctv_camera-011",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6747507,
+          24.7044422
+        ]
+      },
+      "properties": {
+        "asset_id": "cctv_camera-011",
+        "asset_type": "cctv_camera",
+        "name": "CCTV camera 011",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 62,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cctv_camera-012",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6758417,
+          24.7045715
+        ]
+      },
+      "properties": {
+        "asset_id": "cctv_camera-012",
+        "asset_type": "cctv_camera",
+        "name": "CCTV camera 012",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 44,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cctv_camera-013",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6753568,
+          24.7040296
+        ]
+      },
+      "properties": {
+        "asset_id": "cctv_camera-013",
+        "asset_type": "cctv_camera",
+        "name": "CCTV camera 013",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 26,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cctv_camera-014",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6762956,
+          24.704094
+        ]
+      },
+      "properties": {
+        "asset_id": "cctv_camera-014",
+        "asset_type": "cctv_camera",
+        "name": "CCTV camera 014",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 63,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cctv_camera-015",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6754706,
+          24.7034072
+        ]
+      },
+      "properties": {
+        "asset_id": "cctv_camera-015",
+        "asset_type": "cctv_camera",
+        "name": "CCTV camera 015",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 45,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cctv_camera-016",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6762571,
+          24.7034068
+        ]
+      },
+      "properties": {
+        "asset_id": "cctv_camera-016",
+        "asset_type": "cctv_camera",
+        "name": "CCTV camera 016",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 27,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cctv_camera-017",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6755843,
+          24.7027849
+        ]
+      },
+      "properties": {
+        "asset_id": "cctv_camera-017",
+        "asset_type": "cctv_camera",
+        "name": "CCTV camera 017",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 64,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cctv_camera-018",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.676711,
+          24.7029293
+        ]
+      },
+      "properties": {
+        "asset_id": "cctv_camera-018",
+        "asset_type": "cctv_camera",
+        "name": "CCTV camera 018",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 46,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cctv_camera-019",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6761904,
+          24.7023722
+        ]
+      },
+      "properties": {
+        "asset_id": "cctv_camera-019",
+        "asset_type": "cctv_camera",
+        "name": "CCTV camera 019",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 28,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cctv_camera-020",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6771649,
+          24.7024519
+        ]
+      },
+      "properties": {
+        "asset_id": "cctv_camera-020",
+        "asset_type": "cctv_camera",
+        "name": "CCTV camera 020",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 65,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "parking_meter-001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6763041,
+          24.7017498
+        ]
+      },
+      "properties": {
+        "asset_id": "parking_meter-001",
+        "asset_type": "parking_meter",
+        "name": "Parking meter 001",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 47,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "parking_meter-002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6771264,
+          24.7017647
+        ]
+      },
+      "properties": {
+        "asset_id": "parking_meter-002",
+        "asset_type": "parking_meter",
+        "name": "Parking meter 002",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 29,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "parking_meter-003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6764178,
+          24.7011275
+        ]
+      },
+      "properties": {
+        "asset_id": "parking_meter-003",
+        "asset_type": "parking_meter",
+        "name": "Parking meter 003",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 66,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "parking_meter-004",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6775803,
+          24.7012872
+        ]
+      },
+      "properties": {
+        "asset_id": "parking_meter-004",
+        "asset_type": "parking_meter",
+        "name": "Parking meter 004",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 48,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "parking_meter-005",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6770239,
+          24.7007148
+        ]
+      },
+      "properties": {
+        "asset_id": "parking_meter-005",
+        "asset_type": "parking_meter",
+        "name": "Parking meter 005",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 30,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "parking_meter-006",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6775418,
+          24.7006
+        ]
+      },
+      "properties": {
+        "asset_id": "parking_meter-006",
+        "asset_type": "parking_meter",
+        "name": "Parking meter 006",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 12,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "parking_meter-007",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6771376,
+          24.7000925
+        ]
+      },
+      "properties": {
+        "asset_id": "parking_meter-007",
+        "asset_type": "parking_meter",
+        "name": "Parking meter 007",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 49,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "parking_meter-008",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6779958,
+          24.7001226
+        ]
+      },
+      "properties": {
+        "asset_id": "parking_meter-008",
+        "asset_type": "parking_meter",
+        "name": "Parking meter 008",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 31,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "parking_meter-009",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6777437,
+          24.6996798
+        ]
+      },
+      "properties": {
+        "asset_id": "parking_meter-009",
+        "asset_type": "parking_meter",
+        "name": "Parking meter 009",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 13,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "parking_meter-010",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6784497,
+          24.6996451
+        ]
+      },
+      "properties": {
+        "asset_id": "parking_meter-010",
+        "asset_type": "parking_meter",
+        "name": "Parking meter 010",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 50,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "parking_meter-011",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6778575,
+          24.6990575
+        ]
+      },
+      "properties": {
+        "asset_id": "parking_meter-011",
+        "asset_type": "parking_meter",
+        "name": "Parking meter 011",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 32,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "parking_meter-012",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6784112,
+          24.6989579
+        ]
+      },
+      "properties": {
+        "asset_id": "parking_meter-012",
+        "asset_type": "parking_meter",
+        "name": "Parking meter 012",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 14,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "parking_meter-013",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6779712,
+          24.6984351
+        ]
+      },
+      "properties": {
+        "asset_id": "parking_meter-013",
+        "asset_type": "parking_meter",
+        "name": "Parking meter 013",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 51,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "parking_meter-014",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6788651,
+          24.6984804
+        ]
+      },
+      "properties": {
+        "asset_id": "parking_meter-014",
+        "asset_type": "parking_meter",
+        "name": "Parking meter 014",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 33,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "parking_meter-015",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6785773,
+          24.6980224
+        ]
+      },
+      "properties": {
+        "asset_id": "parking_meter-015",
+        "asset_type": "parking_meter",
+        "name": "Parking meter 015",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 15,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "parking_meter-016",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.679319,
+          24.698003
+        ]
+      },
+      "properties": {
+        "asset_id": "parking_meter-016",
+        "asset_type": "parking_meter",
+        "name": "Parking meter 016",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 52,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "public_bench-001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.678691,
+          24.6974001
+        ]
+      },
+      "properties": {
+        "asset_id": "public_bench-001",
+        "asset_type": "public_bench",
+        "name": "Public bench 001",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 34,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "public_bench-002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6792805,
+          24.6973158
+        ]
+      },
+      "properties": {
+        "asset_id": "public_bench-002",
+        "asset_type": "public_bench",
+        "name": "Public bench 002",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 16,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "public_bench-003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6788047,
+          24.6967777
+        ]
+      },
+      "properties": {
+        "asset_id": "public_bench-003",
+        "asset_type": "public_bench",
+        "name": "Public bench 003",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 53,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "public_bench-004",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6797344,
+          24.6968383
+        ]
+      },
+      "properties": {
+        "asset_id": "public_bench-004",
+        "asset_type": "public_bench",
+        "name": "Public bench 004",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 35,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "public_bench-005",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6794108,
+          24.6963651
+        ]
+      },
+      "properties": {
+        "asset_id": "public_bench-005",
+        "asset_type": "public_bench",
+        "name": "Public bench 005",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 17,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "public_bench-006",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6801884,
+          24.6963608
+        ]
+      },
+      "properties": {
+        "asset_id": "public_bench-006",
+        "asset_type": "public_bench",
+        "name": "Public bench 006",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 54,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "public_bench-007",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6795245,
+          24.6957427
+        ]
+      },
+      "properties": {
+        "asset_id": "public_bench-007",
+        "asset_type": "public_bench",
+        "name": "Public bench 007",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 36,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "public_bench-008",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6801499,
+          24.6956737
+        ]
+      },
+      "properties": {
+        "asset_id": "public_bench-008",
+        "asset_type": "public_bench",
+        "name": "Public bench 008",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 18,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "public_bench-009",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6796383,
+          24.6951203
+        ]
+      },
+      "properties": {
+        "asset_id": "public_bench-009",
+        "asset_type": "public_bench",
+        "name": "Public bench 009",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 55,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "public_bench-010",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6806038,
+          24.6951962
+        ]
+      },
+      "properties": {
+        "asset_id": "public_bench-010",
+        "asset_type": "public_bench",
+        "name": "Public bench 010",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 37,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "public_bench-011",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6802444,
+          24.6947077
+        ]
+      },
+      "properties": {
+        "asset_id": "public_bench-011",
+        "asset_type": "public_bench",
+        "name": "Public bench 011",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 19,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "public_bench-012",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6810577,
+          24.6947187
+        ]
+      },
+      "properties": {
+        "asset_id": "public_bench-012",
+        "asset_type": "public_bench",
+        "name": "Public bench 012",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 56,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "public_bench-013",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6803581,
+          24.6940853
+        ]
+      },
+      "properties": {
+        "asset_id": "public_bench-013",
+        "asset_type": "public_bench",
+        "name": "Public bench 013",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 38,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "public_bench-014",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6810192,
+          24.6940315
+        ]
+      },
+      "properties": {
+        "asset_id": "public_bench-014",
+        "asset_type": "public_bench",
+        "name": "Public bench 014",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 20,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "public_bench-015",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6804718,
+          24.693463
+        ]
+      },
+      "properties": {
+        "asset_id": "public_bench-015",
+        "asset_type": "public_bench",
+        "name": "Public bench 015",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 57,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "public_bench-016",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6814731,
+          24.6935541
+        ]
+      },
+      "properties": {
+        "asset_id": "public_bench-016",
+        "asset_type": "public_bench",
+        "name": "Public bench 016",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 39,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "telecom_cabinet-001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6810779,
+          24.6930503
+        ]
+      },
+      "properties": {
+        "asset_id": "telecom_cabinet-001",
+        "asset_type": "telecom_cabinet",
+        "name": "Telecom cabinet 001",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 21,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "telecom_cabinet-002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.681927,
+          24.6930766
+        ]
+      },
+      "properties": {
+        "asset_id": "telecom_cabinet-002",
+        "asset_type": "telecom_cabinet",
+        "name": "Telecom cabinet 002",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 58,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "telecom_cabinet-003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6811916,
+          24.6924279
+        ]
+      },
+      "properties": {
+        "asset_id": "telecom_cabinet-003",
+        "asset_type": "telecom_cabinet",
+        "name": "Telecom cabinet 003",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 40,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "telecom_cabinet-004",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6818886,
+          24.6923894
+        ]
+      },
+      "properties": {
+        "asset_id": "telecom_cabinet-004",
+        "asset_type": "telecom_cabinet",
+        "name": "Telecom cabinet 004",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 22,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "telecom_cabinet-005",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6813053,
+          24.6918056
+        ]
+      },
+      "properties": {
+        "asset_id": "telecom_cabinet-005",
+        "asset_type": "telecom_cabinet",
+        "name": "Telecom cabinet 005",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 59,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "telecom_cabinet-006",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6823425,
+          24.6919119
+        ]
+      },
+      "properties": {
+        "asset_id": "telecom_cabinet-006",
+        "asset_type": "telecom_cabinet",
+        "name": "Telecom cabinet 006",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 41,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "telecom_cabinet-007",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6819114,
+          24.6913929
+        ]
+      },
+      "properties": {
+        "asset_id": "telecom_cabinet-007",
+        "asset_type": "telecom_cabinet",
+        "name": "Telecom cabinet 007",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 23,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "telecom_cabinet-008",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6827964,
+          24.6914345
+        ]
+      },
+      "properties": {
+        "asset_id": "telecom_cabinet-008",
+        "asset_type": "telecom_cabinet",
+        "name": "Telecom cabinet 008",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 60,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "telecom_cabinet-009",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6820252,
+          24.6907706
+        ]
+      },
+      "properties": {
+        "asset_id": "telecom_cabinet-009",
+        "asset_type": "telecom_cabinet",
+        "name": "Telecom cabinet 009",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 42,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "telecom_cabinet-010",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6827579,
+          24.6907473
+        ]
+      },
+      "properties": {
+        "asset_id": "telecom_cabinet-010",
+        "asset_type": "telecom_cabinet",
+        "name": "Telecom cabinet 010",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 24,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "telecom_cabinet-011",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6821389,
+          24.6901482
+        ]
+      },
+      "properties": {
+        "asset_id": "telecom_cabinet-011",
+        "asset_type": "telecom_cabinet",
+        "name": "Telecom cabinet 011",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 61,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "telecom_cabinet-012",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6832118,
+          24.6902698
+        ]
+      },
+      "properties": {
+        "asset_id": "telecom_cabinet-012",
+        "asset_type": "telecom_cabinet",
+        "name": "Telecom cabinet 012",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 43,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "electrical_transformer-001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.682745,
+          24.6897356
+        ]
+      },
+      "properties": {
+        "asset_id": "electrical_transformer-001",
+        "asset_type": "electrical_transformer",
+        "name": "Electrical transformer 001",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 25,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "electrical_transformer-002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6836657,
+          24.6897923
+        ]
+      },
+      "properties": {
+        "asset_id": "electrical_transformer-002",
+        "asset_type": "electrical_transformer",
+        "name": "Electrical transformer 002",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 62,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "electrical_transformer-003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6828587,
+          24.6891132
+        ]
+      },
+      "properties": {
+        "asset_id": "electrical_transformer-003",
+        "asset_type": "electrical_transformer",
+        "name": "Electrical transformer 003",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 44,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "electrical_transformer-004",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6836272,
+          24.6891052
+        ]
+      },
+      "properties": {
+        "asset_id": "electrical_transformer-004",
+        "asset_type": "electrical_transformer",
+        "name": "Electrical transformer 004",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 26,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "electrical_transformer-005",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6829724,
+          24.6884908
+        ]
+      },
+      "properties": {
+        "asset_id": "electrical_transformer-005",
+        "asset_type": "electrical_transformer",
+        "name": "Electrical transformer 005",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 63,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "electrical_transformer-006",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6840811,
+          24.6886277
+        ]
+      },
+      "properties": {
+        "asset_id": "electrical_transformer-006",
+        "asset_type": "electrical_transformer",
+        "name": "Electrical transformer 006",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 45,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "electrical_transformer-007",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6835785,
+          24.6880782
+        ]
+      },
+      "properties": {
+        "asset_id": "electrical_transformer-007",
+        "asset_type": "electrical_transformer",
+        "name": "Electrical transformer 007",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 27,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "electrical_transformer-008",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.684535,
+          24.6881502
+        ]
+      },
+      "properties": {
+        "asset_id": "electrical_transformer-008",
+        "asset_type": "electrical_transformer",
+        "name": "Electrical transformer 008",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 64,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "electrical_transformer-009",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6836922,
+          24.6874558
+        ]
+      },
+      "properties": {
+        "asset_id": "electrical_transformer-009",
+        "asset_type": "electrical_transformer",
+        "name": "Electrical transformer 009",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 46,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "electrical_transformer-010",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6844966,
+          24.687463
+        ]
+      },
+      "properties": {
+        "asset_id": "electrical_transformer-010",
+        "asset_type": "electrical_transformer",
+        "name": "Electrical transformer 010",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 28,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "electrical_transformer-011",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.683806,
+          24.6868334
+        ]
+      },
+      "properties": {
+        "asset_id": "electrical_transformer-011",
+        "asset_type": "electrical_transformer",
+        "name": "Electrical transformer 011",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 65,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "electrical_transformer-012",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6849505,
+          24.6869856
+        ]
+      },
+      "properties": {
+        "asset_id": "electrical_transformer-012",
+        "asset_type": "electrical_transformer",
+        "name": "Electrical transformer 012",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 47,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "water_valve-001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6844121,
+          24.6864208
+        ]
+      },
+      "properties": {
+        "asset_id": "water_valve-001",
+        "asset_type": "water_valve",
+        "name": "Water valve 001",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 29,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "water_valve-002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6854044,
+          24.6865081
+        ]
+      },
+      "properties": {
+        "asset_id": "water_valve-002",
+        "asset_type": "water_valve",
+        "name": "Water valve 002",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 66,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "water_valve-003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6845258,
+          24.6857984
+        ]
+      },
+      "properties": {
+        "asset_id": "water_valve-003",
+        "asset_type": "water_valve",
+        "name": "Water valve 003",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 48,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "water_valve-004",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6853659,
+          24.6858209
+        ]
+      },
+      "properties": {
+        "asset_id": "water_valve-004",
+        "asset_type": "water_valve",
+        "name": "Water valve 004",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 30,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "water_valve-005",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6851319,
+          24.6853858
+        ]
+      },
+      "properties": {
+        "asset_id": "water_valve-005",
+        "asset_type": "water_valve",
+        "name": "Water valve 005",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 12,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "water_valve-006",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6858198,
+          24.6853434
+        ]
+      },
+      "properties": {
+        "asset_id": "water_valve-006",
+        "asset_type": "water_valve",
+        "name": "Water valve 006",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 49,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "water_valve-007",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6852456,
+          24.6847634
+        ]
+      },
+      "properties": {
+        "asset_id": "water_valve-007",
+        "asset_type": "water_valve",
+        "name": "Water valve 007",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 31,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "water_valve-008",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6857814,
+          24.6846562
+        ]
+      },
+      "properties": {
+        "asset_id": "water_valve-008",
+        "asset_type": "water_valve",
+        "name": "Water valve 008",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 13,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "water_valve-009",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6853593,
+          24.6841411
+        ]
+      },
+      "properties": {
+        "asset_id": "water_valve-009",
+        "asset_type": "water_valve",
+        "name": "Water valve 009",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 50,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "water_valve-010",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6862353,
+          24.6841788
+        ]
+      },
+      "properties": {
+        "asset_id": "water_valve-010",
+        "asset_type": "water_valve",
+        "name": "Water valve 010",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 32,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "water_valve-011",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6859654,
+          24.6837284
+        ]
+      },
+      "properties": {
+        "asset_id": "water_valve-011",
+        "asset_type": "water_valve",
+        "name": "Water valve 011",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 14,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "water_valve-012",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6866892,
+          24.6837013
+        ]
+      },
+      "properties": {
+        "asset_id": "water_valve-012",
+        "asset_type": "water_valve",
+        "name": "Water valve 012",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 51,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "manhole-001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6860791,
+          24.683106
+        ]
+      },
+      "properties": {
+        "asset_id": "manhole-001",
+        "asset_type": "manhole",
+        "name": "Manhole 001",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 33,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "manhole-002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6866507,
+          24.6830141
+        ]
+      },
+      "properties": {
+        "asset_id": "manhole-002",
+        "asset_type": "manhole",
+        "name": "Manhole 002",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 15,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "manhole-003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6861929,
+          24.6824837
+        ]
+      },
+      "properties": {
+        "asset_id": "manhole-003",
+        "asset_type": "manhole",
+        "name": "Manhole 003",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 52,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "manhole-004",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6871046,
+          24.6825366
+        ]
+      },
+      "properties": {
+        "asset_id": "manhole-004",
+        "asset_type": "manhole",
+        "name": "Manhole 004",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 34,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "manhole-005",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6867989,
+          24.682071
+        ]
+      },
+      "properties": {
+        "asset_id": "manhole-005",
+        "asset_type": "manhole",
+        "name": "Manhole 005",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 16,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "manhole-006",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6875585,
+          24.6820592
+        ]
+      },
+      "properties": {
+        "asset_id": "manhole-006",
+        "asset_type": "manhole",
+        "name": "Manhole 006",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 53,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "manhole-007",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6869127,
+          24.6814487
+        ]
+      },
+      "properties": {
+        "asset_id": "manhole-007",
+        "asset_type": "manhole",
+        "name": "Manhole 007",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 35,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "manhole-008",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6875201,
+          24.681372
+        ]
+      },
+      "properties": {
+        "asset_id": "manhole-008",
+        "asset_type": "manhole",
+        "name": "Manhole 008",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 17,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "manhole-009",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6870264,
+          24.6808263
+        ]
+      },
+      "properties": {
+        "asset_id": "manhole-009",
+        "asset_type": "manhole",
+        "name": "Manhole 009",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 54,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "manhole-010",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6879739,
+          24.6808945
+        ]
+      },
+      "properties": {
+        "asset_id": "manhole-010",
+        "asset_type": "manhole",
+        "name": "Manhole 010",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 36,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "manhole-011",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6876325,
+          24.6804137
+        ]
+      },
+      "properties": {
+        "asset_id": "manhole-011",
+        "asset_type": "manhole",
+        "name": "Manhole 011",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 18,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "manhole-012",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6884278,
+          24.6804171
+        ]
+      },
+      "properties": {
+        "asset_id": "manhole-012",
+        "asset_type": "manhole",
+        "name": "Manhole 012",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 55,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "public_toilet-001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6877462,
+          24.6797913
+        ]
+      },
+      "properties": {
+        "asset_id": "public_toilet-001",
+        "asset_type": "public_toilet",
+        "name": "Public toilet 001",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 37,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "public_toilet-002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6883894,
+          24.6797299
+        ]
+      },
+      "properties": {
+        "asset_id": "public_toilet-002",
+        "asset_type": "public_toilet",
+        "name": "Public toilet 002",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 19,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "public_toilet-003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.68786,
+          24.6791689
+        ]
+      },
+      "properties": {
+        "asset_id": "public_toilet-003",
+        "asset_type": "public_toilet",
+        "name": "Public toilet 003",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 56,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "public_toilet-004",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6888433,
+          24.6792524
+        ]
+      },
+      "properties": {
+        "asset_id": "public_toilet-004",
+        "asset_type": "public_toilet",
+        "name": "Public toilet 004",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 38,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "public_toilet-005",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.688466,
+          24.6787563
+        ]
+      },
+      "properties": {
+        "asset_id": "public_toilet-005",
+        "asset_type": "public_toilet",
+        "name": "Public toilet 005",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "right",
+        "distance_from_road_m": 20,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "public_toilet-006",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6892972,
+          24.6787749
+        ]
+      },
+      "properties": {
+        "asset_id": "public_toilet-006",
+        "asset_type": "public_toilet",
+        "name": "Public toilet 006",
+        "road_id": "uploaded-road-001",
+        "side_of_road": "left",
+        "distance_from_road_m": 57,
+        "data_status": "synthetic_demo",
+        "countable": true
+      }
+    }
+  ]
+}

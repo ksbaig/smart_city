@@ -1,0 +1,146 @@
+<div class="login-overlay" role="dialog" aria-modal="true" aria-labelledby="login-system-title">
+  <header class="login-topbar">
+    <div class="login-topbar-brand">
+      <span class="login-topbar-icon" aria-hidden="true">
+        <i class="bi bi-buildings-fill"></i>
+      </span>
+      <h1 id="login-system-title">Smart City System</h1>
+    </div>
+    <div class="login-topbar-user" aria-label="Current role">
+      <i class="bi bi-person" aria-hidden="true"></i>
+      <span>User - Operations</span>
+      <i class="bi bi-chevron-down" aria-hidden="true"></i>
+    </div>
+  </header>
+
+  <aside class="login-rail" aria-hidden="true">
+    <span class="login-rail-btn is-active"><i class="bi bi-house-door-fill"></i></span>
+    <span class="login-rail-btn"><i class="bi bi-geo-alt"></i></span>
+    <span class="login-rail-btn"><i class="bi bi-bank"></i></span>
+    <span class="login-rail-btn"><i class="bi bi-bar-chart-line"></i></span>
+    <span class="login-rail-btn"><i class="bi bi-sliders"></i></span>
+    <span class="login-rail-btn"><i class="bi bi-map"></i></span>
+    <span class="login-rail-btn"><i class="bi bi-file-earmark-text"></i></span>
+    <span class="login-rail-btn login-rail-btn-bottom"><i class="bi bi-gear"></i></span>
+  </aside>
+
+  <div class="login-shell">
+    <section class="login-card" aria-label="Sign in">
+      <header class="login-brand">
+        <span class="login-logo-mark" aria-hidden="true">
+          <i class="bi bi-globe-central-south-asia"></i>
+        </span>
+        <div class="brand-copy">
+          <h2>SMART CITY NETWORK SYSTEM</h2>
+          <p>Mobility, Utilities &amp; Public Service Intelligence</p>
+        </div>
+      </header>
+
+      <form class="login-form" (ngSubmit)="submit()">
+        <label class="login-field">
+          <span class="field-icon" aria-hidden="true">
+            <i class="bi bi-person"></i>
+          </span>
+          <span class="visually-hidden">Domain</span>
+          <select
+            [(ngModel)]="selectedUser"
+            name="selectedUser"
+            aria-label="Domain"
+          >
+            <option *ngFor="let user of users" [value]="user">{{ user }}</option>
+          </select>
+        </label>
+
+        <label class="login-field">
+          <span class="field-icon" aria-hidden="true">
+            <i class="bi bi-lock"></i>
+          </span>
+          <span class="visually-hidden">Password</span>
+          <input
+            [type]="passwordVisible ? 'text' : 'password'"
+            [(ngModel)]="password"
+            name="password"
+            placeholder="Password"
+            autocomplete="current-password"
+          />
+          <button
+            type="button"
+            class="password-toggle"
+            (click)="togglePasswordVisibility()"
+            [attr.aria-label]="passwordVisible ? 'Hide password' : 'Show password'"
+          >
+            <i class="bi" [ngClass]="passwordVisible ? 'bi-eye-slash' : 'bi-eye'"></i>
+          </button>
+        </label>
+
+        <div class="login-options">
+          <label class="remember-option">
+            <input type="checkbox" [(ngModel)]="rememberMe" name="rememberMe" />
+            <span>Remember me</span>
+          </label>
+          <button type="button" class="forgot-link">Forgot Password?</button>
+        </div>
+
+        <p class="login-error" *ngIf="errorMessage" role="alert">{{ errorMessage }}</p>
+        <p class="login-sso-message" *ngIf="ssoMessage">{{ ssoMessage }}</p>
+
+        <button class="sign-in-btn" type="submit">
+          <i class="bi bi-lock-fill" aria-hidden="true"></i>
+          <span>Sign in</span>
+        </button>
+
+        <div class="sso-divider" aria-hidden="true">
+          <span></span>
+          <small>or</small>
+          <span></span>
+        </div>
+
+        <button type="button" class="sso-btn" (click)="continueWithSso()">
+          <i class="bi bi-shield-lock" aria-hidden="true"></i>
+          <span>Active Directory SSO</span>
+        </button>
+      </form>
+    </section>
+
+    <section class="welcome-panel" aria-label="Smart City capabilities">
+      <div class="ops-stats" aria-label="City operations metrics">
+        <article class="ops-stat-card" *ngFor="let stat of dashboardStats">
+          <div class="ops-stat-icon">
+            <i class="bi" [ngClass]="stat.icon" aria-hidden="true"></i>
+          </div>
+          <div class="ops-stat-copy">
+            <span>{{ stat.label }}</span>
+            <strong>{{ stat.value }}</strong>
+          </div>
+        </article>
+      </div>
+
+      <header class="ops-header">
+        <h2>SMART CITY OPERATIONS CENTER</h2>
+        <p>Unified Geospatial Intelligence for Riyadh</p>
+      </header>
+
+      <div class="ops-modules" aria-label="Operations modules">
+        <article class="ops-module-card" *ngFor="let feature of features">
+          <i class="bi" [ngClass]="feature.icon" aria-hidden="true"></i>
+          <span>{{ feature.title }}</span>
+        </article>
+      </div>
+
+      <div class="ops-assistant-bar" aria-label="AI smart assistant">
+        <div class="assistant-title">
+          <i class="bi bi-mic-fill" aria-hidden="true"></i>
+          <span>AI Smart Assistant</span>
+        </div>
+        <div class="assistant-search">
+          <span>Ask your city anything...</span>
+          <i class="bi bi-send-fill" aria-hidden="true"></i>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <p class="demo-data-note">
+    ATM and branch markers on this map are synthetic demo data, not verified Riyad Bank locations.
+  </p>
+</div>
