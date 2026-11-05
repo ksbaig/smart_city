@@ -1,0 +1,38 @@
+<div class="aps-viewer-wrapper">
+  <!-- Viewer host – always in DOM so Autodesk SDK can render into it -->
+  <div
+    #viewerHost
+    class="aps-viewer-host"
+    [class.hidden]="state !== 'ready'"
+  ></div>
+
+  <!-- Loading overlay -->
+  @if (state === 'loading') {
+    <div class="aps-overlay">
+      <div class="aps-spinner"></div>
+      <p>Loading APS Viewer&hellip;</p>
+    </div>
+  }
+
+  <!-- No URN configured -->
+  @if (state === 'no-urn') {
+    <div class="aps-overlay aps-info">
+      <div class="aps-icon">&#128196;</div>
+      <p class="aps-title">CAD Viewer</p>
+      <p class="aps-sub">
+        No model URN is configured.<br>
+        Upload <strong>A1.dwg</strong> to an APS bucket, translate it,
+        and set the resulting URN in the application environment config.
+      </p>
+    </div>
+  }
+
+  <!-- Error state -->
+  @if (state === 'error') {
+    <div class="aps-overlay aps-error">
+      <div class="aps-icon">&#9888;</div>
+      <p class="aps-title">Viewer Error</p>
+      <p class="aps-sub">{{ errorMessage }}</p>
+    </div>
+  }
+</div>

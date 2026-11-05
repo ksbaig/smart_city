@@ -1,0 +1,88 @@
+<div
+  class="custom-esri-toolbar"
+  [class.collapsed]="collapsed"
+  [style.left.px]="position.left"
+  [style.top.px]="collapsed ? position.top + 900 : position.top"
+  aria-label="Custom Esri toolbar"
+>
+  <div class="toolbar-card" [class.dragging]="dragging" [class.collapsed]="collapsed">
+    <div class="toolbar-content" *ngIf="!collapsed">
+      <button type="button" class="toolbar-btn" title="Home" (click)="goHome()" [class.active]="activeButton === 'home'">
+        <i class="bi bi-house"></i>
+      </button>
+      <div class="measurement-group">
+        <button type="button" class="toolbar-btn" title="Measure distance" (click)="toggleMeasurementTypeMenu()" [class.active]="activeButton === 'measure'">
+          <i class="bi bi-rulers"></i>
+        </button>
+        <div class="measurement-type-menu" *ngIf="measurementTypeMenuOpen">
+          <button type="button" class="toolbar-btn" title="Measure line" (click)="selectMeasurementType('polyline')">
+            <span>─</span>
+          </button>
+          <button type="button" class="toolbar-btn" title="Measure polygon" (click)="selectMeasurementType('polygon')">
+            <span>🔺</span>
+          </button>
+          <button type="button" class="toolbar-btn" title="Measure rectangle" (click)="selectMeasurementType('rectangle')">
+            <span>▭</span>
+          </button>
+        </div>
+      </div>
+      <div class="draw-group">
+        <button type="button" class="toolbar-btn" title="Draw" (click)="toggleDrawTypeMenu()" [class.active]="activeButton === 'draw'">
+          <i class="bi bi-pencil"></i>
+        </button>
+        <div class="draw-type-menu" *ngIf="drawTypeMenuOpen">
+          <button type="button" class="toolbar-btn" title="Draw point" (click)="selectDrawType('point')">
+            <span>•</span>
+          </button>
+          <button type="button" class="toolbar-btn" title="Draw line" (click)="selectDrawType('polyline')">
+            <span>─</span>
+          </button>
+          <button type="button" class="toolbar-btn" title="Draw polygon" (click)="selectDrawType('polygon')">
+            <span>🔺</span>
+          </button>
+        </div>
+      </div>
+      <button type="button" class="toolbar-btn" title="Clear graphics" (click)="clearGraphicsAction()" [class.active]="activeButton === 'clear'">
+        <i class="bi bi-x-lg"></i>
+      </button>
+      <button type="button" class="toolbar-btn" title="Plot Sheet 1" (click)="openPlotSheet()">
+        <i class="bi bi-printer" title="Plot Sheet 1"></i>
+      </button>
+      <button type="button" class="toolbar-btn" title="Fullscreen" (click)="toggleFullscreen()" [class.active]="activeButton === 'fullscreen'">
+        <i class="bi bi-fullscreen"></i>
+      </button>
+    </div>
+    <button
+      type="button"
+      class="toolbar-collapse-toggle"
+      [attr.aria-label]="collapsed ? 'Expand toolbar' : 'Collapse toolbar'"
+      [title]="collapsed ? 'Expand toolbar' : 'Collapse toolbar'"
+      (click)="toggleCollapsed()"
+    >
+      <i class="bi" [ngClass]="collapsed ? 'bi-arrow-up-square-fill' : 'bi-arrow-down-square-fill'"></i>
+    </button>
+  </div>
+  <div
+    class="measurement-context-menu"
+    *ngIf="measurementContextMenuOpen"
+    [style.left.px]="measurementContextMenuLeft"
+    [style.top.px]="measurementContextMenuTop"
+  >
+    <div class="measurement-menu-handle" (mousedown)="onMeasurementMenuDragStart($event)">Drag</div>
+    <div class="measurement-unit-row">
+      <label for="distanceUnitSelect">Unit</label>
+      <select id="distanceUnitSelect" class="distance-unit-select" [value]="selectedDistanceUnit" (change)="changeDistanceUnit($event)">
+        <option *ngFor="let unit of distanceUnits" [value]="unit.key">{{ unit.label }}</option>
+      </select>
+    </div>
+    <button type="button" class="context-menu-btn" id="btnrefresh_distance" (click)="refreshMeasurement()">Refresh distance</button>
+    <button type="button" class="context-menu-btn" (click)="finishMeasurement()">Finish measurement</button>
+    <button type="button" class="context-menu-btn" (click)="continueMeasurement()">Continue</button>
+  </div>
+  <div class="measurement-result" *ngIf="measurementResult">
+    <div>{{ measurementResult }}</div>
+    <button type="button" class="measurement-refresh-btn" id="btnrefresh_distance" (click)="refreshMeasurement()">
+      Refresh distance
+    </button>
+  </div>
+</div>

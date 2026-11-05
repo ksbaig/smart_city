@@ -1,0 +1,150 @@
+<section class="voice-agent-panel">
+  <header class="panel-header">
+    <h3>Local Banking AI Agent</h3>
+    <p>Search local ATM and branch data using typed commands.</p>
+  </header>
+
+  <div class="query-row">
+    <input
+      type="text"
+      [(ngModel)]="queryText"
+      placeholder="Example: show all ATMs in Al Malaz"
+      (keyup.enter)="runQuery()"
+    />
+    <button type="button" class="primary" (click)="runQuery()" [disabled]="loadingData">Search</button>
+    <button type="button" (click)="clearResults()">Clear</button>
+  </div>
+
+  <div class="voice-row">
+    <button
+      type="button"
+      hidden
+      class="mic"
+      (click)="startVoiceCapture()"
+      [disabled]="voiceState === 'listening' || loadingData"
+    >
+      Start Mic
+    </button>
+    <button type="button" hidden (click)="stopVoiceCapture()" [disabled]="voiceState !== 'listening'">Stop Mic</button>
+    <span hidden class="state">State: {{ voiceState }}</span>
+  </div>
+
+  <p hidden class="status">{{ statusMessage }}</p>
+
+  @if (recognizedTranscript) {
+    <p class="transcript">
+      Last transcript: <strong>{{ recognizedTranscript }}</strong>
+    </p>
+  }
+
+  @if (loadInfo) {
+    <div class="source-note">
+      <span>ATM source: {{ loadInfo.atmSourceUrl }}</span>
+      <span>Branch source: {{ loadInfo.branchSourceUrl }}</span>
+      @if (loadInfo.fallbackUsed) {
+        <span class="fallback">Fallback source used for one or more datasets.</span>
+      }
+    </div>
+  }
+
+  @if (response) {
+    <section class="results">
+      <h4>Results ({{ response.count }})</h4>
+
+      @if (!rows.length) {
+        <p>No matching records.</p>
+      } @else {
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>ID</th>
+                <th>Name</th>
+                <th>District</th>
+                <th>Category</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              @for (row of rows; track row.id) {
+                <tr>
+                  <td>{{ row.locationType }}</td>
+                  <td>{{ row.id }}</td>
+                  <td>{{ row.name || '-' }}</td>
+                  <td>{{ row.district || '-' }}</td>
+                  <td>{{ row.category || row.performanceStatus || '-' }}</td>
+                  <td>
+                    <button type="button" (click)="zoomToRow(row)">Zoom</button>
+                    <button type="button" class="download-btn" (click)="downloadFeature(row)" title="Download map with feature details">Download</button>
+                  </td>
+                </tr>
+              }
+            </tbody>
+          </table>
+        </div>
+      }
+    </section>
+  }
+
+  @if (selectedFeature) {
+    <div class="modal-overlay" (click)="clearSelectedFeature()">
+      <div class="modal-popup" (click)="$event.stopPropagation()">
+        <div class="modal-header">
+          <h3>{{ selectedFeature.locationType === 'atm' ? 'ATM' : 'Branch' }} Details</h3>
+          <button type="button" class="modal-close" (click)="clearSelectedFeature()" aria-label="Close">×</button>
+        </div>
+        
+        <div class="modal-body">
+          <!-- Left Side: Map Container -->
+          <div class="modal-map-section">
+            <div id="feature-details-map" class="feature-map-container"></div>
+          </div>
+          
+          <!-- Right Side: Feature Information -->
+          <div class="modal-info-section">
+            <div class="info-content">
+              <div class="info-row">
+                <span class="info-label">Type:</span>
+                <span class="info-value">{{ selectedFeature.locationType === 'atm' ? 'ATM' : 'Branch' }}</span>
+              </div>
+              <div class="info-row">
+                <span class="info-label">ID:</span>
+                <span class="info-value">{{ selectedFeature.id }}</span>
+              </div>
+              <div class="info-row">
+                <span class="info-label">Name:</span>
+                <span class="info-value">{{ selectedFeature.name || '-' }}</span>
+              </div>
+              <div class="info-row">
+                <span class="info-label">District:</span>
+                <span class="info-value">{{ selectedFeature.district || '-' }}</span>
+              </div>
+              <div class="info-row">
+                <span class="info-label">Category:</span>
+                <span class="info-value">{{ selectedFeature.category || '-' }}</span>
+              </div>
+              @if (selectedFeature.performanceStatus) {
+                <div class="info-row">
+                  <span class="info-label">Status:</span>
+                  <span class="info-value">{{ selectedFeature.performanceStatus }}</span>
+                </div>
+              }
+              <div class="info-row">
+                <span class="info-label">Latitude:</span>
+                <span class="info-value">{{ selectedFeature.latitude }}</span>
+              </div>
+              <div class="info-row">
+                <span class="info-label">Longitude:</span>
+                <span class="info-value">{{ selectedFeature.longitude }}</span>
+              </div>
+              
+              <button type="button" class="download-report-btn" (click)="downloadReport()">
+                📥 Download Report
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  }

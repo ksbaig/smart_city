@@ -1,0 +1,165 @@
+/* ─────────────────────────────────────────────
+   Plot Regulation Sheet — Header Component
+   Angular 21 · plot-header.component.scss
+───────────────────────────────────────────── */
+
+:host {
+  display: block;
+  width: 100%;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+/* ── Banner wrapper ── */
+.header-banner {
+  display: flex;
+  align-items: stretch;
+  background: #1b7761;
+  width: 100%;
+  border: 1px solid #1d8f78;
+  min-height: 72px;
+  box-sizing: border-box;
+}
+
+/* ── Base column ── */
+.col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px 16px;
+  border-right: 1px solid rgba(255, 255, 255, 0.25);
+  color: #fff;
+  flex-shrink: 0;
+  box-sizing: border-box;
+
+  &:last-child {
+    border-right: none;
+  }
+}
+
+/* ── Office / Title ── */
+.col-office {
+  padding: 10px 20px;
+  flex-shrink: 0;
+
+  .office-name {
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: rgba(255, 255, 255, 0.85);
+    white-space: nowrap;
+    display: block;
+  }
+
+  .sheet-title {
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    color: #fff;
+    white-space: nowrap;
+    margin-top: 2px;
+    display: block;
+  }
+}
+
+/* ── Field columns ── */
+.col-field {
+  flex-shrink: 0;
+
+  .field-label {
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.75);
+    margin-bottom: 4px;
+    white-space: nowrap;
+    display: block;
+  }
+
+  .field-value {
+    font-size: 17px;
+    font-weight: 700;
+    color: #fff;
+    white-space: nowrap;
+    display: block;
+  }
+
+  &.plot-no  { padding: 10px 20px; }
+  &.gis-col  { padding: 10px 20px; }
+  &.date-col { padding: 10px 20px; }
+  &.revision-col { padding: 10px 20px; }
+}
+
+/* ── GIS digit boxes ── */
+.gis-boxes {
+  display: flex;
+  gap: 3px;
+  align-items: center;
+  margin-top: 2px;
+  flex-wrap: nowrap;
+}
+
+.gis-box {
+  width: 26px;
+  height: 26px;
+  border: 1.5px solid rgba(255, 255, 255, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 700;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.08);
+  flex-shrink: 0;
+  box-sizing: border-box;
+
+  &.empty {
+    background: rgba(0, 0, 0, 0.12);
+    border-color: rgba(255, 255, 255, 0.35);
+  }
+}
+
+/* ── Spacer ── */
+.spacer {
+  flex: 1;
+}
+
+/* ── Logo column (RIGHT) ── */
+.col-logo {
+  padding: 8px 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-left: 1px solid rgba(255, 255, 255, 0.25);
+  flex-shrink: 0;
+
+  .logo-img {
+    height: 54px;
+    width: auto;
+    object-fit: contain;
+    display: block;
+  }
+}
+
+/* ── Responsive: tablet ── */
+@media (max-width: 900px) {
+  .header-banner {
+    flex-wrap: wrap;
+    min-height: unset;
+  }
+
+  .gis-col {
+    order: 3;
+    border-right: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    width: 100%;
+    padding: 8px 16px;
+  }
+
+  .spacer { display: none; }
+}
+
+.col-menu button#showpanoromic-header-btn {
+  z-index: 9999; /* Ensure it appears above other elements */
+  position: relative; /* Ensure z-index is applied */
+}

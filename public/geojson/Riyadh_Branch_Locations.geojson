@@ -1,0 +1,687 @@
+{
+  "type": "FeatureCollection",
+  "name": "Riyadh Branch Locations - Synthetic Demo",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.708807,
+          24.654661
+        ]
+      },
+      "properties": {
+        "Branch_ID": "BR-20101",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "District": "Al Murabba",
+        "Branch_Name": "Al Murabba Demo Branch",
+        "Monthly_Customer_Visits": 5346,
+        "Monthly_Transactions": 25985,
+        "Monthly_Deposits_SAR": 21716449.56,
+        "Monthly_Revenue_SAR": 273133.36,
+        "Monthly_Operating_Cost_SAR": 91375.97,
+        "Net_Profit_Loss_SAR": 181757.39,
+        "Performance_Status": "Strong",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01",
+        "Location_Type": "Branch",
+        "Data_Status": "SYNTHETIC DEMONSTRATION DATA — fictional records, not verified live banking locations or financial results"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.62159,
+          24.74746
+        ]
+      },
+      "properties": {
+        "Branch_ID": "BR-20102",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "District": "Al Nakheel",
+        "Branch_Name": "Al Nakheel Demo Branch",
+        "Monthly_Customer_Visits": 4328,
+        "Monthly_Transactions": 23140,
+        "Monthly_Deposits_SAR": 21980269.08,
+        "Monthly_Revenue_SAR": 278765.54,
+        "Monthly_Operating_Cost_SAR": 38110.99,
+        "Net_Profit_Loss_SAR": 240654.55,
+        "Performance_Status": "Strong",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01",
+        "Location_Type": "Branch",
+        "Data_Status": "SYNTHETIC DEMONSTRATION DATA — fictional records, not verified live banking locations or financial results"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.632965,
+          24.88103
+        ]
+      },
+      "properties": {
+        "Branch_ID": "BR-20103",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "District": "Al Narjis",
+        "Branch_Name": "Al Narjis Demo Branch",
+        "Monthly_Customer_Visits": 11201,
+        "Monthly_Transactions": 17619,
+        "Monthly_Deposits_SAR": 11104971.93,
+        "Monthly_Revenue_SAR": 87716.17,
+        "Monthly_Operating_Cost_SAR": 198035.58,
+        "Net_Profit_Loss_SAR": -110319.41,
+        "Performance_Status": "Weak",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01",
+        "Location_Type": "Branch",
+        "Data_Status": "SYNTHETIC DEMONSTRATION DATA — fictional records, not verified live banking locations or financial results"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.756645,
+          24.695811
+        ]
+      },
+      "properties": {
+        "Branch_ID": "BR-20104",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "District": "Al Rabwah",
+        "Branch_Name": "Al Rabwah Demo Branch",
+        "Monthly_Customer_Visits": 17993,
+        "Monthly_Transactions": 10558,
+        "Monthly_Deposits_SAR": 21486610.34,
+        "Monthly_Revenue_SAR": 77699.83,
+        "Monthly_Operating_Cost_SAR": 202665.29,
+        "Net_Profit_Loss_SAR": -124965.46,
+        "Performance_Status": "Weak",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01",
+        "Location_Type": "Branch",
+        "Data_Status": "SYNTHETIC DEMONSTRATION DATA — fictional records, not verified live banking locations or financial results"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.79136,
+          24.752864
+        ]
+      },
+      "properties": {
+        "Branch_ID": "BR-20105",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "District": "Al Hamra",
+        "Branch_Name": "Al Hamra Demo Branch",
+        "Monthly_Customer_Visits": 4347,
+        "Monthly_Transactions": 25021,
+        "Monthly_Deposits_SAR": 24623755.36,
+        "Monthly_Revenue_SAR": 253438.52,
+        "Monthly_Operating_Cost_SAR": 217021.83,
+        "Net_Profit_Loss_SAR": 36416.69,
+        "Performance_Status": "Strong",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01",
+        "Location_Type": "Branch",
+        "Data_Status": "SYNTHETIC DEMONSTRATION DATA — fictional records, not verified live banking locations or financial results"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.785588,
+          24.573543
+        ]
+      },
+      "properties": {
+        "Branch_ID": "BR-20106",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "District": "Al Aziziyah",
+        "Branch_Name": "Al Aziziyah Demo Branch",
+        "Monthly_Customer_Visits": 9573,
+        "Monthly_Transactions": 23527,
+        "Monthly_Deposits_SAR": 20027605.93,
+        "Monthly_Revenue_SAR": 160485.09,
+        "Monthly_Operating_Cost_SAR": 155623.77,
+        "Net_Profit_Loss_SAR": 4861.32,
+        "Performance_Status": "Moderate",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01",
+        "Location_Type": "Branch",
+        "Data_Status": "SYNTHETIC DEMONSTRATION DATA — fictional records, not verified live banking locations or financial results"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.770777,
+          24.748619
+        ]
+      },
+      "properties": {
+        "Branch_ID": "BR-20107",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "District": "Al Quds",
+        "Branch_Name": "Al Quds Demo Branch",
+        "Monthly_Customer_Visits": 8500,
+        "Monthly_Transactions": 13656,
+        "Monthly_Deposits_SAR": 16765751.46,
+        "Monthly_Revenue_SAR": 133831.94,
+        "Monthly_Operating_Cost_SAR": 60127.98,
+        "Net_Profit_Loss_SAR": 73703.96,
+        "Performance_Status": "Strong",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01",
+        "Location_Type": "Branch",
+        "Data_Status": "SYNTHETIC DEMONSTRATION DATA — fictional records, not verified live banking locations or financial results"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.679704,
+          24.745725
+        ]
+      },
+      "properties": {
+        "Branch_ID": "BR-20108",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "District": "Al Mursalat",
+        "Branch_Name": "Al Mursalat Demo Branch",
+        "Monthly_Customer_Visits": 16025,
+        "Monthly_Transactions": 6825,
+        "Monthly_Deposits_SAR": 6185701.11,
+        "Monthly_Revenue_SAR": 215127.38,
+        "Monthly_Operating_Cost_SAR": 85786.33,
+        "Net_Profit_Loss_SAR": 129341.05,
+        "Performance_Status": "Strong",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01",
+        "Location_Type": "Branch",
+        "Data_Status": "SYNTHETIC DEMONSTRATION DATA — fictional records, not verified live banking locations or financial results"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.620607,
+          24.768816
+        ]
+      },
+      "properties": {
+        "Branch_ID": "BR-20109",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "District": "Al Aqiq",
+        "Branch_Name": "Al Aqiq Demo Branch",
+        "Monthly_Customer_Visits": 5198,
+        "Monthly_Transactions": 5326,
+        "Monthly_Deposits_SAR": 4364235.07,
+        "Monthly_Revenue_SAR": 130233.11,
+        "Monthly_Operating_Cost_SAR": 128364.3,
+        "Net_Profit_Loss_SAR": 1868.81,
+        "Performance_Status": "Moderate",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01",
+        "Location_Type": "Branch",
+        "Data_Status": "SYNTHETIC DEMONSTRATION DATA — fictional records, not verified live banking locations or financial results"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.614674,
+          24.865054
+        ]
+      },
+      "properties": {
+        "Branch_ID": "BR-20110",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "District": "Al Arid",
+        "Branch_Name": "Al Arid Demo Branch",
+        "Monthly_Customer_Visits": 11745,
+        "Monthly_Transactions": 24126,
+        "Monthly_Deposits_SAR": 15396391.55,
+        "Monthly_Revenue_SAR": 171547.6,
+        "Monthly_Operating_Cost_SAR": 158618.01,
+        "Net_Profit_Loss_SAR": 12929.59,
+        "Performance_Status": "Moderate",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01",
+        "Location_Type": "Branch",
+        "Data_Status": "SYNTHETIC DEMONSTRATION DATA — fictional records, not verified live banking locations or financial results"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.907106,
+          24.824835
+        ]
+      },
+      "properties": {
+        "Branch_ID": "BR-20111",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "District": "Al Rimal",
+        "Branch_Name": "Al Rimal Demo Branch",
+        "Monthly_Customer_Visits": 16874,
+        "Monthly_Transactions": 29475,
+        "Monthly_Deposits_SAR": 4173953.23,
+        "Monthly_Revenue_SAR": 59484.87,
+        "Monthly_Operating_Cost_SAR": 197573.82,
+        "Net_Profit_Loss_SAR": -138088.95,
+        "Performance_Status": "Weak",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01",
+        "Location_Type": "Branch",
+        "Data_Status": "SYNTHETIC DEMONSTRATION DATA — fictional records, not verified live banking locations or financial results"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.709773,
+          24.797831
+        ]
+      },
+      "properties": {
+        "Branch_ID": "BR-20112",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "District": "Al Falah",
+        "Branch_Name": "Al Falah Demo Branch",
+        "Monthly_Customer_Visits": 13726,
+        "Monthly_Transactions": 24857,
+        "Monthly_Deposits_SAR": 15318421.46,
+        "Monthly_Revenue_SAR": 82203.79,
+        "Monthly_Operating_Cost_SAR": 37096.83,
+        "Net_Profit_Loss_SAR": 45106.96,
+        "Performance_Status": "Strong",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01",
+        "Location_Type": "Branch",
+        "Data_Status": "SYNTHETIC DEMONSTRATION DATA — fictional records, not verified live banking locations or financial results"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.764387,
+          24.716645
+        ]
+      },
+      "properties": {
+        "Branch_ID": "BR-20113",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "District": "Al Andalus",
+        "Branch_Name": "Al Andalus Demo Branch",
+        "Monthly_Customer_Visits": 5471,
+        "Monthly_Transactions": 11683,
+        "Monthly_Deposits_SAR": 17155700.27,
+        "Monthly_Revenue_SAR": 279949.22,
+        "Monthly_Operating_Cost_SAR": 57521.77,
+        "Net_Profit_Loss_SAR": 222427.45,
+        "Performance_Status": "Strong",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01",
+        "Location_Type": "Branch",
+        "Data_Status": "SYNTHETIC DEMONSTRATION DATA — fictional records, not verified live banking locations or financial results"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.67114,
+          24.628485
+        ]
+      },
+      "properties": {
+        "Branch_ID": "BR-20114",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "District": "Al Badiah",
+        "Branch_Name": "Al Badiah Demo Branch",
+        "Monthly_Customer_Visits": 16835,
+        "Monthly_Transactions": 16914,
+        "Monthly_Deposits_SAR": 15208848.42,
+        "Monthly_Revenue_SAR": 257144.91,
+        "Monthly_Operating_Cost_SAR": 187236.18,
+        "Net_Profit_Loss_SAR": 69908.73,
+        "Performance_Status": "Strong",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01",
+        "Location_Type": "Branch",
+        "Data_Status": "SYNTHETIC DEMONSTRATION DATA — fictional records, not verified live banking locations or financial results"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.690564,
+          24.596623
+        ]
+      },
+      "properties": {
+        "Branch_ID": "BR-20115",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "District": "Al Suwaidi",
+        "Branch_Name": "Al Suwaidi Demo Branch",
+        "Monthly_Customer_Visits": 14153,
+        "Monthly_Transactions": 16185,
+        "Monthly_Deposits_SAR": 10068505.87,
+        "Monthly_Revenue_SAR": 224350.78,
+        "Monthly_Operating_Cost_SAR": 227478.7,
+        "Net_Profit_Loss_SAR": -3127.92,
+        "Performance_Status": "Weak",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01",
+        "Location_Type": "Branch",
+        "Data_Status": "SYNTHETIC DEMONSTRATION DATA — fictional records, not verified live banking locations or financial results"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.552009,
+          24.582787
+        ]
+      },
+      "properties": {
+        "Branch_ID": "BR-20116",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "District": "Tuwaiq",
+        "Branch_Name": "Tuwaiq Demo Branch",
+        "Monthly_Customer_Visits": 10647,
+        "Monthly_Transactions": 5599,
+        "Monthly_Deposits_SAR": 3651247.02,
+        "Monthly_Revenue_SAR": 182784.71,
+        "Monthly_Operating_Cost_SAR": 164217.99,
+        "Net_Profit_Loss_SAR": 18566.72,
+        "Performance_Status": "Moderate",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01",
+        "Location_Type": "Branch",
+        "Data_Status": "SYNTHETIC DEMONSTRATION DATA — fictional records, not verified live banking locations or financial results"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.73566,
+          24.813762
+        ]
+      },
+      "properties": {
+        "Branch_ID": "BR-20117",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "District": "Qurtubah",
+        "Branch_Name": "Qurtubah Demo Branch",
+        "Monthly_Customer_Visits": 3500,
+        "Monthly_Transactions": 26268,
+        "Monthly_Deposits_SAR": 21479115.34,
+        "Monthly_Revenue_SAR": 121225.44,
+        "Monthly_Operating_Cost_SAR": 195769.24,
+        "Net_Profit_Loss_SAR": -74543.8,
+        "Performance_Status": "Weak",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01",
+        "Location_Type": "Branch",
+        "Data_Status": "SYNTHETIC DEMONSTRATION DATA — fictional records, not verified live banking locations or financial results"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.731494,
+          24.785876
+        ]
+      },
+      "properties": {
+        "Branch_ID": "BR-20118",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "District": "Granada",
+        "Branch_Name": "Granada Demo Branch",
+        "Monthly_Customer_Visits": 16898,
+        "Monthly_Transactions": 8184,
+        "Monthly_Deposits_SAR": 19157208.41,
+        "Monthly_Revenue_SAR": 47321.55,
+        "Monthly_Operating_Cost_SAR": 216681.05,
+        "Net_Profit_Loss_SAR": -169359.5,
+        "Performance_Status": "Weak",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01",
+        "Location_Type": "Branch",
+        "Data_Status": "SYNTHETIC DEMONSTRATION DATA — fictional records, not verified live banking locations or financial results"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.668205,
+          24.782615
+        ]
+      },
+      "properties": {
+        "Branch_ID": "BR-20119",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "District": "Al Wadi",
+        "Branch_Name": "Al Wadi Demo Branch",
+        "Monthly_Customer_Visits": 12743,
+        "Monthly_Transactions": 12814,
+        "Monthly_Deposits_SAR": 13386815.6,
+        "Monthly_Revenue_SAR": 79074.27,
+        "Monthly_Operating_Cost_SAR": 128311.53,
+        "Net_Profit_Loss_SAR": -49237.26,
+        "Performance_Status": "Weak",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01",
+        "Location_Type": "Branch",
+        "Data_Status": "SYNTHETIC DEMONSTRATION DATA — fictional records, not verified live banking locations or financial results"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.573344,
+          24.82668
+        ]
+      },
+      "properties": {
+        "Branch_ID": "BR-20120",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "District": "Al Qairawan",
+        "Branch_Name": "Al Qairawan Demo Branch",
+        "Monthly_Customer_Visits": 6272,
+        "Monthly_Transactions": 15379,
+        "Monthly_Deposits_SAR": 9784213.77,
+        "Monthly_Revenue_SAR": 51797.9,
+        "Monthly_Operating_Cost_SAR": 130129.64,
+        "Net_Profit_Loss_SAR": -78331.74,
+        "Performance_Status": "Weak",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01",
+        "Location_Type": "Branch",
+        "Data_Status": "SYNTHETIC DEMONSTRATION DATA — fictional records, not verified live banking locations or financial results"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.700351,
+          24.841403
+        ]
+      },
+      "properties": {
+        "Branch_ID": "BR-20121",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "District": "Al Yasmin East",
+        "Branch_Name": "Al Yasmin East Demo Branch",
+        "Monthly_Customer_Visits": 17112,
+        "Monthly_Transactions": 27040,
+        "Monthly_Deposits_SAR": 16727616.75,
+        "Monthly_Revenue_SAR": 208433.63,
+        "Monthly_Operating_Cost_SAR": 69357.71,
+        "Net_Profit_Loss_SAR": 139075.92,
+        "Performance_Status": "Strong",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01",
+        "Location_Type": "Branch",
+        "Data_Status": "SYNTHETIC DEMONSTRATION DATA — fictional records, not verified live banking locations or financial results"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.825341,
+          24.759631
+        ]
+      },
+      "properties": {
+        "Branch_ID": "BR-20122",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "District": "Al Khaleej",
+        "Branch_Name": "Al Khaleej Demo Branch",
+        "Monthly_Customer_Visits": 3686,
+        "Monthly_Transactions": 7646,
+        "Monthly_Deposits_SAR": 7162591.37,
+        "Monthly_Revenue_SAR": 86448.74,
+        "Monthly_Operating_Cost_SAR": 180315.36,
+        "Net_Profit_Loss_SAR": -93866.62,
+        "Performance_Status": "Weak",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01",
+        "Location_Type": "Branch",
+        "Data_Status": "SYNTHETIC DEMONSTRATION DATA — fictional records, not verified live banking locations or financial results"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.802409,
+          24.694398
+        ]
+      },
+      "properties": {
+        "Branch_ID": "BR-20123",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "District": "Al Safa",
+        "Branch_Name": "Al Safa Demo Branch",
+        "Monthly_Customer_Visits": 2773,
+        "Monthly_Transactions": 14308,
+        "Monthly_Deposits_SAR": 12505345.74,
+        "Monthly_Revenue_SAR": 67572.0,
+        "Monthly_Operating_Cost_SAR": 121877.53,
+        "Net_Profit_Loss_SAR": -54305.53,
+        "Performance_Status": "Weak",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01",
+        "Location_Type": "Branch",
+        "Data_Status": "SYNTHETIC DEMONSTRATION DATA — fictional records, not verified live banking locations or financial results"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.563231,
+          24.73572
+        ]
+      },
+      "properties": {
+        "Branch_ID": "BR-20124",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "District": "Al Diriyah Edge",
+        "Branch_Name": "Al Diriyah Edge Demo Branch",
+        "Monthly_Customer_Visits": 10307,
+        "Monthly_Transactions": 5741,
+        "Monthly_Deposits_SAR": 20043391.13,
+        "Monthly_Revenue_SAR": 49539.78,
+        "Monthly_Operating_Cost_SAR": 93469.41,
+        "Net_Profit_Loss_SAR": -43929.63,
+        "Performance_Status": "Weak",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01",
+        "Location_Type": "Branch",
+        "Data_Status": "SYNTHETIC DEMONSTRATION DATA — fictional records, not verified live banking locations or financial results"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.681734,
+          24.698125
+        ]
+      },
+      "properties": {
+        "Branch_ID": "BR-20125",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "District": "Al Olaya",
+        "Branch_Name": "Al Olaya Demo Branch",
+        "Monthly_Customer_Visits": 2196,
+        "Monthly_Transactions": 25749,
+        "Monthly_Deposits_SAR": 3226644.16,
+        "Monthly_Revenue_SAR": 201325.48,
+        "Monthly_Operating_Cost_SAR": 106020.52,
+        "Net_Profit_Loss_SAR": 95304.96,
+        "Performance_Status": "Strong",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01",
+        "Location_Type": "Branch",
+        "Data_Status": "SYNTHETIC DEMONSTRATION DATA — fictional records, not verified live banking locations or financial results"
+      }
+    }
+  ]
+}

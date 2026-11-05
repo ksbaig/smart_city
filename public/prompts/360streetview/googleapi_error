@@ -1,0 +1,5 @@
+The browser console shows `Google Maps JavaScript API error: InvalidKeyMapError` when I open Google Street View. Diagnose how this Angular app loads its Google Maps API key.
+
+Trace the Maps script loader and the project’s environment/configuration files. Check whether the key is missing, still a placeholder, or read from the wrong configuration. Tell me which file or Google Cloud setting needs attention. Do not print, expose, or commit the API key, and do not invent a replacement key.
+
+If the app’s code is wrong, make only the necessary configuration-loading fix. If the key itself is invalid or its Google Cloud settings need updating, explain the exact steps I need to take in Google Cloud Console. Preserve the existing Street View behavior.

@@ -1,0 +1,59 @@
+<div class="download-modal-overlay" *ngIf="selectedLocation" (click)="onClose()">
+  <div class="download-modal-container" (click)="$event.stopPropagation()">
+    <button class="close-btn" (click)="onClose()" title="Close modal" aria-label="Close modal">
+      <i class="bi bi-x-lg"></i>
+    </button>
+
+    <div class="modal-content two-column-layout" #exportContent>
+      <div class="map-preview-pane">
+        <h4><i class="bi bi-map"></i> MAP PREVIEW</h4>
+        <div class="map-preview-card">
+          <img *ngIf="getMapPreviewUrl()" [src]="getMapPreviewUrl()!" alt="Selected location map preview" />
+          <div class="map-preview-fallback" *ngIf="!getMapPreviewUrl()">Map preview unavailable</div>
+        </div>
+      </div>
+
+      <div class="details-pane">
+        <div class="modal-header">
+          <h2>{{ selectedLocation.type === 'branch' ? 'Dashboard Branch' : 'Dashboard ATM' }}</h2>
+        </div>
+
+        <div class="location-summary-card">
+          <div class="summary-icon">
+            <i class="bi" [ngClass]="selectedLocation.type === 'branch' ? 'bi-bank' : 'bi-credit-card-2-front'"></i>
+          </div>
+          <div class="location-info">
+            <h3>{{ selectedLocation.name }}</h3>
+            <p class="bank-name">{{ selectedLocation.bankName }}</p>
+            <p class="location-id">{{ selectedLocation.type === 'branch' ? 'Branch ID' : 'ATM ID' }}: {{ selectedLocation.id }}</p>
+          </div>
+        </div>
+
+        <div class="attributes-section">
+          <h4>Attributes</h4>
+          <div class="attributes-list">
+            <div class="attribute-item" *ngFor="let attr of selectedLocation.attributes">
+              <div class="attribute-label">
+                <i *ngIf="attr.icon" [class]="'bi ' + attr.icon"></i>
+                <span>{{ attr.label }}</span>
+              </div>
+              <span class="attribute-divider" aria-hidden="true"></span>
+              <div class="attribute-value">{{ attr.value }}</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal-actions">
+          <button class="action-btn download-jpg" (click)="saveAsJpg()" title="Save as JPG">
+            <i class="bi bi-file-earmark-image"></i>
+            <span>Download JPG</span>
+          </button>
+          <button class="action-btn download-pdf" (click)="saveAsPdf()" title="Save as PDF">
+            <i class="bi bi-file-earmark-pdf"></i>
+            <span>Download PDF</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

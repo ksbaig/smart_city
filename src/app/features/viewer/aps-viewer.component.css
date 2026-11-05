@@ -1,0 +1,84 @@
+:host {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.aps-viewer-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #1a1a2e;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.aps-viewer-host {
+  width: 100%;
+  height: 100%;
+}
+
+.aps-viewer-host.hidden {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+/* ── Overlay states ─────────────────────────────────────────────────── */
+.aps-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  background: #1a1a2e;
+  color: #cfd8dc;
+  text-align: center;
+  padding: 24px;
+}
+
+.aps-icon {
+  font-size: 2.5rem;
+}
+
+.aps-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0;
+  color: #eceff1;
+}
+
+.aps-sub {
+  font-size: 0.8rem;
+  line-height: 1.5;
+  margin: 0;
+  color: #90a4ae;
+}
+
+.aps-info .aps-icon {
+  color: #4dd0e1;
+}
+
+.aps-error .aps-icon {
+  color: #ef9a9a;
+  font-size: 2rem;
+}
+
+.aps-error .aps-title {
+  color: #ef9a9a;
+}
+
+/* ── Spinner ────────────────────────────────────────────────────────── */
+.aps-spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid rgba(255, 255, 255, 0.15);
+  border-top-color: #4dd0e1;
+  border-radius: 50%;
+  animation: aps-spin 0.8s linear infinite;
+}
+
+@keyframes aps-spin {
+  to { transform: rotate(360deg); }
+}

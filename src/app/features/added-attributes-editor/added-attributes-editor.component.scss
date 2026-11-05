@@ -1,0 +1,69 @@
+.added-attributes-editor {
+  border: 1px solid #d6d9dd;
+  border-radius: 8px;
+  background: #f7f8fa;
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  max-height: 560px;
+}
+
+.added-attributes-editor-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  border-bottom: 1px solid #d6d9dd;
+  background: #eceff3;
+}
+
+.added-attributes-editor-header h3 {
+  margin: 0;
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.editor-back-btn {
+  border: none;
+  background: transparent;
+  color: #5b626b;
+  font-size: 1.4rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.added-attributes-editor-body {
+  display: grid;
+  gap: 12px;
+  padding: 14px 12px;
+  overflow: auto;
+}
+
+.added-attr-field {
+  display: grid;
+  gap: 6px;
+}
+
+.added-attr-label {
+  font-size: 0.95rem;
+  color: #3f444a;
+  font-weight: 600;
+}
+
+.added-attr-field input {
+  width: 100%;
+  border: 1px solid #b8bfc7;
+  border-radius: 0;
+  background: #ffffff;
+  color: #20242a;
+  padding: 10px 10px;
+  font-size: 1rem;
+}
+
+.added-attributes-editor-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  padding: 12px;
+  border-top: 1px solid #d6d9dd;
+}

@@ -1,0 +1,13 @@
+Please fix the Angular compilation error that prevents this app from loading at `http://localhost:4200/`.
+
+The terminal reports:
+
+`TS2339: Property 'location' does not exist on type '{}'`
+
+at `src/app/core/services/google-street-view.service.ts`, around line 68, on:
+
+`const panoramaLatLng = result.location.latLng;`
+
+Please inspect the surrounding service code and the project’s Google Maps typings and dependencies. Give the API response a correct, explicit TypeScript type based on the actual Google Maps API being called. Handle missing or unsuccessful results safely before accessing `location`, and preserve the current behavior for valid responses. Avoid using `any` or suppressing the compiler error with a cast unless the project’s API typings require a narrow, documented adapter.
+
+Then run the project’s existing Angular build or validation command, fix any errors caused by the change, and report the exact command and result. Do not change unrelated files.

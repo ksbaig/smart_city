@@ -1,0 +1,28 @@
+<section class="added-attributes-editor" aria-label="Added attributes editor">
+  <header class="added-attributes-editor-header">
+    <button type="button" class="editor-back-btn" (click)="requestCancel()" aria-label="Back to result panel">
+      &lsaquo;
+    </button>
+    <h3>{{ title }}</h3>
+  </header>
+
+  <div class="added-attributes-editor-body">
+    <label class="added-attr-field" *ngFor="let field of editableFields">
+      <span class="added-attr-label">{{ field.label }}</span>
+      <input
+        [type]="field.inputType || 'text'"
+        [(ngModel)]="field.value"
+        [disabled]="saving"
+      />
+    </label>
+  </div>
+
+  <footer class="added-attributes-editor-actions">
+    <button type="button" class="btn-primary" (click)="requestSave()" [disabled]="saving || !hasChanges">
+      {{ saving ? 'Saving...' : 'Update' }}
+    </button>
+    <button type="button" class="btn-secondary" (click)="requestDelete()" [disabled]="saving">
+      Delete
+    </button>
+  </footer>
+</section>

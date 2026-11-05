@@ -1,0 +1,4356 @@
+{
+  "type": "FeatureCollection",
+  "name": "Riyadh_ATM_Locations",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.674468,
+          24.687665
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10201",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Drive-through",
+        "District": "Al Olaya",
+        "Site_Name": "Al Olaya Demo Site 01",
+        "Monthly_Transactions": 13585,
+        "Own_Network_Revenue_SAR": 34007.64,
+        "Interbank_Revenue_SAR": 233.45,
+        "Total_Revenue_SAR": 34241.09,
+        "Operating_Cost_SAR": 9862.32,
+        "Cash_Replenishment_Cost_SAR": 946.52,
+        "Maintenance_Cost_SAR": 315.48,
+        "Total_Cost_SAR": 11124.32,
+        "Net_Profit_Loss_SAR": 23116.77,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.713936,
+          24.666489
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10202",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Off-site",
+        "District": "Al Malaz",
+        "Site_Name": "Al Malaz Demo Site 01",
+        "Monthly_Transactions": 9228,
+        "Own_Network_Revenue_SAR": 17428.64,
+        "Interbank_Revenue_SAR": 88.2,
+        "Total_Revenue_SAR": 17516.84,
+        "Operating_Cost_SAR": 6343.47,
+        "Cash_Replenishment_Cost_SAR": 1668.81,
+        "Maintenance_Cost_SAR": 911.32,
+        "Total_Cost_SAR": 8923.6,
+        "Net_Profit_Loss_SAR": 8593.24,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.711672,
+          24.653708
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10203",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Off-site",
+        "District": "Al Murabba",
+        "Site_Name": "Al Murabba Demo Site 01",
+        "Monthly_Transactions": 2765,
+        "Own_Network_Revenue_SAR": 8798.39,
+        "Interbank_Revenue_SAR": 96.25,
+        "Total_Revenue_SAR": 8894.64,
+        "Operating_Cost_SAR": 6689.91,
+        "Cash_Replenishment_Cost_SAR": 1077.67,
+        "Maintenance_Cost_SAR": 1067.09,
+        "Total_Cost_SAR": 8834.67,
+        "Net_Profit_Loss_SAR": 59.97,
+        "Performance_Status": "Break-even",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.696966,
+          24.701647
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10204",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "On-site",
+        "District": "Al Sulimaniyah",
+        "Site_Name": "Al Sulimaniyah Demo Site 01",
+        "Monthly_Transactions": 12596,
+        "Own_Network_Revenue_SAR": 39634.74,
+        "Interbank_Revenue_SAR": 114.1,
+        "Total_Revenue_SAR": 39748.84,
+        "Operating_Cost_SAR": 9678.37,
+        "Cash_Replenishment_Cost_SAR": 2165.29,
+        "Maintenance_Cost_SAR": 347.74,
+        "Total_Cost_SAR": 12191.4,
+        "Net_Profit_Loss_SAR": 27557.44,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.622804,
+          24.755155
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10205",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "On-site",
+        "District": "Al Nakheel",
+        "Site_Name": "Al Nakheel Demo Site 01",
+        "Monthly_Transactions": 8401,
+        "Own_Network_Revenue_SAR": 16109.36,
+        "Interbank_Revenue_SAR": 114.8,
+        "Total_Revenue_SAR": 16224.16,
+        "Operating_Cost_SAR": 4029.8,
+        "Cash_Replenishment_Cost_SAR": 1694.64,
+        "Maintenance_Cost_SAR": 1244.82,
+        "Total_Cost_SAR": 6969.26,
+        "Net_Profit_Loss_SAR": 9254.9,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.65628,
+          24.841505
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10206",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Drive-through",
+        "District": "Al Yasmin",
+        "Site_Name": "Al Yasmin Demo Site 01",
+        "Monthly_Transactions": 4041,
+        "Own_Network_Revenue_SAR": 12238.54,
+        "Interbank_Revenue_SAR": 142.1,
+        "Total_Revenue_SAR": 12380.64,
+        "Operating_Cost_SAR": 8739.22,
+        "Cash_Replenishment_Cost_SAR": 900.99,
+        "Maintenance_Cost_SAR": 829.1,
+        "Total_Cost_SAR": 10469.31,
+        "Net_Profit_Loss_SAR": 1911.33,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.634508,
+          24.881756
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10207",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Off-site",
+        "District": "Al Narjis",
+        "Site_Name": "Al Narjis Demo Site 01",
+        "Monthly_Transactions": 7485,
+        "Own_Network_Revenue_SAR": 21507.1,
+        "Interbank_Revenue_SAR": 240.8,
+        "Total_Revenue_SAR": 21747.9,
+        "Operating_Cost_SAR": 3913.23,
+        "Cash_Replenishment_Cost_SAR": 1326.1,
+        "Maintenance_Cost_SAR": 1037.39,
+        "Total_Cost_SAR": 6276.72,
+        "Net_Profit_Loss_SAR": 15471.18,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.632643,
+          24.796533
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10208",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Off-site",
+        "District": "Al Sahafah",
+        "Site_Name": "Al Sahafah Demo Site 01",
+        "Monthly_Transactions": 8343,
+        "Own_Network_Revenue_SAR": 20124.28,
+        "Interbank_Revenue_SAR": 297.15,
+        "Total_Revenue_SAR": 20421.43,
+        "Operating_Cost_SAR": 6501.86,
+        "Cash_Replenishment_Cost_SAR": 954.74,
+        "Maintenance_Cost_SAR": 1151.54,
+        "Total_Cost_SAR": 8608.14,
+        "Net_Profit_Loss_SAR": 11813.29,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.76365,
+          24.691134
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10209",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Off-site",
+        "District": "Al Rabwah",
+        "Site_Name": "Al Rabwah Demo Site 01",
+        "Monthly_Transactions": 12121,
+        "Own_Network_Revenue_SAR": 32870.47,
+        "Interbank_Revenue_SAR": 51.8,
+        "Total_Revenue_SAR": 32922.27,
+        "Operating_Cost_SAR": 10299.42,
+        "Cash_Replenishment_Cost_SAR": 862.65,
+        "Maintenance_Cost_SAR": 371.74,
+        "Total_Cost_SAR": 11533.81,
+        "Net_Profit_Loss_SAR": 21388.46,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.749653,
+          24.722129
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10210",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Retail",
+        "District": "Al Rawdah",
+        "Site_Name": "Al Rawdah Demo Site 01",
+        "Monthly_Transactions": 8990,
+        "Own_Network_Revenue_SAR": 24895.02,
+        "Interbank_Revenue_SAR": 102.9,
+        "Total_Revenue_SAR": 24997.92,
+        "Operating_Cost_SAR": 2597.51,
+        "Cash_Replenishment_Cost_SAR": 2209.89,
+        "Maintenance_Cost_SAR": 962.64,
+        "Total_Cost_SAR": 5770.04,
+        "Net_Profit_Loss_SAR": 19227.88,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.79912,
+          24.740402
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10211",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "On-site",
+        "District": "Al Hamra",
+        "Site_Name": "Al Hamra Demo Site 01",
+        "Monthly_Transactions": 8285,
+        "Own_Network_Revenue_SAR": 22339.42,
+        "Interbank_Revenue_SAR": 79.8,
+        "Total_Revenue_SAR": 22419.22,
+        "Operating_Cost_SAR": 5911.25,
+        "Cash_Replenishment_Cost_SAR": 1197.61,
+        "Maintenance_Cost_SAR": 711.01,
+        "Total_Cost_SAR": 7819.87,
+        "Net_Profit_Loss_SAR": 14599.35,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.719094,
+          24.553569
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10212",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Drive-through",
+        "District": "Al Shifa",
+        "Site_Name": "Al Shifa Demo Site 01",
+        "Monthly_Transactions": 8697,
+        "Own_Network_Revenue_SAR": 22319.7,
+        "Interbank_Revenue_SAR": 240.45,
+        "Total_Revenue_SAR": 22560.15,
+        "Operating_Cost_SAR": 3256.18,
+        "Cash_Replenishment_Cost_SAR": 1677.13,
+        "Maintenance_Cost_SAR": 650.61,
+        "Total_Cost_SAR": 5583.92,
+        "Net_Profit_Loss_SAR": 16976.23,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.77928,
+          24.572884
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10213",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "On-site",
+        "District": "Al Aziziyah",
+        "Site_Name": "Al Aziziyah Demo Site 01",
+        "Monthly_Transactions": 3187,
+        "Own_Network_Revenue_SAR": 9182.64,
+        "Interbank_Revenue_SAR": 155.75,
+        "Total_Revenue_SAR": 9338.39,
+        "Operating_Cost_SAR": 5225.94,
+        "Cash_Replenishment_Cost_SAR": 2156.78,
+        "Maintenance_Cost_SAR": 763.62,
+        "Total_Cost_SAR": 8146.34,
+        "Net_Profit_Loss_SAR": 1192.05,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.83818,
+          24.731531
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10214",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Off-site",
+        "District": "Al Naseem",
+        "Site_Name": "Al Naseem Demo Site 01",
+        "Monthly_Transactions": 9383,
+        "Own_Network_Revenue_SAR": 34931.68,
+        "Interbank_Revenue_SAR": 149.8,
+        "Total_Revenue_SAR": 35081.48,
+        "Operating_Cost_SAR": 7069.37,
+        "Cash_Replenishment_Cost_SAR": 2320.59,
+        "Maintenance_Cost_SAR": 1092.72,
+        "Total_Cost_SAR": 10482.68,
+        "Net_Profit_Loss_SAR": 24598.8,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.776038,
+          24.756068
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10215",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "On-site",
+        "District": "Al Quds",
+        "Site_Name": "Al Quds Demo Site 01",
+        "Monthly_Transactions": 1863,
+        "Own_Network_Revenue_SAR": 3467.33,
+        "Interbank_Revenue_SAR": 281.4,
+        "Total_Revenue_SAR": 3748.73,
+        "Operating_Cost_SAR": 9862.96,
+        "Cash_Replenishment_Cost_SAR": 1250.42,
+        "Maintenance_Cost_SAR": 822.14,
+        "Total_Cost_SAR": 11935.52,
+        "Net_Profit_Loss_SAR": -8186.79,
+        "Performance_Status": "Loss",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.673603,
+          24.721471
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10216",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Retail",
+        "District": "Al Wurud",
+        "Site_Name": "Al Wurud Demo Site 01",
+        "Monthly_Transactions": 6548,
+        "Own_Network_Revenue_SAR": 20382.82,
+        "Interbank_Revenue_SAR": 37.1,
+        "Total_Revenue_SAR": 20419.92,
+        "Operating_Cost_SAR": 3940.23,
+        "Cash_Replenishment_Cost_SAR": 1151.36,
+        "Maintenance_Cost_SAR": 350.07,
+        "Total_Cost_SAR": 5441.66,
+        "Net_Profit_Loss_SAR": 14978.26,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.681399,
+          24.753695
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10217",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Off-site",
+        "District": "Al Mursalat",
+        "Site_Name": "Al Mursalat Demo Site 01",
+        "Monthly_Transactions": 6460,
+        "Own_Network_Revenue_SAR": 23233.77,
+        "Interbank_Revenue_SAR": 166.95,
+        "Total_Revenue_SAR": 23400.72,
+        "Operating_Cost_SAR": 10132.53,
+        "Cash_Replenishment_Cost_SAR": 2494.98,
+        "Maintenance_Cost_SAR": 288.92,
+        "Total_Cost_SAR": 12916.43,
+        "Net_Profit_Loss_SAR": 10484.29,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.671737,
+          24.741312
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10218",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "On-site",
+        "District": "King Fahd District",
+        "Site_Name": "King Fahd District Demo Site 01",
+        "Monthly_Transactions": 12926,
+        "Own_Network_Revenue_SAR": 24407.57,
+        "Interbank_Revenue_SAR": 166.6,
+        "Total_Revenue_SAR": 24574.17,
+        "Operating_Cost_SAR": 4969.66,
+        "Cash_Replenishment_Cost_SAR": 1327.65,
+        "Maintenance_Cost_SAR": 1020.6,
+        "Total_Cost_SAR": 7317.91,
+        "Net_Profit_Loss_SAR": 17256.26,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.631874,
+          24.756506
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10219",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "On-site",
+        "District": "Al Aqiq",
+        "Site_Name": "Al Aqiq Demo Site 01",
+        "Monthly_Transactions": 13813,
+        "Own_Network_Revenue_SAR": 48335.59,
+        "Interbank_Revenue_SAR": 179.2,
+        "Total_Revenue_SAR": 48514.79,
+        "Operating_Cost_SAR": 11009.53,
+        "Cash_Replenishment_Cost_SAR": 1384.43,
+        "Maintenance_Cost_SAR": 417.49,
+        "Total_Cost_SAR": 12811.45,
+        "Net_Profit_Loss_SAR": 35703.34,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.610741,
+          24.771926
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10220",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Retail",
+        "District": "Hittin",
+        "Site_Name": "Hittin Demo Site 01",
+        "Monthly_Transactions": 1931,
+        "Own_Network_Revenue_SAR": 2771.92,
+        "Interbank_Revenue_SAR": 284.2,
+        "Total_Revenue_SAR": 3056.12,
+        "Operating_Cost_SAR": 7139.05,
+        "Cash_Replenishment_Cost_SAR": 2360.38,
+        "Maintenance_Cost_SAR": 867.37,
+        "Total_Cost_SAR": 10366.8,
+        "Net_Profit_Loss_SAR": -7310.68,
+        "Performance_Status": "Loss",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.612313,
+          24.857178
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10221",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "On-site",
+        "District": "Al Arid",
+        "Site_Name": "Al Arid Demo Site 01",
+        "Monthly_Transactions": 2917,
+        "Own_Network_Revenue_SAR": 8933.1,
+        "Interbank_Revenue_SAR": 238.35,
+        "Total_Revenue_SAR": 9171.45,
+        "Operating_Cost_SAR": 10717.5,
+        "Cash_Replenishment_Cost_SAR": 2345.68,
+        "Maintenance_Cost_SAR": 280.05,
+        "Total_Cost_SAR": 13343.23,
+        "Net_Profit_Loss_SAR": -4171.78,
+        "Performance_Status": "Loss",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.675058,
+          24.851254
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10222",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "On-site",
+        "District": "Al Yasmin North",
+        "Site_Name": "Al Yasmin North Demo Site 01",
+        "Monthly_Transactions": 14387,
+        "Own_Network_Revenue_SAR": 22079.14,
+        "Interbank_Revenue_SAR": 239.4,
+        "Total_Revenue_SAR": 22318.54,
+        "Operating_Cost_SAR": 8723.73,
+        "Cash_Replenishment_Cost_SAR": 1894.72,
+        "Maintenance_Cost_SAR": 1014.94,
+        "Total_Cost_SAR": 11633.39,
+        "Net_Profit_Loss_SAR": 10685.15,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.902648,
+          24.825281
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10223",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Drive-through",
+        "District": "Al Rimal",
+        "Site_Name": "Al Rimal Demo Site 01",
+        "Monthly_Transactions": 4917,
+        "Own_Network_Revenue_SAR": 16269.7,
+        "Interbank_Revenue_SAR": 119.7,
+        "Total_Revenue_SAR": 16389.4,
+        "Operating_Cost_SAR": 3590.62,
+        "Cash_Replenishment_Cost_SAR": 1041.17,
+        "Maintenance_Cost_SAR": 326.9,
+        "Total_Cost_SAR": 4958.69,
+        "Net_Profit_Loss_SAR": 11430.71,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.96698,
+          24.851938
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10224",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "On-site",
+        "District": "Al Janadriyah",
+        "Site_Name": "Al Janadriyah Demo Site 01",
+        "Monthly_Transactions": 1246,
+        "Own_Network_Revenue_SAR": 4066.8,
+        "Interbank_Revenue_SAR": 215.25,
+        "Total_Revenue_SAR": 4282.05,
+        "Operating_Cost_SAR": 4047.29,
+        "Cash_Replenishment_Cost_SAR": 753.08,
+        "Maintenance_Cost_SAR": 438.92,
+        "Total_Cost_SAR": 5239.29,
+        "Net_Profit_Loss_SAR": -957.24,
+        "Performance_Status": "Break-even",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.715621,
+          24.79531
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10225",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Retail",
+        "District": "Al Falah",
+        "Site_Name": "Al Falah Demo Site 01",
+        "Monthly_Transactions": 5803,
+        "Own_Network_Revenue_SAR": 13646.91,
+        "Interbank_Revenue_SAR": 153.65,
+        "Total_Revenue_SAR": 13800.56,
+        "Operating_Cost_SAR": 4715.83,
+        "Cash_Replenishment_Cost_SAR": 1703.68,
+        "Maintenance_Cost_SAR": 376.52,
+        "Total_Cost_SAR": 6796.03,
+        "Net_Profit_Loss_SAR": 7004.53,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.693843,
+          24.788018
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10226",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Off-site",
+        "District": "Al Izdihar",
+        "Site_Name": "Al Izdihar Demo Site 01",
+        "Monthly_Transactions": 4917,
+        "Own_Network_Revenue_SAR": 7624.72,
+        "Interbank_Revenue_SAR": 127.05,
+        "Total_Revenue_SAR": 7751.77,
+        "Operating_Cost_SAR": 5183.91,
+        "Cash_Replenishment_Cost_SAR": 1114.75,
+        "Maintenance_Cost_SAR": 425.02,
+        "Total_Cost_SAR": 6723.68,
+        "Net_Profit_Loss_SAR": 1028.09,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.771745,
+          24.721166
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10227",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Retail",
+        "District": "Al Andalus",
+        "Site_Name": "Al Andalus Demo Site 01",
+        "Monthly_Transactions": 9774,
+        "Own_Network_Revenue_SAR": 23031.92,
+        "Interbank_Revenue_SAR": 184.8,
+        "Total_Revenue_SAR": 23216.72,
+        "Operating_Cost_SAR": 5162.3,
+        "Cash_Replenishment_Cost_SAR": 1752.93,
+        "Maintenance_Cost_SAR": 859.46,
+        "Total_Cost_SAR": 7774.69,
+        "Net_Profit_Loss_SAR": 15442.03,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.76734,
+          24.692655
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10228",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Drive-through",
+        "District": "Al Faisaliyah",
+        "Site_Name": "Al Faisaliyah Demo Site 01",
+        "Monthly_Transactions": 13607,
+        "Own_Network_Revenue_SAR": 33562.79,
+        "Interbank_Revenue_SAR": 34.3,
+        "Total_Revenue_SAR": 33597.09,
+        "Operating_Cost_SAR": 7937.83,
+        "Cash_Replenishment_Cost_SAR": 2418.28,
+        "Maintenance_Cost_SAR": 779.63,
+        "Total_Cost_SAR": 11135.74,
+        "Net_Profit_Loss_SAR": 22461.35,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.668178,
+          24.623665
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10229",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Retail",
+        "District": "Al Badiah",
+        "Site_Name": "Al Badiah Demo Site 01",
+        "Monthly_Transactions": 10200,
+        "Own_Network_Revenue_SAR": 32779.17,
+        "Interbank_Revenue_SAR": 130.2,
+        "Total_Revenue_SAR": 32909.37,
+        "Operating_Cost_SAR": 9697.62,
+        "Cash_Replenishment_Cost_SAR": 1932.04,
+        "Maintenance_Cost_SAR": 441.38,
+        "Total_Cost_SAR": 12071.04,
+        "Net_Profit_Loss_SAR": 20838.33,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.643445,
+          24.60498
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10230",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "On-site",
+        "District": "Al Uraija",
+        "Site_Name": "Al Uraija Demo Site 01",
+        "Monthly_Transactions": 3887,
+        "Own_Network_Revenue_SAR": 14170.1,
+        "Interbank_Revenue_SAR": 306.95,
+        "Total_Revenue_SAR": 14477.05,
+        "Operating_Cost_SAR": 6041.76,
+        "Cash_Replenishment_Cost_SAR": 2095.12,
+        "Maintenance_Cost_SAR": 765.89,
+        "Total_Cost_SAR": 8902.77,
+        "Net_Profit_Loss_SAR": 5574.28,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.690661,
+          24.597789
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10231",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Off-site",
+        "District": "Al Suwaidi",
+        "Site_Name": "Al Suwaidi Demo Site 01",
+        "Monthly_Transactions": 10644,
+        "Own_Network_Revenue_SAR": 23211.62,
+        "Interbank_Revenue_SAR": 263.2,
+        "Total_Revenue_SAR": 23474.82,
+        "Operating_Cost_SAR": 4206.26,
+        "Cash_Replenishment_Cost_SAR": 2409.37,
+        "Maintenance_Cost_SAR": 710.03,
+        "Total_Cost_SAR": 7325.66,
+        "Net_Profit_Loss_SAR": 16149.16,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.557992,
+          24.648954
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10232",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "On-site",
+        "District": "Dhahrat Laban",
+        "Site_Name": "Dhahrat Laban Demo Site 01",
+        "Monthly_Transactions": 6678,
+        "Own_Network_Revenue_SAR": 24347.4,
+        "Interbank_Revenue_SAR": 265.65,
+        "Total_Revenue_SAR": 24613.05,
+        "Operating_Cost_SAR": 6581.01,
+        "Cash_Replenishment_Cost_SAR": 1031.61,
+        "Maintenance_Cost_SAR": 651.88,
+        "Total_Cost_SAR": 8264.5,
+        "Net_Profit_Loss_SAR": 16348.55,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.551213,
+          24.591372
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10233",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "On-site",
+        "District": "Tuwaiq",
+        "Site_Name": "Tuwaiq Demo Site 01",
+        "Monthly_Transactions": 2953,
+        "Own_Network_Revenue_SAR": 4954.76,
+        "Interbank_Revenue_SAR": 92.4,
+        "Total_Revenue_SAR": 5047.16,
+        "Operating_Cost_SAR": 6374.22,
+        "Cash_Replenishment_Cost_SAR": 1457.87,
+        "Maintenance_Cost_SAR": 378.89,
+        "Total_Cost_SAR": 8210.98,
+        "Net_Profit_Loss_SAR": -3163.82,
+        "Performance_Status": "Loss",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.53352,
+          24.67965
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10234",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Retail",
+        "District": "Al Mahdiyah",
+        "Site_Name": "Al Mahdiyah Demo Site 01",
+        "Monthly_Transactions": 13185,
+        "Own_Network_Revenue_SAR": 45646.35,
+        "Interbank_Revenue_SAR": 263.55,
+        "Total_Revenue_SAR": 45909.9,
+        "Operating_Cost_SAR": 11051.46,
+        "Cash_Replenishment_Cost_SAR": 1252.09,
+        "Maintenance_Cost_SAR": 1190.14,
+        "Total_Cost_SAR": 13493.69,
+        "Net_Profit_Loss_SAR": 32416.21,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.735341,
+          24.809299
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10235",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Off-site",
+        "District": "Qurtubah",
+        "Site_Name": "Qurtubah Demo Site 01",
+        "Monthly_Transactions": 5854,
+        "Own_Network_Revenue_SAR": 18951.69,
+        "Interbank_Revenue_SAR": 125.65,
+        "Total_Revenue_SAR": 19077.34,
+        "Operating_Cost_SAR": 7455.99,
+        "Cash_Replenishment_Cost_SAR": 666.68,
+        "Maintenance_Cost_SAR": 787.72,
+        "Total_Cost_SAR": 8910.39,
+        "Net_Profit_Loss_SAR": 10166.95,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.792279,
+          24.802105
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10236",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Off-site",
+        "District": "Ishbiliyah",
+        "Site_Name": "Ishbiliyah Demo Site 01",
+        "Monthly_Transactions": 13535,
+        "Own_Network_Revenue_SAR": 32430.3,
+        "Interbank_Revenue_SAR": 126.35,
+        "Total_Revenue_SAR": 32556.65,
+        "Operating_Cost_SAR": 10411.52,
+        "Cash_Replenishment_Cost_SAR": 2072.7,
+        "Maintenance_Cost_SAR": 1132.41,
+        "Total_Cost_SAR": 13616.63,
+        "Net_Profit_Loss_SAR": 18940.02,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.728592,
+          24.786558
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10237",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "On-site",
+        "District": "Granada",
+        "Site_Name": "Granada Demo Site 01",
+        "Monthly_Transactions": 4216,
+        "Own_Network_Revenue_SAR": 15623.14,
+        "Interbank_Revenue_SAR": 231.7,
+        "Total_Revenue_SAR": 15854.84,
+        "Operating_Cost_SAR": 3658.2,
+        "Cash_Replenishment_Cost_SAR": 1915.25,
+        "Maintenance_Cost_SAR": 724.77,
+        "Total_Cost_SAR": 6298.22,
+        "Net_Profit_Loss_SAR": 9556.62,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.693933,
+          24.760373
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10238",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Retail",
+        "District": "Al Mughrizat",
+        "Site_Name": "Al Mughrizat Demo Site 01",
+        "Monthly_Transactions": 13415,
+        "Own_Network_Revenue_SAR": 31801.91,
+        "Interbank_Revenue_SAR": 57.05,
+        "Total_Revenue_SAR": 31858.96,
+        "Operating_Cost_SAR": 5964.68,
+        "Cash_Replenishment_Cost_SAR": 940.92,
+        "Maintenance_Cost_SAR": 615.39,
+        "Total_Cost_SAR": 7520.99,
+        "Net_Profit_Loss_SAR": 24337.97,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.679468,
+          24.783507
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10239",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "On-site",
+        "District": "Al Wadi",
+        "Site_Name": "Al Wadi Demo Site 01",
+        "Monthly_Transactions": 13231,
+        "Own_Network_Revenue_SAR": 43795.85,
+        "Interbank_Revenue_SAR": 121.1,
+        "Total_Revenue_SAR": 43916.95,
+        "Operating_Cost_SAR": 4959.76,
+        "Cash_Replenishment_Cost_SAR": 1652.53,
+        "Maintenance_Cost_SAR": 269.73,
+        "Total_Cost_SAR": 6882.02,
+        "Net_Profit_Loss_SAR": 37034.93,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.840397,
+          24.814722
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10240",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Off-site",
+        "District": "Al Munsiyah",
+        "Site_Name": "Al Munsiyah Demo Site 01",
+        "Monthly_Transactions": 5940,
+        "Own_Network_Revenue_SAR": 16193.46,
+        "Interbank_Revenue_SAR": 43.4,
+        "Total_Revenue_SAR": 16236.86,
+        "Operating_Cost_SAR": 8896.77,
+        "Cash_Replenishment_Cost_SAR": 2037.02,
+        "Maintenance_Cost_SAR": 1034.05,
+        "Total_Cost_SAR": 11967.84,
+        "Net_Profit_Loss_SAR": 4269.02,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.571591,
+          24.839548
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10241",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Off-site",
+        "District": "Al Qairawan",
+        "Site_Name": "Al Qairawan Demo Site 01",
+        "Monthly_Transactions": 9132,
+        "Own_Network_Revenue_SAR": 19815.66,
+        "Interbank_Revenue_SAR": 70.35,
+        "Total_Revenue_SAR": 19886.01,
+        "Operating_Cost_SAR": 3536.74,
+        "Cash_Replenishment_Cost_SAR": 2100.07,
+        "Maintenance_Cost_SAR": 721.12,
+        "Total_Cost_SAR": 6357.93,
+        "Net_Profit_Loss_SAR": 13528.08,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.65517,
+          24.798934
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10242",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Retail",
+        "District": "Al Ghadir",
+        "Site_Name": "Al Ghadir Demo Site 01",
+        "Monthly_Transactions": 7787,
+        "Own_Network_Revenue_SAR": 11151.62,
+        "Interbank_Revenue_SAR": 30.1,
+        "Total_Revenue_SAR": 11181.72,
+        "Operating_Cost_SAR": 7789.4,
+        "Cash_Replenishment_Cost_SAR": 1217.23,
+        "Maintenance_Cost_SAR": 782.76,
+        "Total_Cost_SAR": 9789.39,
+        "Net_Profit_Loss_SAR": 1392.33,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.696685,
+          24.828088
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10243",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "On-site",
+        "District": "Al Yasmin East",
+        "Site_Name": "Al Yasmin East Demo Site 01",
+        "Monthly_Transactions": 11125,
+        "Own_Network_Revenue_SAR": 38139.38,
+        "Interbank_Revenue_SAR": 16.8,
+        "Total_Revenue_SAR": 38156.18,
+        "Operating_Cost_SAR": 6042.95,
+        "Cash_Replenishment_Cost_SAR": 1552.08,
+        "Maintenance_Cost_SAR": 328.29,
+        "Total_Cost_SAR": 7923.32,
+        "Net_Profit_Loss_SAR": 30232.86,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.703013,
+          24.738605
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10244",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Off-site",
+        "District": "Al Nuzhah",
+        "Site_Name": "Al Nuzhah Demo Site 01",
+        "Monthly_Transactions": 13494,
+        "Own_Network_Revenue_SAR": 26827.36,
+        "Interbank_Revenue_SAR": 176.05,
+        "Total_Revenue_SAR": 27003.41,
+        "Operating_Cost_SAR": 10749.17,
+        "Cash_Replenishment_Cost_SAR": 725.15,
+        "Maintenance_Cost_SAR": 630.55,
+        "Total_Cost_SAR": 12104.87,
+        "Net_Profit_Loss_SAR": 14898.54,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.813885,
+          24.749313
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10245",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Retail",
+        "District": "Al Khaleej",
+        "Site_Name": "Al Khaleej Demo Site 01",
+        "Monthly_Transactions": 12788,
+        "Own_Network_Revenue_SAR": 41606.18,
+        "Interbank_Revenue_SAR": 28.0,
+        "Total_Revenue_SAR": 41634.18,
+        "Operating_Cost_SAR": 4273.45,
+        "Cash_Replenishment_Cost_SAR": 738.71,
+        "Maintenance_Cost_SAR": 1194.7,
+        "Total_Cost_SAR": 6206.86,
+        "Net_Profit_Loss_SAR": 35427.32,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.826439,
+          24.721115
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10246",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "On-site",
+        "District": "Al Manar",
+        "Site_Name": "Al Manar Demo Site 01",
+        "Monthly_Transactions": 5988,
+        "Own_Network_Revenue_SAR": 20643.34,
+        "Interbank_Revenue_SAR": 21.35,
+        "Total_Revenue_SAR": 20664.69,
+        "Operating_Cost_SAR": 7868.33,
+        "Cash_Replenishment_Cost_SAR": 2200.4,
+        "Maintenance_Cost_SAR": 1283.4,
+        "Total_Cost_SAR": 11352.13,
+        "Net_Profit_Loss_SAR": 9312.56,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.798208,
+          24.697041
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10247",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Retail",
+        "District": "Al Safa",
+        "Site_Name": "Al Safa Demo Site 01",
+        "Monthly_Transactions": 5554,
+        "Own_Network_Revenue_SAR": 14248.61,
+        "Interbank_Revenue_SAR": 135.8,
+        "Total_Revenue_SAR": 14384.41,
+        "Operating_Cost_SAR": 10508.37,
+        "Cash_Replenishment_Cost_SAR": 2409.34,
+        "Maintenance_Cost_SAR": 1045.88,
+        "Total_Cost_SAR": 13963.59,
+        "Net_Profit_Loss_SAR": 420.82,
+        "Performance_Status": "Break-even",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.769337,
+          24.630066
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10248",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "On-site",
+        "District": "Al Hamdaniyah",
+        "Site_Name": "Al Hamdaniyah Demo Site 01",
+        "Monthly_Transactions": 12102,
+        "Own_Network_Revenue_SAR": 29129.79,
+        "Interbank_Revenue_SAR": 299.6,
+        "Total_Revenue_SAR": 29429.39,
+        "Operating_Cost_SAR": 7260.74,
+        "Cash_Replenishment_Cost_SAR": 1565.16,
+        "Maintenance_Cost_SAR": 450.47,
+        "Total_Cost_SAR": 9276.37,
+        "Net_Profit_Loss_SAR": 20153.02,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.558859,
+          24.747332
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10249",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Off-site",
+        "District": "Al Diriyah Edge",
+        "Site_Name": "Al Diriyah Edge Demo Site 01",
+        "Monthly_Transactions": 8213,
+        "Own_Network_Revenue_SAR": 24619.66,
+        "Interbank_Revenue_SAR": 269.85,
+        "Total_Revenue_SAR": 24889.51,
+        "Operating_Cost_SAR": 4478.5,
+        "Cash_Replenishment_Cost_SAR": 1354.51,
+        "Maintenance_Cost_SAR": 549.1,
+        "Total_Cost_SAR": 6382.11,
+        "Net_Profit_Loss_SAR": 18507.4,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.621089,
+          24.68383
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10250",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "On-site",
+        "District": "Diplomatic Quarter",
+        "Site_Name": "Diplomatic Quarter Demo Site 01",
+        "Monthly_Transactions": 10809,
+        "Own_Network_Revenue_SAR": 39419.92,
+        "Interbank_Revenue_SAR": 150.15,
+        "Total_Revenue_SAR": 39570.07,
+        "Operating_Cost_SAR": 6417.16,
+        "Cash_Replenishment_Cost_SAR": 1398.66,
+        "Maintenance_Cost_SAR": 1285.6,
+        "Total_Cost_SAR": 9101.42,
+        "Net_Profit_Loss_SAR": 30468.65,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.679802,
+          24.693696
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10251",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Retail",
+        "District": "Al Olaya",
+        "Site_Name": "Al Olaya Demo Site 02",
+        "Monthly_Transactions": 11144,
+        "Own_Network_Revenue_SAR": 39998.91,
+        "Interbank_Revenue_SAR": 116.55,
+        "Total_Revenue_SAR": 40115.46,
+        "Operating_Cost_SAR": 9880.52,
+        "Cash_Replenishment_Cost_SAR": 721.43,
+        "Maintenance_Cost_SAR": 294.02,
+        "Total_Cost_SAR": 10895.97,
+        "Net_Profit_Loss_SAR": 29219.49,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.715647,
+          24.663596
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10252",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "On-site",
+        "District": "Al Malaz",
+        "Site_Name": "Al Malaz Demo Site 02",
+        "Monthly_Transactions": 6167,
+        "Own_Network_Revenue_SAR": 18274.1,
+        "Interbank_Revenue_SAR": 187.95,
+        "Total_Revenue_SAR": 18462.05,
+        "Operating_Cost_SAR": 9023.02,
+        "Cash_Replenishment_Cost_SAR": 751.19,
+        "Maintenance_Cost_SAR": 466.0,
+        "Total_Cost_SAR": 10240.21,
+        "Net_Profit_Loss_SAR": 8221.84,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.716594,
+          24.653761
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10253",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "On-site",
+        "District": "Al Murabba",
+        "Site_Name": "Al Murabba Demo Site 02",
+        "Monthly_Transactions": 13124,
+        "Own_Network_Revenue_SAR": 32841.62,
+        "Interbank_Revenue_SAR": 222.25,
+        "Total_Revenue_SAR": 33063.87,
+        "Operating_Cost_SAR": 5854.54,
+        "Cash_Replenishment_Cost_SAR": 1498.08,
+        "Maintenance_Cost_SAR": 442.31,
+        "Total_Cost_SAR": 7794.93,
+        "Net_Profit_Loss_SAR": 25268.94,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.706692,
+          24.694693
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10254",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Off-site",
+        "District": "Al Sulimaniyah",
+        "Site_Name": "Al Sulimaniyah Demo Site 02",
+        "Monthly_Transactions": 3021,
+        "Own_Network_Revenue_SAR": 7704.91,
+        "Interbank_Revenue_SAR": 179.55,
+        "Total_Revenue_SAR": 7884.46,
+        "Operating_Cost_SAR": 4728.18,
+        "Cash_Replenishment_Cost_SAR": 2296.2,
+        "Maintenance_Cost_SAR": 253.28,
+        "Total_Cost_SAR": 7277.66,
+        "Net_Profit_Loss_SAR": 606.8,
+        "Performance_Status": "Break-even",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.624501,
+          24.742151
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10255",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Drive-through",
+        "District": "Al Nakheel",
+        "Site_Name": "Al Nakheel Demo Site 02",
+        "Monthly_Transactions": 11558,
+        "Own_Network_Revenue_SAR": 31233.03,
+        "Interbank_Revenue_SAR": 307.65,
+        "Total_Revenue_SAR": 31540.68,
+        "Operating_Cost_SAR": 8921.61,
+        "Cash_Replenishment_Cost_SAR": 809.62,
+        "Maintenance_Cost_SAR": 431.86,
+        "Total_Cost_SAR": 10163.09,
+        "Net_Profit_Loss_SAR": 21377.59,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.663079,
+          24.842844
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10256",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Retail",
+        "District": "Al Yasmin",
+        "Site_Name": "Al Yasmin Demo Site 02",
+        "Monthly_Transactions": 6736,
+        "Own_Network_Revenue_SAR": 16996.57,
+        "Interbank_Revenue_SAR": 200.2,
+        "Total_Revenue_SAR": 17196.77,
+        "Operating_Cost_SAR": 2563.74,
+        "Cash_Replenishment_Cost_SAR": 1653.41,
+        "Maintenance_Cost_SAR": 856.99,
+        "Total_Cost_SAR": 5074.14,
+        "Net_Profit_Loss_SAR": 12122.63,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.642095,
+          24.894226
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10257",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Drive-through",
+        "District": "Al Narjis",
+        "Site_Name": "Al Narjis Demo Site 02",
+        "Monthly_Transactions": 14446,
+        "Own_Network_Revenue_SAR": 29310.99,
+        "Interbank_Revenue_SAR": 219.8,
+        "Total_Revenue_SAR": 29530.79,
+        "Operating_Cost_SAR": 4215.32,
+        "Cash_Replenishment_Cost_SAR": 1697.66,
+        "Maintenance_Cost_SAR": 352.31,
+        "Total_Cost_SAR": 6265.29,
+        "Net_Profit_Loss_SAR": 23265.5,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.634242,
+          24.799642
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10258",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "On-site",
+        "District": "Al Sahafah",
+        "Site_Name": "Al Sahafah Demo Site 02",
+        "Monthly_Transactions": 9379,
+        "Own_Network_Revenue_SAR": 24878.36,
+        "Interbank_Revenue_SAR": 16.8,
+        "Total_Revenue_SAR": 24895.16,
+        "Operating_Cost_SAR": 11469.62,
+        "Cash_Replenishment_Cost_SAR": 1596.57,
+        "Maintenance_Cost_SAR": 686.26,
+        "Total_Cost_SAR": 13752.45,
+        "Net_Profit_Loss_SAR": 11142.71,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.757591,
+          24.688748
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10259",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Drive-through",
+        "District": "Al Rabwah",
+        "Site_Name": "Al Rabwah Demo Site 02",
+        "Monthly_Transactions": 2528,
+        "Own_Network_Revenue_SAR": 8253.83,
+        "Interbank_Revenue_SAR": 40.25,
+        "Total_Revenue_SAR": 8294.08,
+        "Operating_Cost_SAR": 11097.67,
+        "Cash_Replenishment_Cost_SAR": 2147.16,
+        "Maintenance_Cost_SAR": 408.35,
+        "Total_Cost_SAR": 13653.18,
+        "Net_Profit_Loss_SAR": -5359.1,
+        "Performance_Status": "Loss",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.74418,
+          24.725944
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10260",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Retail",
+        "District": "Al Rawdah",
+        "Site_Name": "Al Rawdah Demo Site 02",
+        "Monthly_Transactions": 12252,
+        "Own_Network_Revenue_SAR": 20261.3,
+        "Interbank_Revenue_SAR": 38.15,
+        "Total_Revenue_SAR": 20299.45,
+        "Operating_Cost_SAR": 8631.65,
+        "Cash_Replenishment_Cost_SAR": 1696.16,
+        "Maintenance_Cost_SAR": 828.31,
+        "Total_Cost_SAR": 11156.12,
+        "Net_Profit_Loss_SAR": 9143.33,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.793902,
+          24.745853
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10261",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Retail",
+        "District": "Al Hamra",
+        "Site_Name": "Al Hamra Demo Site 02",
+        "Monthly_Transactions": 2560,
+        "Own_Network_Revenue_SAR": 9371.86,
+        "Interbank_Revenue_SAR": 214.9,
+        "Total_Revenue_SAR": 9586.76,
+        "Operating_Cost_SAR": 5705.14,
+        "Cash_Replenishment_Cost_SAR": 2456.48,
+        "Maintenance_Cost_SAR": 1248.81,
+        "Total_Cost_SAR": 9410.43,
+        "Net_Profit_Loss_SAR": 176.33,
+        "Performance_Status": "Break-even",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.709134,
+          24.55356
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10262",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "On-site",
+        "District": "Al Shifa",
+        "Site_Name": "Al Shifa Demo Site 02",
+        "Monthly_Transactions": 2349,
+        "Own_Network_Revenue_SAR": 5871.02,
+        "Interbank_Revenue_SAR": 289.45,
+        "Total_Revenue_SAR": 6160.47,
+        "Operating_Cost_SAR": 5265.05,
+        "Cash_Replenishment_Cost_SAR": 2561.06,
+        "Maintenance_Cost_SAR": 698.03,
+        "Total_Cost_SAR": 8524.14,
+        "Net_Profit_Loss_SAR": -2363.67,
+        "Performance_Status": "Loss",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.794738,
+          24.569011
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10263",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "On-site",
+        "District": "Al Aziziyah",
+        "Site_Name": "Al Aziziyah Demo Site 02",
+        "Monthly_Transactions": 5002,
+        "Own_Network_Revenue_SAR": 7701.91,
+        "Interbank_Revenue_SAR": 266.7,
+        "Total_Revenue_SAR": 7968.61,
+        "Operating_Cost_SAR": 7495.9,
+        "Cash_Replenishment_Cost_SAR": 1573.5,
+        "Maintenance_Cost_SAR": 1133.13,
+        "Total_Cost_SAR": 10202.53,
+        "Net_Profit_Loss_SAR": -2233.92,
+        "Performance_Status": "Loss",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.823397,
+          24.753226
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10264",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Retail",
+        "District": "Al Naseem",
+        "Site_Name": "Al Naseem Demo Site 02",
+        "Monthly_Transactions": 11565,
+        "Own_Network_Revenue_SAR": 30665.65,
+        "Interbank_Revenue_SAR": 203.0,
+        "Total_Revenue_SAR": 30868.65,
+        "Operating_Cost_SAR": 5346.67,
+        "Cash_Replenishment_Cost_SAR": 1974.9,
+        "Maintenance_Cost_SAR": 354.66,
+        "Total_Cost_SAR": 7676.23,
+        "Net_Profit_Loss_SAR": 23192.42,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.766783,
+          24.752521
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10265",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Drive-through",
+        "District": "Al Quds",
+        "Site_Name": "Al Quds Demo Site 02",
+        "Monthly_Transactions": 10975,
+        "Own_Network_Revenue_SAR": 30748.29,
+        "Interbank_Revenue_SAR": 123.55,
+        "Total_Revenue_SAR": 30871.84,
+        "Operating_Cost_SAR": 7514.09,
+        "Cash_Replenishment_Cost_SAR": 2381.65,
+        "Maintenance_Cost_SAR": 1121.99,
+        "Total_Cost_SAR": 11017.73,
+        "Net_Profit_Loss_SAR": 19854.11,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.677417,
+          24.720271
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10266",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "On-site",
+        "District": "Al Wurud",
+        "Site_Name": "Al Wurud Demo Site 02",
+        "Monthly_Transactions": 13901,
+        "Own_Network_Revenue_SAR": 49831.37,
+        "Interbank_Revenue_SAR": 168.7,
+        "Total_Revenue_SAR": 50000.07,
+        "Operating_Cost_SAR": 6076.79,
+        "Cash_Replenishment_Cost_SAR": 2189.16,
+        "Maintenance_Cost_SAR": 464.61,
+        "Total_Cost_SAR": 8730.56,
+        "Net_Profit_Loss_SAR": 41269.51,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.69229,
+          24.737791
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10267",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Off-site",
+        "District": "Al Mursalat",
+        "Site_Name": "Al Mursalat Demo Site 02",
+        "Monthly_Transactions": 8651,
+        "Own_Network_Revenue_SAR": 14525.29,
+        "Interbank_Revenue_SAR": 32.55,
+        "Total_Revenue_SAR": 14557.84,
+        "Operating_Cost_SAR": 3934.39,
+        "Cash_Replenishment_Cost_SAR": 1945.62,
+        "Maintenance_Cost_SAR": 270.72,
+        "Total_Cost_SAR": 6150.73,
+        "Net_Profit_Loss_SAR": 8407.11,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.65676,
+          24.75239
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10268",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Retail",
+        "District": "King Fahd District",
+        "Site_Name": "King Fahd District Demo Site 02",
+        "Monthly_Transactions": 3895,
+        "Own_Network_Revenue_SAR": 8901.01,
+        "Interbank_Revenue_SAR": 126.7,
+        "Total_Revenue_SAR": 9027.71,
+        "Operating_Cost_SAR": 11472.82,
+        "Cash_Replenishment_Cost_SAR": 1863.25,
+        "Maintenance_Cost_SAR": 1056.37,
+        "Total_Cost_SAR": 14392.44,
+        "Net_Profit_Loss_SAR": -5364.73,
+        "Performance_Status": "Loss",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.631104,
+          24.776336
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10269",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Off-site",
+        "District": "Al Aqiq",
+        "Site_Name": "Al Aqiq Demo Site 02",
+        "Monthly_Transactions": 14253,
+        "Own_Network_Revenue_SAR": 35136.07,
+        "Interbank_Revenue_SAR": 62.65,
+        "Total_Revenue_SAR": 35198.72,
+        "Operating_Cost_SAR": 3956.63,
+        "Cash_Replenishment_Cost_SAR": 1121.61,
+        "Maintenance_Cost_SAR": 469.2,
+        "Total_Cost_SAR": 5547.44,
+        "Net_Profit_Loss_SAR": 29651.28,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.597309,
+          24.773866
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10270",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Drive-through",
+        "District": "Hittin",
+        "Site_Name": "Hittin Demo Site 02",
+        "Monthly_Transactions": 13109,
+        "Own_Network_Revenue_SAR": 31211.74,
+        "Interbank_Revenue_SAR": 66.15,
+        "Total_Revenue_SAR": 31277.89,
+        "Operating_Cost_SAR": 3219.17,
+        "Cash_Replenishment_Cost_SAR": 2039.94,
+        "Maintenance_Cost_SAR": 1008.91,
+        "Total_Cost_SAR": 6268.02,
+        "Net_Profit_Loss_SAR": 25009.87,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.604306,
+          24.854775
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10271",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Off-site",
+        "District": "Al Arid",
+        "Site_Name": "Al Arid Demo Site 02",
+        "Monthly_Transactions": 4820,
+        "Own_Network_Revenue_SAR": 8376.55,
+        "Interbank_Revenue_SAR": 136.5,
+        "Total_Revenue_SAR": 8513.05,
+        "Operating_Cost_SAR": 4724.93,
+        "Cash_Replenishment_Cost_SAR": 2017.29,
+        "Maintenance_Cost_SAR": 267.71,
+        "Total_Cost_SAR": 7009.93,
+        "Net_Profit_Loss_SAR": 1503.12,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.673224,
+          24.856193
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10272",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Drive-through",
+        "District": "Al Yasmin North",
+        "Site_Name": "Al Yasmin North Demo Site 02",
+        "Monthly_Transactions": 8610,
+        "Own_Network_Revenue_SAR": 22990.21,
+        "Interbank_Revenue_SAR": 119.0,
+        "Total_Revenue_SAR": 23109.21,
+        "Operating_Cost_SAR": 4184.6,
+        "Cash_Replenishment_Cost_SAR": 1208.82,
+        "Maintenance_Cost_SAR": 1008.18,
+        "Total_Cost_SAR": 6401.6,
+        "Net_Profit_Loss_SAR": 16707.61,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.915703,
+          24.812875
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10273",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Drive-through",
+        "District": "Al Rimal",
+        "Site_Name": "Al Rimal Demo Site 02",
+        "Monthly_Transactions": 6319,
+        "Own_Network_Revenue_SAR": 17513.2,
+        "Interbank_Revenue_SAR": 179.55,
+        "Total_Revenue_SAR": 17692.75,
+        "Operating_Cost_SAR": 5607.13,
+        "Cash_Replenishment_Cost_SAR": 1846.65,
+        "Maintenance_Cost_SAR": 800.8,
+        "Total_Cost_SAR": 8254.58,
+        "Net_Profit_Loss_SAR": 9438.17,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.972402,
+          24.85831
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10274",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Off-site",
+        "District": "Al Janadriyah",
+        "Site_Name": "Al Janadriyah Demo Site 02",
+        "Monthly_Transactions": 9219,
+        "Own_Network_Revenue_SAR": 20567.46,
+        "Interbank_Revenue_SAR": 98.35,
+        "Total_Revenue_SAR": 20665.81,
+        "Operating_Cost_SAR": 7399.64,
+        "Cash_Replenishment_Cost_SAR": 1099.6,
+        "Maintenance_Cost_SAR": 991.36,
+        "Total_Cost_SAR": 9490.6,
+        "Net_Profit_Loss_SAR": 11175.21,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.701421,
+          24.798332
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10275",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Off-site",
+        "District": "Al Falah",
+        "Site_Name": "Al Falah Demo Site 02",
+        "Monthly_Transactions": 8754,
+        "Own_Network_Revenue_SAR": 22727.09,
+        "Interbank_Revenue_SAR": 121.8,
+        "Total_Revenue_SAR": 22848.89,
+        "Operating_Cost_SAR": 6950.65,
+        "Cash_Replenishment_Cost_SAR": 1274.43,
+        "Maintenance_Cost_SAR": 828.52,
+        "Total_Cost_SAR": 9053.6,
+        "Net_Profit_Loss_SAR": 13795.29,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.70627,
+          24.78903
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10276",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Drive-through",
+        "District": "Al Izdihar",
+        "Site_Name": "Al Izdihar Demo Site 02",
+        "Monthly_Transactions": 8958,
+        "Own_Network_Revenue_SAR": 17029.04,
+        "Interbank_Revenue_SAR": 149.45,
+        "Total_Revenue_SAR": 17178.49,
+        "Operating_Cost_SAR": 9369.4,
+        "Cash_Replenishment_Cost_SAR": 1771.12,
+        "Maintenance_Cost_SAR": 971.18,
+        "Total_Cost_SAR": 12111.7,
+        "Net_Profit_Loss_SAR": 5066.79,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.776564,
+          24.721837
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10277",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Retail",
+        "District": "Al Andalus",
+        "Site_Name": "Al Andalus Demo Site 02",
+        "Monthly_Transactions": 4109,
+        "Own_Network_Revenue_SAR": 7963.07,
+        "Interbank_Revenue_SAR": 211.4,
+        "Total_Revenue_SAR": 8174.47,
+        "Operating_Cost_SAR": 6022.2,
+        "Cash_Replenishment_Cost_SAR": 2495.3,
+        "Maintenance_Cost_SAR": 277.27,
+        "Total_Cost_SAR": 8794.77,
+        "Net_Profit_Loss_SAR": -620.3,
+        "Performance_Status": "Break-even",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.766982,
+          24.681566
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10278",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "On-site",
+        "District": "Al Faisaliyah",
+        "Site_Name": "Al Faisaliyah Demo Site 02",
+        "Monthly_Transactions": 2578,
+        "Own_Network_Revenue_SAR": 9138.28,
+        "Interbank_Revenue_SAR": 116.9,
+        "Total_Revenue_SAR": 9255.18,
+        "Operating_Cost_SAR": 2611.44,
+        "Cash_Replenishment_Cost_SAR": 2378.82,
+        "Maintenance_Cost_SAR": 1042.82,
+        "Total_Cost_SAR": 6033.08,
+        "Net_Profit_Loss_SAR": 3222.1,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.663804,
+          24.618053
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10279",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Off-site",
+        "District": "Al Badiah",
+        "Site_Name": "Al Badiah Demo Site 02",
+        "Monthly_Transactions": 14052,
+        "Own_Network_Revenue_SAR": 23044.52,
+        "Interbank_Revenue_SAR": 79.8,
+        "Total_Revenue_SAR": 23124.32,
+        "Operating_Cost_SAR": 8381.44,
+        "Cash_Replenishment_Cost_SAR": 2110.07,
+        "Maintenance_Cost_SAR": 263.32,
+        "Total_Cost_SAR": 10754.83,
+        "Net_Profit_Loss_SAR": 12369.49,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.639159,
+          24.598883
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10280",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Drive-through",
+        "District": "Al Uraija",
+        "Site_Name": "Al Uraija Demo Site 02",
+        "Monthly_Transactions": 10732,
+        "Own_Network_Revenue_SAR": 17868.22,
+        "Interbank_Revenue_SAR": 160.3,
+        "Total_Revenue_SAR": 18028.52,
+        "Operating_Cost_SAR": 6288.04,
+        "Cash_Replenishment_Cost_SAR": 816.42,
+        "Maintenance_Cost_SAR": 765.31,
+        "Total_Cost_SAR": 7869.77,
+        "Net_Profit_Loss_SAR": 10158.75,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.690285,
+          24.600435
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10281",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Retail",
+        "District": "Al Suwaidi",
+        "Site_Name": "Al Suwaidi Demo Site 02",
+        "Monthly_Transactions": 3394,
+        "Own_Network_Revenue_SAR": 10577.88,
+        "Interbank_Revenue_SAR": 305.9,
+        "Total_Revenue_SAR": 10883.78,
+        "Operating_Cost_SAR": 11130.35,
+        "Cash_Replenishment_Cost_SAR": 1751.58,
+        "Maintenance_Cost_SAR": 900.31,
+        "Total_Cost_SAR": 13782.24,
+        "Net_Profit_Loss_SAR": -2898.46,
+        "Performance_Status": "Loss",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.565927,
+          24.638583
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10282",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Drive-through",
+        "District": "Dhahrat Laban",
+        "Site_Name": "Dhahrat Laban Demo Site 02",
+        "Monthly_Transactions": 7279,
+        "Own_Network_Revenue_SAR": 16548.62,
+        "Interbank_Revenue_SAR": 212.45,
+        "Total_Revenue_SAR": 16761.07,
+        "Operating_Cost_SAR": 5055.58,
+        "Cash_Replenishment_Cost_SAR": 522.18,
+        "Maintenance_Cost_SAR": 891.46,
+        "Total_Cost_SAR": 6469.22,
+        "Net_Profit_Loss_SAR": 10291.85,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.568198,
+          24.587756
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10283",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "On-site",
+        "District": "Tuwaiq",
+        "Site_Name": "Tuwaiq Demo Site 02",
+        "Monthly_Transactions": 11821,
+        "Own_Network_Revenue_SAR": 27392.97,
+        "Interbank_Revenue_SAR": 79.45,
+        "Total_Revenue_SAR": 27472.42,
+        "Operating_Cost_SAR": 11333.81,
+        "Cash_Replenishment_Cost_SAR": 1344.98,
+        "Maintenance_Cost_SAR": 903.75,
+        "Total_Cost_SAR": 13582.54,
+        "Net_Profit_Loss_SAR": 13889.88,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.519027,
+          24.679839
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10284",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Retail",
+        "District": "Al Mahdiyah",
+        "Site_Name": "Al Mahdiyah Demo Site 02",
+        "Monthly_Transactions": 13159,
+        "Own_Network_Revenue_SAR": 32039.37,
+        "Interbank_Revenue_SAR": 110.6,
+        "Total_Revenue_SAR": 32149.97,
+        "Operating_Cost_SAR": 6515.39,
+        "Cash_Replenishment_Cost_SAR": 1583.33,
+        "Maintenance_Cost_SAR": 328.45,
+        "Total_Cost_SAR": 8427.17,
+        "Net_Profit_Loss_SAR": 23722.8,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.723813,
+          24.800902
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10285",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Retail",
+        "District": "Qurtubah",
+        "Site_Name": "Qurtubah Demo Site 02",
+        "Monthly_Transactions": 12544,
+        "Own_Network_Revenue_SAR": 32649.35,
+        "Interbank_Revenue_SAR": 24.15,
+        "Total_Revenue_SAR": 32673.5,
+        "Operating_Cost_SAR": 4891.69,
+        "Cash_Replenishment_Cost_SAR": 682.76,
+        "Maintenance_Cost_SAR": 814.66,
+        "Total_Cost_SAR": 6389.11,
+        "Net_Profit_Loss_SAR": 26284.39,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.800005,
+          24.810052
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10286",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Drive-through",
+        "District": "Ishbiliyah",
+        "Site_Name": "Ishbiliyah Demo Site 02",
+        "Monthly_Transactions": 11267,
+        "Own_Network_Revenue_SAR": 39931.71,
+        "Interbank_Revenue_SAR": 139.65,
+        "Total_Revenue_SAR": 40071.36,
+        "Operating_Cost_SAR": 6145.71,
+        "Cash_Replenishment_Cost_SAR": 1806.1,
+        "Maintenance_Cost_SAR": 710.72,
+        "Total_Cost_SAR": 8662.53,
+        "Net_Profit_Loss_SAR": 31408.83,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.733848,
+          24.800928
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10287",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Drive-through",
+        "District": "Granada",
+        "Site_Name": "Granada Demo Site 02",
+        "Monthly_Transactions": 11300,
+        "Own_Network_Revenue_SAR": 35658.92,
+        "Interbank_Revenue_SAR": 28.7,
+        "Total_Revenue_SAR": 35687.62,
+        "Operating_Cost_SAR": 6446.6,
+        "Cash_Replenishment_Cost_SAR": 2511.63,
+        "Maintenance_Cost_SAR": 848.22,
+        "Total_Cost_SAR": 9806.45,
+        "Net_Profit_Loss_SAR": 25881.17,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.697823,
+          24.755013
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10288",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "On-site",
+        "District": "Al Mughrizat",
+        "Site_Name": "Al Mughrizat Demo Site 02",
+        "Monthly_Transactions": 14116,
+        "Own_Network_Revenue_SAR": 47346.08,
+        "Interbank_Revenue_SAR": 175.0,
+        "Total_Revenue_SAR": 47521.08,
+        "Operating_Cost_SAR": 8067.3,
+        "Cash_Replenishment_Cost_SAR": 703.64,
+        "Maintenance_Cost_SAR": 427.04,
+        "Total_Cost_SAR": 9197.98,
+        "Net_Profit_Loss_SAR": 38323.1,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.666507,
+          24.789626
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10289",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Off-site",
+        "District": "Al Wadi",
+        "Site_Name": "Al Wadi Demo Site 02",
+        "Monthly_Transactions": 4351,
+        "Own_Network_Revenue_SAR": 15014.29,
+        "Interbank_Revenue_SAR": 241.15,
+        "Total_Revenue_SAR": 15255.44,
+        "Operating_Cost_SAR": 5989.13,
+        "Cash_Replenishment_Cost_SAR": 646.33,
+        "Maintenance_Cost_SAR": 559.73,
+        "Total_Cost_SAR": 7195.19,
+        "Net_Profit_Loss_SAR": 8060.25,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.857209,
+          24.805298
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10290",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Drive-through",
+        "District": "Al Munsiyah",
+        "Site_Name": "Al Munsiyah Demo Site 02",
+        "Monthly_Transactions": 4290,
+        "Own_Network_Revenue_SAR": 13959.56,
+        "Interbank_Revenue_SAR": 246.05,
+        "Total_Revenue_SAR": 14205.61,
+        "Operating_Cost_SAR": 8175.01,
+        "Cash_Replenishment_Cost_SAR": 2535.79,
+        "Maintenance_Cost_SAR": 1097.55,
+        "Total_Cost_SAR": 11808.35,
+        "Net_Profit_Loss_SAR": 2397.26,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.580373,
+          24.8311
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10291",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "On-site",
+        "District": "Al Qairawan",
+        "Site_Name": "Al Qairawan Demo Site 02",
+        "Monthly_Transactions": 5391,
+        "Own_Network_Revenue_SAR": 13467.99,
+        "Interbank_Revenue_SAR": 244.65,
+        "Total_Revenue_SAR": 13712.64,
+        "Operating_Cost_SAR": 4454.66,
+        "Cash_Replenishment_Cost_SAR": 717.1,
+        "Maintenance_Cost_SAR": 984.95,
+        "Total_Cost_SAR": 6156.71,
+        "Net_Profit_Loss_SAR": 7555.93,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.642387,
+          24.798489
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10292",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "On-site",
+        "District": "Al Ghadir",
+        "Site_Name": "Al Ghadir Demo Site 02",
+        "Monthly_Transactions": 11781,
+        "Own_Network_Revenue_SAR": 35038.74,
+        "Interbank_Revenue_SAR": 273.7,
+        "Total_Revenue_SAR": 35312.44,
+        "Operating_Cost_SAR": 6672.91,
+        "Cash_Replenishment_Cost_SAR": 1735.77,
+        "Maintenance_Cost_SAR": 451.78,
+        "Total_Cost_SAR": 8860.46,
+        "Net_Profit_Loss_SAR": 26451.98,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.699142,
+          24.828609
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10293",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Retail",
+        "District": "Al Yasmin East",
+        "Site_Name": "Al Yasmin East Demo Site 02",
+        "Monthly_Transactions": 8909,
+        "Own_Network_Revenue_SAR": 24929.69,
+        "Interbank_Revenue_SAR": 51.45,
+        "Total_Revenue_SAR": 24981.14,
+        "Operating_Cost_SAR": 8520.89,
+        "Cash_Replenishment_Cost_SAR": 2111.91,
+        "Maintenance_Cost_SAR": 516.1,
+        "Total_Cost_SAR": 11148.9,
+        "Net_Profit_Loss_SAR": 13832.24,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.71853,
+          24.747971
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10294",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "On-site",
+        "District": "Al Nuzhah",
+        "Site_Name": "Al Nuzhah Demo Site 02",
+        "Monthly_Transactions": 4037,
+        "Own_Network_Revenue_SAR": 8470.93,
+        "Interbank_Revenue_SAR": 168.7,
+        "Total_Revenue_SAR": 8639.63,
+        "Operating_Cost_SAR": 8135.52,
+        "Cash_Replenishment_Cost_SAR": 1776.22,
+        "Maintenance_Cost_SAR": 975.94,
+        "Total_Cost_SAR": 10887.68,
+        "Net_Profit_Loss_SAR": -2248.05,
+        "Performance_Status": "Loss",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.814951,
+          24.758584
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10295",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Retail",
+        "District": "Al Khaleej",
+        "Site_Name": "Al Khaleej Demo Site 02",
+        "Monthly_Transactions": 2861,
+        "Own_Network_Revenue_SAR": 9827.98,
+        "Interbank_Revenue_SAR": 180.25,
+        "Total_Revenue_SAR": 10008.23,
+        "Operating_Cost_SAR": 8891.73,
+        "Cash_Replenishment_Cost_SAR": 637.49,
+        "Maintenance_Cost_SAR": 1188.53,
+        "Total_Cost_SAR": 10717.75,
+        "Net_Profit_Loss_SAR": -709.52,
+        "Performance_Status": "Break-even",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.816686,
+          24.740272
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10296",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Off-site",
+        "District": "Al Manar",
+        "Site_Name": "Al Manar Demo Site 02",
+        "Monthly_Transactions": 7465,
+        "Own_Network_Revenue_SAR": 12353.52,
+        "Interbank_Revenue_SAR": 51.8,
+        "Total_Revenue_SAR": 12405.32,
+        "Operating_Cost_SAR": 7490.14,
+        "Cash_Replenishment_Cost_SAR": 1985.73,
+        "Maintenance_Cost_SAR": 1256.87,
+        "Total_Cost_SAR": 10732.74,
+        "Net_Profit_Loss_SAR": 1672.58,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.788259,
+          24.701825
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10297",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Off-site",
+        "District": "Al Safa",
+        "Site_Name": "Al Safa Demo Site 02",
+        "Monthly_Transactions": 13295,
+        "Own_Network_Revenue_SAR": 34943.2,
+        "Interbank_Revenue_SAR": 212.8,
+        "Total_Revenue_SAR": 35156.0,
+        "Operating_Cost_SAR": 2946.32,
+        "Cash_Replenishment_Cost_SAR": 990.08,
+        "Maintenance_Cost_SAR": 457.3,
+        "Total_Cost_SAR": 4393.7,
+        "Net_Profit_Loss_SAR": 30762.3,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.766238,
+          24.625673
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10298",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Drive-through",
+        "District": "Al Hamdaniyah",
+        "Site_Name": "Al Hamdaniyah Demo Site 02",
+        "Monthly_Transactions": 9229,
+        "Own_Network_Revenue_SAR": 20440.39,
+        "Interbank_Revenue_SAR": 141.75,
+        "Total_Revenue_SAR": 20582.14,
+        "Operating_Cost_SAR": 10178.02,
+        "Cash_Replenishment_Cost_SAR": 1750.35,
+        "Maintenance_Cost_SAR": 267.14,
+        "Total_Cost_SAR": 12195.51,
+        "Net_Profit_Loss_SAR": 8386.63,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.567225,
+          24.73784
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10299",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Off-site",
+        "District": "Al Diriyah Edge",
+        "Site_Name": "Al Diriyah Edge Demo Site 02",
+        "Monthly_Transactions": 7813,
+        "Own_Network_Revenue_SAR": 19093.9,
+        "Interbank_Revenue_SAR": 86.45,
+        "Total_Revenue_SAR": 19180.35,
+        "Operating_Cost_SAR": 5452.65,
+        "Cash_Replenishment_Cost_SAR": 2511.06,
+        "Maintenance_Cost_SAR": 487.73,
+        "Total_Cost_SAR": 8451.44,
+        "Net_Profit_Loss_SAR": 10728.91,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.619644,
+          24.67761
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10300",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Retail",
+        "District": "Diplomatic Quarter",
+        "Site_Name": "Diplomatic Quarter Demo Site 02",
+        "Monthly_Transactions": 3008,
+        "Own_Network_Revenue_SAR": 10187.57,
+        "Interbank_Revenue_SAR": 148.75,
+        "Total_Revenue_SAR": 10336.32,
+        "Operating_Cost_SAR": 5008.1,
+        "Cash_Replenishment_Cost_SAR": 1030.28,
+        "Maintenance_Cost_SAR": 361.37,
+        "Total_Cost_SAR": 6399.75,
+        "Net_Profit_Loss_SAR": 3936.57,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.690679,
+          24.686086
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10301",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Drive-through",
+        "District": "Al Olaya",
+        "Site_Name": "Al Olaya Demo Site 03",
+        "Monthly_Transactions": 2458,
+        "Own_Network_Revenue_SAR": 5950.49,
+        "Interbank_Revenue_SAR": 257.25,
+        "Total_Revenue_SAR": 6207.74,
+        "Operating_Cost_SAR": 7161.67,
+        "Cash_Replenishment_Cost_SAR": 2464.67,
+        "Maintenance_Cost_SAR": 838.22,
+        "Total_Cost_SAR": 10464.56,
+        "Net_Profit_Loss_SAR": -4256.82,
+        "Performance_Status": "Loss",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.720788,
+          24.673739
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10302",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "On-site",
+        "District": "Al Malaz",
+        "Site_Name": "Al Malaz Demo Site 03",
+        "Monthly_Transactions": 12370,
+        "Own_Network_Revenue_SAR": 33194.49,
+        "Interbank_Revenue_SAR": 26.6,
+        "Total_Revenue_SAR": 33221.09,
+        "Operating_Cost_SAR": 8649.7,
+        "Cash_Replenishment_Cost_SAR": 2113.65,
+        "Maintenance_Cost_SAR": 1230.3,
+        "Total_Cost_SAR": 11993.65,
+        "Net_Profit_Loss_SAR": 21227.44,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.718814,
+          24.65333
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10303",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Retail",
+        "District": "Al Murabba",
+        "Site_Name": "Al Murabba Demo Site 03",
+        "Monthly_Transactions": 11157,
+        "Own_Network_Revenue_SAR": 24312.75,
+        "Interbank_Revenue_SAR": 137.55,
+        "Total_Revenue_SAR": 24450.3,
+        "Operating_Cost_SAR": 10855.42,
+        "Cash_Replenishment_Cost_SAR": 2417.43,
+        "Maintenance_Cost_SAR": 859.51,
+        "Total_Cost_SAR": 14132.36,
+        "Net_Profit_Loss_SAR": 10317.94,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.712401,
+          24.711524
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10304",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Off-site",
+        "District": "Al Sulimaniyah",
+        "Site_Name": "Al Sulimaniyah Demo Site 03",
+        "Monthly_Transactions": 13490,
+        "Own_Network_Revenue_SAR": 35553.36,
+        "Interbank_Revenue_SAR": 136.85,
+        "Total_Revenue_SAR": 35690.21,
+        "Operating_Cost_SAR": 7446.7,
+        "Cash_Replenishment_Cost_SAR": 2168.22,
+        "Maintenance_Cost_SAR": 495.46,
+        "Total_Cost_SAR": 10110.38,
+        "Net_Profit_Loss_SAR": 25579.83,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.631224,
+          24.742904
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10305",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Off-site",
+        "District": "Al Nakheel",
+        "Site_Name": "Al Nakheel Demo Site 03",
+        "Monthly_Transactions": 1025,
+        "Own_Network_Revenue_SAR": 3095.2,
+        "Interbank_Revenue_SAR": 290.5,
+        "Total_Revenue_SAR": 3385.7,
+        "Operating_Cost_SAR": 7661.96,
+        "Cash_Replenishment_Cost_SAR": 585.16,
+        "Maintenance_Cost_SAR": 431.5,
+        "Total_Cost_SAR": 8678.62,
+        "Net_Profit_Loss_SAR": -5292.92,
+        "Performance_Status": "Loss",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.654087,
+          24.835356
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10306",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "On-site",
+        "District": "Al Yasmin",
+        "Site_Name": "Al Yasmin Demo Site 03",
+        "Monthly_Transactions": 1165,
+        "Own_Network_Revenue_SAR": 1857.69,
+        "Interbank_Revenue_SAR": 274.4,
+        "Total_Revenue_SAR": 2132.09,
+        "Operating_Cost_SAR": 8694.15,
+        "Cash_Replenishment_Cost_SAR": 866.86,
+        "Maintenance_Cost_SAR": 799.23,
+        "Total_Cost_SAR": 10360.24,
+        "Net_Profit_Loss_SAR": -8228.15,
+        "Performance_Status": "Loss",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.635186,
+          24.876213
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10307",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "On-site",
+        "District": "Al Narjis",
+        "Site_Name": "Al Narjis Demo Site 03",
+        "Monthly_Transactions": 10374,
+        "Own_Network_Revenue_SAR": 32998.39,
+        "Interbank_Revenue_SAR": 15.05,
+        "Total_Revenue_SAR": 33013.44,
+        "Operating_Cost_SAR": 8204.05,
+        "Cash_Replenishment_Cost_SAR": 505.29,
+        "Maintenance_Cost_SAR": 433.66,
+        "Total_Cost_SAR": 9143.0,
+        "Net_Profit_Loss_SAR": 23870.44,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.625176,
+          24.817259
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10308",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Drive-through",
+        "District": "Al Sahafah",
+        "Site_Name": "Al Sahafah Demo Site 03",
+        "Monthly_Transactions": 7519,
+        "Own_Network_Revenue_SAR": 16339.87,
+        "Interbank_Revenue_SAR": 32.55,
+        "Total_Revenue_SAR": 16372.42,
+        "Operating_Cost_SAR": 5879.85,
+        "Cash_Replenishment_Cost_SAR": 2556.66,
+        "Maintenance_Cost_SAR": 1074.47,
+        "Total_Cost_SAR": 9510.98,
+        "Net_Profit_Loss_SAR": 6861.44,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.746261,
+          24.693509
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10309",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Retail",
+        "District": "Al Rabwah",
+        "Site_Name": "Al Rabwah Demo Site 03",
+        "Monthly_Transactions": 14378,
+        "Own_Network_Revenue_SAR": 30167.85,
+        "Interbank_Revenue_SAR": 72.45,
+        "Total_Revenue_SAR": 30240.3,
+        "Operating_Cost_SAR": 7703.22,
+        "Cash_Replenishment_Cost_SAR": 804.7,
+        "Maintenance_Cost_SAR": 791.05,
+        "Total_Cost_SAR": 9298.97,
+        "Net_Profit_Loss_SAR": 20941.33,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.744776,
+          24.731698
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10310",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "On-site",
+        "District": "Al Rawdah",
+        "Site_Name": "Al Rawdah Demo Site 03",
+        "Monthly_Transactions": 2577,
+        "Own_Network_Revenue_SAR": 6805.15,
+        "Interbank_Revenue_SAR": 51.1,
+        "Total_Revenue_SAR": 6856.25,
+        "Operating_Cost_SAR": 3721.83,
+        "Cash_Replenishment_Cost_SAR": 2243.83,
+        "Maintenance_Cost_SAR": 595.79,
+        "Total_Cost_SAR": 6561.45,
+        "Net_Profit_Loss_SAR": 294.8,
+        "Performance_Status": "Break-even",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.802237,
+          24.744644
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10311",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Off-site",
+        "District": "Al Hamra",
+        "Site_Name": "Al Hamra Demo Site 03",
+        "Monthly_Transactions": 5955,
+        "Own_Network_Revenue_SAR": 12518.36,
+        "Interbank_Revenue_SAR": 117.6,
+        "Total_Revenue_SAR": 12635.96,
+        "Operating_Cost_SAR": 10936.89,
+        "Cash_Replenishment_Cost_SAR": 2262.18,
+        "Maintenance_Cost_SAR": 784.75,
+        "Total_Cost_SAR": 13983.82,
+        "Net_Profit_Loss_SAR": -1347.86,
+        "Performance_Status": "Loss",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.704722,
+          24.571167
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10312",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "On-site",
+        "District": "Al Shifa",
+        "Site_Name": "Al Shifa Demo Site 03",
+        "Monthly_Transactions": 1406,
+        "Own_Network_Revenue_SAR": 4566.66,
+        "Interbank_Revenue_SAR": 200.55,
+        "Total_Revenue_SAR": 4767.21,
+        "Operating_Cost_SAR": 8982.96,
+        "Cash_Replenishment_Cost_SAR": 745.41,
+        "Maintenance_Cost_SAR": 1060.36,
+        "Total_Cost_SAR": 10788.73,
+        "Net_Profit_Loss_SAR": -6021.52,
+        "Performance_Status": "Loss",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.797386,
+          24.573868
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10313",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Off-site",
+        "District": "Al Aziziyah",
+        "Site_Name": "Al Aziziyah Demo Site 03",
+        "Monthly_Transactions": 11197,
+        "Own_Network_Revenue_SAR": 28897.13,
+        "Interbank_Revenue_SAR": 9.45,
+        "Total_Revenue_SAR": 28906.58,
+        "Operating_Cost_SAR": 6232.1,
+        "Cash_Replenishment_Cost_SAR": 2369.62,
+        "Maintenance_Cost_SAR": 1223.02,
+        "Total_Cost_SAR": 9824.74,
+        "Net_Profit_Loss_SAR": 19081.84,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.841525,
+          24.745437
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10314",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Off-site",
+        "District": "Al Naseem",
+        "Site_Name": "Al Naseem Demo Site 03",
+        "Monthly_Transactions": 2119,
+        "Own_Network_Revenue_SAR": 7841.04,
+        "Interbank_Revenue_SAR": 92.05,
+        "Total_Revenue_SAR": 7933.09,
+        "Operating_Cost_SAR": 8265.07,
+        "Cash_Replenishment_Cost_SAR": 1581.05,
+        "Maintenance_Cost_SAR": 315.41,
+        "Total_Cost_SAR": 10161.53,
+        "Net_Profit_Loss_SAR": -2228.44,
+        "Performance_Status": "Loss",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.774649,
+          24.753781
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10315",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Off-site",
+        "District": "Al Quds",
+        "Site_Name": "Al Quds Demo Site 03",
+        "Monthly_Transactions": 13496,
+        "Own_Network_Revenue_SAR": 39524.2,
+        "Interbank_Revenue_SAR": 84.35,
+        "Total_Revenue_SAR": 39608.55,
+        "Operating_Cost_SAR": 5212.71,
+        "Cash_Replenishment_Cost_SAR": 2504.13,
+        "Maintenance_Cost_SAR": 340.31,
+        "Total_Cost_SAR": 8057.15,
+        "Net_Profit_Loss_SAR": 31551.4,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.683261,
+          24.703004
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10316",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Retail",
+        "District": "Al Wurud",
+        "Site_Name": "Al Wurud Demo Site 03",
+        "Monthly_Transactions": 6022,
+        "Own_Network_Revenue_SAR": 21322.16,
+        "Interbank_Revenue_SAR": 206.5,
+        "Total_Revenue_SAR": 21528.66,
+        "Operating_Cost_SAR": 4993.47,
+        "Cash_Replenishment_Cost_SAR": 1911.11,
+        "Maintenance_Cost_SAR": 1064.7,
+        "Total_Cost_SAR": 7969.28,
+        "Net_Profit_Loss_SAR": 13559.38,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.673483,
+          24.746518
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10317",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "On-site",
+        "District": "Al Mursalat",
+        "Site_Name": "Al Mursalat Demo Site 03",
+        "Monthly_Transactions": 12179,
+        "Own_Network_Revenue_SAR": 24623.11,
+        "Interbank_Revenue_SAR": 296.1,
+        "Total_Revenue_SAR": 24919.21,
+        "Operating_Cost_SAR": 8891.42,
+        "Cash_Replenishment_Cost_SAR": 682.12,
+        "Maintenance_Cost_SAR": 836.3,
+        "Total_Cost_SAR": 10409.84,
+        "Net_Profit_Loss_SAR": 14509.37,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.658847,
+          24.733263
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10318",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "On-site",
+        "District": "King Fahd District",
+        "Site_Name": "King Fahd District Demo Site 03",
+        "Monthly_Transactions": 14094,
+        "Own_Network_Revenue_SAR": 23849.95,
+        "Interbank_Revenue_SAR": 139.3,
+        "Total_Revenue_SAR": 23989.25,
+        "Operating_Cost_SAR": 10097.54,
+        "Cash_Replenishment_Cost_SAR": 1377.37,
+        "Maintenance_Cost_SAR": 584.75,
+        "Total_Cost_SAR": 12059.66,
+        "Net_Profit_Loss_SAR": 11929.59,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.630084,
+          24.755728
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10319",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Off-site",
+        "District": "Al Aqiq",
+        "Site_Name": "Al Aqiq Demo Site 03",
+        "Monthly_Transactions": 11352,
+        "Own_Network_Revenue_SAR": 18999.45,
+        "Interbank_Revenue_SAR": 114.8,
+        "Total_Revenue_SAR": 19114.25,
+        "Operating_Cost_SAR": 2630.8,
+        "Cash_Replenishment_Cost_SAR": 2040.1,
+        "Maintenance_Cost_SAR": 791.8,
+        "Total_Cost_SAR": 5462.7,
+        "Net_Profit_Loss_SAR": 13651.55,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.608033,
+          24.762738
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10320",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "On-site",
+        "District": "Hittin",
+        "Site_Name": "Hittin Demo Site 03",
+        "Monthly_Transactions": 4443,
+        "Own_Network_Revenue_SAR": 8297.74,
+        "Interbank_Revenue_SAR": 92.75,
+        "Total_Revenue_SAR": 8390.49,
+        "Operating_Cost_SAR": 9251.82,
+        "Cash_Replenishment_Cost_SAR": 2590.78,
+        "Maintenance_Cost_SAR": 951.13,
+        "Total_Cost_SAR": 12793.73,
+        "Net_Profit_Loss_SAR": -4403.24,
+        "Performance_Status": "Loss",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.614123,
+          24.865843
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10321",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Drive-through",
+        "District": "Al Arid",
+        "Site_Name": "Al Arid Demo Site 03",
+        "Monthly_Transactions": 8322,
+        "Own_Network_Revenue_SAR": 22272.54,
+        "Interbank_Revenue_SAR": 14.7,
+        "Total_Revenue_SAR": 22287.24,
+        "Operating_Cost_SAR": 4906.17,
+        "Cash_Replenishment_Cost_SAR": 1602.6,
+        "Maintenance_Cost_SAR": 615.33,
+        "Total_Cost_SAR": 7124.1,
+        "Net_Profit_Loss_SAR": 15163.14,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.663932,
+          24.845831
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10322",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Off-site",
+        "District": "Al Yasmin North",
+        "Site_Name": "Al Yasmin North Demo Site 03",
+        "Monthly_Transactions": 3136,
+        "Own_Network_Revenue_SAR": 11522.97,
+        "Interbank_Revenue_SAR": 196.7,
+        "Total_Revenue_SAR": 11719.67,
+        "Operating_Cost_SAR": 3902.87,
+        "Cash_Replenishment_Cost_SAR": 603.23,
+        "Maintenance_Cost_SAR": 1013.93,
+        "Total_Cost_SAR": 5520.03,
+        "Net_Profit_Loss_SAR": 6199.64,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.912969,
+          24.807236
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10323",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Retail",
+        "District": "Al Rimal",
+        "Site_Name": "Al Rimal Demo Site 03",
+        "Monthly_Transactions": 5942,
+        "Own_Network_Revenue_SAR": 21846.42,
+        "Interbank_Revenue_SAR": 225.4,
+        "Total_Revenue_SAR": 22071.82,
+        "Operating_Cost_SAR": 5206.43,
+        "Cash_Replenishment_Cost_SAR": 2126.56,
+        "Maintenance_Cost_SAR": 1257.14,
+        "Total_Cost_SAR": 8590.13,
+        "Net_Profit_Loss_SAR": 13481.69,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.969066,
+          24.843295
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10324",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "On-site",
+        "District": "Al Janadriyah",
+        "Site_Name": "Al Janadriyah Demo Site 03",
+        "Monthly_Transactions": 10301,
+        "Own_Network_Revenue_SAR": 35948.04,
+        "Interbank_Revenue_SAR": 210.35,
+        "Total_Revenue_SAR": 36158.39,
+        "Operating_Cost_SAR": 6974.93,
+        "Cash_Replenishment_Cost_SAR": 509.14,
+        "Maintenance_Cost_SAR": 735.36,
+        "Total_Cost_SAR": 8219.43,
+        "Net_Profit_Loss_SAR": 27938.96,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.720739,
+          24.792574
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10325",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Drive-through",
+        "District": "Al Falah",
+        "Site_Name": "Al Falah Demo Site 03",
+        "Monthly_Transactions": 4754,
+        "Own_Network_Revenue_SAR": 12331.41,
+        "Interbank_Revenue_SAR": 56.35,
+        "Total_Revenue_SAR": 12387.76,
+        "Operating_Cost_SAR": 2914.01,
+        "Cash_Replenishment_Cost_SAR": 1504.41,
+        "Maintenance_Cost_SAR": 396.41,
+        "Total_Cost_SAR": 4814.83,
+        "Net_Profit_Loss_SAR": 7572.93,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.692285,
+          24.775618
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10326",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Retail",
+        "District": "Al Izdihar",
+        "Site_Name": "Al Izdihar Demo Site 03",
+        "Monthly_Transactions": 6532,
+        "Own_Network_Revenue_SAR": 11163.34,
+        "Interbank_Revenue_SAR": 308.0,
+        "Total_Revenue_SAR": 11471.34,
+        "Operating_Cost_SAR": 7850.18,
+        "Cash_Replenishment_Cost_SAR": 661.03,
+        "Maintenance_Cost_SAR": 839.01,
+        "Total_Cost_SAR": 9350.22,
+        "Net_Profit_Loss_SAR": 2121.12,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.769661,
+          24.708553
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10327",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Drive-through",
+        "District": "Al Andalus",
+        "Site_Name": "Al Andalus Demo Site 03",
+        "Monthly_Transactions": 7953,
+        "Own_Network_Revenue_SAR": 18006.68,
+        "Interbank_Revenue_SAR": 26.6,
+        "Total_Revenue_SAR": 18033.28,
+        "Operating_Cost_SAR": 9030.18,
+        "Cash_Replenishment_Cost_SAR": 881.36,
+        "Maintenance_Cost_SAR": 1284.95,
+        "Total_Cost_SAR": 11196.49,
+        "Net_Profit_Loss_SAR": 6836.79,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.777864,
+          24.69505
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10328",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Off-site",
+        "District": "Al Faisaliyah",
+        "Site_Name": "Al Faisaliyah Demo Site 03",
+        "Monthly_Transactions": 4183,
+        "Own_Network_Revenue_SAR": 14403.13,
+        "Interbank_Revenue_SAR": 216.65,
+        "Total_Revenue_SAR": 14619.78,
+        "Operating_Cost_SAR": 8495.14,
+        "Cash_Replenishment_Cost_SAR": 2316.99,
+        "Maintenance_Cost_SAR": 764.99,
+        "Total_Cost_SAR": 11577.12,
+        "Net_Profit_Loss_SAR": 3042.66,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.660615,
+          24.639746
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10329",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Retail",
+        "District": "Al Badiah",
+        "Site_Name": "Al Badiah Demo Site 03",
+        "Monthly_Transactions": 2334,
+        "Own_Network_Revenue_SAR": 8394.12,
+        "Interbank_Revenue_SAR": 180.25,
+        "Total_Revenue_SAR": 8574.37,
+        "Operating_Cost_SAR": 7352.08,
+        "Cash_Replenishment_Cost_SAR": 916.73,
+        "Maintenance_Cost_SAR": 1080.43,
+        "Total_Cost_SAR": 9349.24,
+        "Net_Profit_Loss_SAR": -774.87,
+        "Performance_Status": "Break-even",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.644724,
+          24.603837
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10330",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "On-site",
+        "District": "Al Uraija",
+        "Site_Name": "Al Uraija Demo Site 03",
+        "Monthly_Transactions": 12258,
+        "Own_Network_Revenue_SAR": 42858.7,
+        "Interbank_Revenue_SAR": 15.75,
+        "Total_Revenue_SAR": 42874.45,
+        "Operating_Cost_SAR": 4080.17,
+        "Cash_Replenishment_Cost_SAR": 1746.7,
+        "Maintenance_Cost_SAR": 961.57,
+        "Total_Cost_SAR": 6788.44,
+        "Net_Profit_Loss_SAR": 36086.01,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.69148,
+          24.592285
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10331",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Drive-through",
+        "District": "Al Suwaidi",
+        "Site_Name": "Al Suwaidi Demo Site 03",
+        "Monthly_Transactions": 8872,
+        "Own_Network_Revenue_SAR": 23134.43,
+        "Interbank_Revenue_SAR": 176.75,
+        "Total_Revenue_SAR": 23311.18,
+        "Operating_Cost_SAR": 3506.63,
+        "Cash_Replenishment_Cost_SAR": 2583.51,
+        "Maintenance_Cost_SAR": 1276.17,
+        "Total_Cost_SAR": 7366.31,
+        "Net_Profit_Loss_SAR": 15944.87,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.555137,
+          24.633609
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10332",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "On-site",
+        "District": "Dhahrat Laban",
+        "Site_Name": "Dhahrat Laban Demo Site 03",
+        "Monthly_Transactions": 10473,
+        "Own_Network_Revenue_SAR": 29994.61,
+        "Interbank_Revenue_SAR": 101.15,
+        "Total_Revenue_SAR": 30095.76,
+        "Operating_Cost_SAR": 11245.81,
+        "Cash_Replenishment_Cost_SAR": 1366.01,
+        "Maintenance_Cost_SAR": 1074.55,
+        "Total_Cost_SAR": 13686.37,
+        "Net_Profit_Loss_SAR": 16409.39,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.570866,
+          24.586971
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10333",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Drive-through",
+        "District": "Tuwaiq",
+        "Site_Name": "Tuwaiq Demo Site 03",
+        "Monthly_Transactions": 12807,
+        "Own_Network_Revenue_SAR": 35205.3,
+        "Interbank_Revenue_SAR": 224.7,
+        "Total_Revenue_SAR": 35430.0,
+        "Operating_Cost_SAR": 6134.9,
+        "Cash_Replenishment_Cost_SAR": 1813.1,
+        "Maintenance_Cost_SAR": 355.53,
+        "Total_Cost_SAR": 8303.53,
+        "Net_Profit_Loss_SAR": 27126.47,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.525759,
+          24.674019
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10334",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Retail",
+        "District": "Al Mahdiyah",
+        "Site_Name": "Al Mahdiyah Demo Site 03",
+        "Monthly_Transactions": 3763,
+        "Own_Network_Revenue_SAR": 12696.32,
+        "Interbank_Revenue_SAR": 92.75,
+        "Total_Revenue_SAR": 12789.07,
+        "Operating_Cost_SAR": 4072.06,
+        "Cash_Replenishment_Cost_SAR": 2009.67,
+        "Maintenance_Cost_SAR": 997.82,
+        "Total_Cost_SAR": 7079.55,
+        "Net_Profit_Loss_SAR": 5709.52,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.728321,
+          24.798268
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10335",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "On-site",
+        "District": "Qurtubah",
+        "Site_Name": "Qurtubah Demo Site 03",
+        "Monthly_Transactions": 14460,
+        "Own_Network_Revenue_SAR": 33475.82,
+        "Interbank_Revenue_SAR": 151.2,
+        "Total_Revenue_SAR": 33627.02,
+        "Operating_Cost_SAR": 11274.07,
+        "Cash_Replenishment_Cost_SAR": 1401.84,
+        "Maintenance_Cost_SAR": 529.53,
+        "Total_Cost_SAR": 13205.44,
+        "Net_Profit_Loss_SAR": 20421.58,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.793474,
+          24.78947
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10336",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Retail",
+        "District": "Ishbiliyah",
+        "Site_Name": "Ishbiliyah Demo Site 03",
+        "Monthly_Transactions": 5965,
+        "Own_Network_Revenue_SAR": 10073.58,
+        "Interbank_Revenue_SAR": 313.95,
+        "Total_Revenue_SAR": 10387.53,
+        "Operating_Cost_SAR": 2533.94,
+        "Cash_Replenishment_Cost_SAR": 735.99,
+        "Maintenance_Cost_SAR": 1039.27,
+        "Total_Cost_SAR": 4309.2,
+        "Net_Profit_Loss_SAR": 6078.33,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.72386,
+          24.779109
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10337",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Drive-through",
+        "District": "Granada",
+        "Site_Name": "Granada Demo Site 03",
+        "Monthly_Transactions": 1968,
+        "Own_Network_Revenue_SAR": 4224.76,
+        "Interbank_Revenue_SAR": 36.75,
+        "Total_Revenue_SAR": 4261.51,
+        "Operating_Cost_SAR": 9220.62,
+        "Cash_Replenishment_Cost_SAR": 1319.42,
+        "Maintenance_Cost_SAR": 416.9,
+        "Total_Cost_SAR": 10956.94,
+        "Net_Profit_Loss_SAR": -6695.43,
+        "Performance_Status": "Loss",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.698958,
+          24.752285
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10338",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Retail",
+        "District": "Al Mughrizat",
+        "Site_Name": "Al Mughrizat Demo Site 03",
+        "Monthly_Transactions": 11491,
+        "Own_Network_Revenue_SAR": 32003.36,
+        "Interbank_Revenue_SAR": 235.55,
+        "Total_Revenue_SAR": 32238.91,
+        "Operating_Cost_SAR": 2517.46,
+        "Cash_Replenishment_Cost_SAR": 749.94,
+        "Maintenance_Cost_SAR": 1134.28,
+        "Total_Cost_SAR": 4401.68,
+        "Net_Profit_Loss_SAR": 27837.23,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.675112,
+          24.785068
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10339",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Drive-through",
+        "District": "Al Wadi",
+        "Site_Name": "Al Wadi Demo Site 03",
+        "Monthly_Transactions": 12934,
+        "Own_Network_Revenue_SAR": 26197.87,
+        "Interbank_Revenue_SAR": 193.2,
+        "Total_Revenue_SAR": 26391.07,
+        "Operating_Cost_SAR": 6016.81,
+        "Cash_Replenishment_Cost_SAR": 1193.52,
+        "Maintenance_Cost_SAR": 1278.75,
+        "Total_Cost_SAR": 8489.08,
+        "Net_Profit_Loss_SAR": 17901.99,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.8451,
+          24.799034
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10340",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Drive-through",
+        "District": "Al Munsiyah",
+        "Site_Name": "Al Munsiyah Demo Site 03",
+        "Monthly_Transactions": 13945,
+        "Own_Network_Revenue_SAR": 42560.13,
+        "Interbank_Revenue_SAR": 298.9,
+        "Total_Revenue_SAR": 42859.03,
+        "Operating_Cost_SAR": 7993.17,
+        "Cash_Replenishment_Cost_SAR": 2073.09,
+        "Maintenance_Cost_SAR": 881.87,
+        "Total_Cost_SAR": 10948.13,
+        "Net_Profit_Loss_SAR": 31910.9,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.574956,
+          24.819827
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10341",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Drive-through",
+        "District": "Al Qairawan",
+        "Site_Name": "Al Qairawan Demo Site 03",
+        "Monthly_Transactions": 3434,
+        "Own_Network_Revenue_SAR": 10955.42,
+        "Interbank_Revenue_SAR": 134.05,
+        "Total_Revenue_SAR": 11089.47,
+        "Operating_Cost_SAR": 8332.61,
+        "Cash_Replenishment_Cost_SAR": 1816.98,
+        "Maintenance_Cost_SAR": 372.31,
+        "Total_Cost_SAR": 10521.9,
+        "Net_Profit_Loss_SAR": 567.57,
+        "Performance_Status": "Break-even",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.640553,
+          24.783893
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10342",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "On-site",
+        "District": "Al Ghadir",
+        "Site_Name": "Al Ghadir Demo Site 03",
+        "Monthly_Transactions": 9076,
+        "Own_Network_Revenue_SAR": 31052.09,
+        "Interbank_Revenue_SAR": 75.95,
+        "Total_Revenue_SAR": 31128.04,
+        "Operating_Cost_SAR": 7697.56,
+        "Cash_Replenishment_Cost_SAR": 940.77,
+        "Maintenance_Cost_SAR": 392.7,
+        "Total_Cost_SAR": 9031.03,
+        "Net_Profit_Loss_SAR": 22097.01,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.692405,
+          24.841976
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10343",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Off-site",
+        "District": "Al Yasmin East",
+        "Site_Name": "Al Yasmin East Demo Site 03",
+        "Monthly_Transactions": 4114,
+        "Own_Network_Revenue_SAR": 14810.68,
+        "Interbank_Revenue_SAR": 105.0,
+        "Total_Revenue_SAR": 14915.68,
+        "Operating_Cost_SAR": 6584.09,
+        "Cash_Replenishment_Cost_SAR": 1382.75,
+        "Maintenance_Cost_SAR": 850.35,
+        "Total_Cost_SAR": 8817.19,
+        "Net_Profit_Loss_SAR": 6098.49,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.715353,
+          24.742879
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10344",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Off-site",
+        "District": "Al Nuzhah",
+        "Site_Name": "Al Nuzhah Demo Site 03",
+        "Monthly_Transactions": 12394,
+        "Own_Network_Revenue_SAR": 17815.77,
+        "Interbank_Revenue_SAR": 184.45,
+        "Total_Revenue_SAR": 18000.22,
+        "Operating_Cost_SAR": 8122.56,
+        "Cash_Replenishment_Cost_SAR": 2355.81,
+        "Maintenance_Cost_SAR": 698.09,
+        "Total_Cost_SAR": 11176.46,
+        "Net_Profit_Loss_SAR": 6823.76,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.820055,
+          24.771843
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10345",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Drive-through",
+        "District": "Al Khaleej",
+        "Site_Name": "Al Khaleej Demo Site 03",
+        "Monthly_Transactions": 1919,
+        "Own_Network_Revenue_SAR": 3972.71,
+        "Interbank_Revenue_SAR": 40.25,
+        "Total_Revenue_SAR": 4012.96,
+        "Operating_Cost_SAR": 7103.31,
+        "Cash_Replenishment_Cost_SAR": 1402.47,
+        "Maintenance_Cost_SAR": 491.57,
+        "Total_Cost_SAR": 8997.35,
+        "Net_Profit_Loss_SAR": -4984.39,
+        "Performance_Status": "Loss",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.823005,
+          24.735153
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10346",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Off-site",
+        "District": "Al Manar",
+        "Site_Name": "Al Manar Demo Site 03",
+        "Monthly_Transactions": 13068,
+        "Own_Network_Revenue_SAR": 45344.47,
+        "Interbank_Revenue_SAR": 263.2,
+        "Total_Revenue_SAR": 45607.67,
+        "Operating_Cost_SAR": 5090.15,
+        "Cash_Replenishment_Cost_SAR": 804.33,
+        "Maintenance_Cost_SAR": 1179.83,
+        "Total_Cost_SAR": 7074.31,
+        "Net_Profit_Loss_SAR": 38533.36,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.793115,
+          24.695549
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10347",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "On-site",
+        "District": "Al Safa",
+        "Site_Name": "Al Safa Demo Site 03",
+        "Monthly_Transactions": 12752,
+        "Own_Network_Revenue_SAR": 19442.28,
+        "Interbank_Revenue_SAR": 156.45,
+        "Total_Revenue_SAR": 19598.73,
+        "Operating_Cost_SAR": 5155.5,
+        "Cash_Replenishment_Cost_SAR": 656.22,
+        "Maintenance_Cost_SAR": 1293.75,
+        "Total_Cost_SAR": 7105.47,
+        "Net_Profit_Loss_SAR": 12493.26,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.765552,
+          24.624534
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10348",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Off-site",
+        "District": "Al Hamdaniyah",
+        "Site_Name": "Al Hamdaniyah Demo Site 03",
+        "Monthly_Transactions": 6773,
+        "Own_Network_Revenue_SAR": 21852.62,
+        "Interbank_Revenue_SAR": 128.45,
+        "Total_Revenue_SAR": 21981.07,
+        "Operating_Cost_SAR": 8964.79,
+        "Cash_Replenishment_Cost_SAR": 2112.57,
+        "Maintenance_Cost_SAR": 1082.57,
+        "Total_Cost_SAR": 12159.93,
+        "Net_Profit_Loss_SAR": 9821.14,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.56755,
+          24.749707
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10349",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Off-site",
+        "District": "Al Diriyah Edge",
+        "Site_Name": "Al Diriyah Edge Demo Site 03",
+        "Monthly_Transactions": 4200,
+        "Own_Network_Revenue_SAR": 11313.15,
+        "Interbank_Revenue_SAR": 233.1,
+        "Total_Revenue_SAR": 11546.25,
+        "Operating_Cost_SAR": 8275.19,
+        "Cash_Replenishment_Cost_SAR": 1051.33,
+        "Maintenance_Cost_SAR": 304.88,
+        "Total_Cost_SAR": 9631.4,
+        "Net_Profit_Loss_SAR": 1914.85,
+        "Performance_Status": "Profit",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.633233,
+          24.681977
+        ]
+      },
+      "properties": {
+        "ATM_ID": "ATM-10350",
+        "Bank_Name": "Demo Riyadh Bank (Fictional)",
+        "ATM_Type": "Drive-through",
+        "District": "Diplomatic Quarter",
+        "Site_Name": "Diplomatic Quarter Demo Site 03",
+        "Monthly_Transactions": 4003,
+        "Own_Network_Revenue_SAR": 7018.29,
+        "Interbank_Revenue_SAR": 22.05,
+        "Total_Revenue_SAR": 7040.34,
+        "Operating_Cost_SAR": 5822.39,
+        "Cash_Replenishment_Cost_SAR": 1486.29,
+        "Maintenance_Cost_SAR": 1103.61,
+        "Total_Cost_SAR": 8412.29,
+        "Net_Profit_Loss_SAR": -1371.95,
+        "Performance_Status": "Loss",
+        "Data_Type": "SYNTHETIC DEMO DATA",
+        "As_Of_Date": "2026-10-01"
+      }
+    }
+  ]
+}

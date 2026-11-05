@@ -1,0 +1,7 @@
+Please diagnose why Google Street View stays on “Loading Street View…” after I click the Street View button.
+
+In the browser console, I see Google Maps requests to `maps.googleapis.com` for `SingleImageSearch`. The screenshot does not show their status or response, so inspect the actual request/response and the app code before choosing a fix.
+
+Trace the flow from the Street View button through the component and `google-street-view.service.ts`. Check whether the request succeeds, whether the response contains a panorama/location, and whether every success, no-results, and error path updates the UI state and clears the loading indicator. Handle missing or invalid coordinates and API errors visibly, so the panel cannot remain stuck loading.
+
+Keep the existing behavior for valid panoramas. Use the Google Maps API typings already installed in the project; avoid `any`, unrelated changes, and changes to files under `sources/`. After the fix, run the project’s existing build or validation command and report the result.

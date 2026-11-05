@@ -1,0 +1,122 @@
+<div class="comments-holder">
+  <div class="comments-title-row">
+    <h3 class="comments-title">Comments holder</h3>
+    <button
+      *ngIf="showCloseButton"
+      type="button"
+      class="comments-close-btn"
+      (click)="requestClose()"
+      aria-label="Close comments"
+    >
+      Close
+    </button>
+  </div>
+
+  <!-- Table -->
+  <div class="table-wrapper">
+    <table class="comments-table">
+      <thead>
+        <tr>
+          <th>Srno</th>
+          <th>Date</th>
+          <th>Comments</th>
+          <th>Update</th>
+          <th>Status</th>
+          <th>Attachment</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          *ngFor="let row of rows"
+          [class.selected]="row.srno === selectedSrno"
+          (click)="select(row)"
+        >
+          <td>{{ row.srno }}</td>
+          <td>{{ row.date }}</td>
+          <td>{{ row.comments }}</td>
+          <td>{{ row.update }}</td>
+          <td>{{ row.status }}</td>
+          <td>
+            <span
+              class="attach-link"
+              *ngIf="row.attachmentDataUrl; else plainName"
+              (click)="openAttachment(row, $event)"
+              [title]="'View ' + row.attachment"
+            >{{ row.attachment }}</span>
+            <ng-template #plainName>{{ row.attachment }}</ng-template>
+          </td>
+        </tr>
+        <!-- Empty rows to fill table visually when few records -->
+        <tr *ngIf="rows.length === 0">
+          <td colspan="6" class="empty-msg">No comments yet. Click <strong>New</strong> to add one.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Action bar -->
+  <div class="action-bar">
+    <button class="btn btn-new" (click)="openNew()">new</button>
+    <button class="btn btn-search" (click)="onSearch()">search</button>
+    <button class="btn btn-delete" (click)="deleteSelected()" [disabled]="selectedSrno === null">Delete</button>
+
+    <button class="btn btn-update" (click)="openUpdate()" [disabled]="selectedSrno === null">Update</button>
+    <span class="download-label">download</span>
+    <button class="btn btn-download" (click)="downloadJson()">JSON</button>
+    <button class="btn btn-download" (click)="downloadText()">TXT</button>
+  </div>
+
+  <!-- Inline search input shown when search clicked -->
+  <div class="search-row" *ngIf="searchQuery !== null">
+    <input
+      type="text"
+      class="search-input"
+      placeholder="Search comments…"
+      [(ngModel)]="searchQuery"
+      (ngModelChange)="onSearch()"
+    />
+    <button class="btn btn-clear" *ngIf="searchQuery" (click)="clearSearch()">✕</button>
+  </div>
+
+  <!-- New / Edit form modal -->
+  <div class="modal-backdrop" *ngIf="showForm" (click)="showForm = false">
+    <div class="modal-box" (click)="$event.stopPropagation()">
+      <h4>{{ selectedSrno !== null ? 'Update Comment' : 'New Comment' }}</h4>
+
+      <label>Date</label>
+      <input type="date" [(ngModel)]="form.date" />
+
+      <label>Comments</label>
+      <textarea rows="3" [(ngModel)]="form.comments" placeholder="Enter comment…"></textarea>
+
+      <label>Update</label>
+      <input type="text" [(ngModel)]="form.update" placeholder="Update note…" />
+
+      <label>Status</label>
+      <input type="text" [(ngModel)]="form.status" placeholder="e.g. Open / Closed / Pending" />
+
+      <label>Attachment <small class="attach-hint">(.jpg / .png only)</small></label>
+      <input type="file" accept=".jpg,.jpeg,.png" (change)="onFileChange($event)" />
+      <span class="attach-error" *ngIf="attachmentError">{{ attachmentError }}</span>
+      <span class="attach-name" *ngIf="attachmentName && !attachmentError">{{ attachmentName }}</span>
+
+      <div class="modal-actions">
+        <button class="btn btn-new" (click)="save()">Save</button>
+        <button class="btn btn-delete" (click)="showForm = false">Cancel</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Image lightbox -->
+<div class="lightbox-backdrop" *ngIf="lightboxOpen" (click)="closeLightbox()">
+  <div class="lightbox-box" (click)="$event.stopPropagation()">
+    <div class="lightbox-header">
+      <span>{{ lightboxName }}</span>
+      <button type="button" class="lightbox-close" (click)="closeLightbox()" aria-label="Close">×</button>
+    </div>
+    <div class="lightbox-body">
+      <img [src]="lightboxUrl" [alt]="lightboxName" class="lightbox-img" />
+    </div>
+  </div>
+</div>

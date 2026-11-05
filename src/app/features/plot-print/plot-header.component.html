@@ -1,0 +1,66 @@
+<div class="header-banner" role="banner">
+
+  <!-- Office Title -->
+  <div class="col col-office">
+    <span class="office-name">Diplomatic Quarter Office</span>
+    <span class="sheet-title">PLOT REGULATION SHEET</span>
+  </div>
+
+  <!-- Plot No. -->
+  <div class="col col-field plot-no">
+    <span class="field-label">Plot No.</span>
+    <span class="field-value">{{ plotData.plotNo }}</span>
+  </div>
+
+  <!-- Plot ID (GIS REF.) -->
+  <div class="col col-field gis-col">
+    <span class="field-label">Plot ID (GIS REF.)</span>
+    <div class="gis-boxes" [attr.aria-label]="'GIS Reference: ' + plotData.gisRef">
+      <div
+        *ngFor="let digit of gisDigits; let i = index"
+        class="gis-box"
+        [class.empty]="digit === ''"
+      >{{ digit }}</div>
+    </div>
+  </div>
+
+
+  <!-- Context Menu Button -->
+  <div class="col col-menu">
+    <button id="showpanoromic-header-btn" (click)="onShowPanoramicClick()" style="margin: 10px; padding: 8px 16px; background: #fff; color: #1b7761; border-radius: 4px; border: none; cursor: pointer; font-weight: bold;">
+      Show Panoramic
+    </button>
+  </div>
+
+  <!-- New Context Menu Button -->
+  <div class="col col-menu">
+    <button id="panoramoramic-btn" (click)="onPanoramoramicClick()" style="margin: 10px; padding: 8px 16px; background: #fff; color: #1b7761; border-radius: 4px; border: none; cursor: pointer; font-weight: bold;">
+      Panoramoramic
+    </button>
+  </div>
+
+  <!-- Spacer -->
+  <div class="spacer"></div>
+
+  <!-- Date -->
+  <div class="col col-field date-col">
+    <span class="field-label">Date</span>
+    <span class="field-value">{{ plotData.date }}</span>
+  </div>
+
+  <!-- Revision -->
+  <div class="col col-field revision-col">
+    <span class="field-label">Revision</span>
+    <span class="field-value">{{ plotData.revision }}</span>
+  </div>
+
+  <!-- Logo RIGHT -->
+  <div class="col-logo">
+    <img
+      [src]="logoPath"
+      alt="Royal Commission for Riyadh City"
+      class="logo-img"
+    />
+  </div>
+
+</div>

@@ -1,0 +1,28 @@
+<section class="pending-updates" aria-label="Pending updates">
+  <div class="pending-updates-status" *ngIf="loading">Loading pending updates...</div>
+  <div class="pending-updates-error" *ngIf="!loading && error">{{ error }}</div>
+  <div class="pending-updates-empty" *ngIf="!loading && !error && !visibleRecords.length">No pending updates saved yet.</div>
+
+  <div class="pending-updates-table-wrap" *ngIf="!loading && !error && visibleRecords.length">
+    <table class="pending-updates-table pending-updates-table-vertical">
+      <thead>
+        <tr>
+          <th class="attribute-col">Attributes</th>
+          <th *ngFor="let header of editHeaders" class="edit-col">{{ header }}</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let row of attributeRows">
+          <th class="attribute-cell" scope="row">
+            <i [class]="row.iconClass" aria-hidden="true"></i>
+            <span>{{ row.label }}</span>
+          </th>
+          <td *ngFor="let value of row.values; let idx = index" class="data-cell">
+            <span *ngIf="row.badgeKinds[idx]" class="status-badge" [class]="'status-badge ' + row.badgeKinds[idx]">{{ value }}</span>
+            <span *ngIf="!row.badgeKinds[idx]">{{ value }}</span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>

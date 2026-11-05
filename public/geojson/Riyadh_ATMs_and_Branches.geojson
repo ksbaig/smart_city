@@ -1,0 +1,3665 @@
+{
+  "type": "FeatureCollection",
+  "name": "Riyadh ATM and Branch Demo Locations",
+  "metadata": {
+    "description": "Point locations assembled from the supplied Riyadh ATM CSV and demo workbook Branches sheet.",
+    "disclaimer": "All records are labeled SYNTHETIC DEMO DATA. The bank name in source records is Demo Riyadh Bank (Fictional). These are not verified Riyad Bank locations.",
+    "coordinate_reference_system": "WGS 84 (longitude, latitude; EPSG:4326)",
+    "feature_counts": {
+      "atm": 150,
+      "branch": 25
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.674468,
+          24.687665
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10201",
+        "name": "Al Olaya Demo Site 01",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Olaya",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Drive-through"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.713936,
+          24.666489
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10202",
+        "name": "Al Malaz Demo Site 01",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Malaz",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Off-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.711672,
+          24.653708
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10203",
+        "name": "Al Murabba Demo Site 01",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Murabba",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Off-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.696966,
+          24.701647
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10204",
+        "name": "Al Sulimaniyah Demo Site 01",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Sulimaniyah",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "On-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.622804,
+          24.755155
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10205",
+        "name": "Al Nakheel Demo Site 01",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Nakheel",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "On-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.65628,
+          24.841505
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10206",
+        "name": "Al Yasmin Demo Site 01",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Yasmin",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Drive-through"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.634508,
+          24.881756
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10207",
+        "name": "Al Narjis Demo Site 01",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Narjis",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Off-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.632643,
+          24.796533
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10208",
+        "name": "Al Sahafah Demo Site 01",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Sahafah",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Off-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.76365,
+          24.691134
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10209",
+        "name": "Al Rabwah Demo Site 01",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Rabwah",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Off-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.749653,
+          24.722129
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10210",
+        "name": "Al Rawdah Demo Site 01",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Rawdah",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Retail"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.79912,
+          24.740402
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10211",
+        "name": "Al Hamra Demo Site 01",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Hamra",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "On-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.719094,
+          24.553569
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10212",
+        "name": "Al Shifa Demo Site 01",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Shifa",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Drive-through"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.77928,
+          24.572884
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10213",
+        "name": "Al Aziziyah Demo Site 01",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Aziziyah",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "On-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.83818,
+          24.731531
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10214",
+        "name": "Al Naseem Demo Site 01",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Naseem",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Off-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.776038,
+          24.756068
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10215",
+        "name": "Al Quds Demo Site 01",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Quds",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "On-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.673603,
+          24.721471
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10216",
+        "name": "Al Wurud Demo Site 01",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Wurud",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Retail"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.681399,
+          24.753695
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10217",
+        "name": "Al Mursalat Demo Site 01",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Mursalat",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Off-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.671737,
+          24.741312
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10218",
+        "name": "King Fahd District Demo Site 01",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "King Fahd District",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "On-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.631874,
+          24.756506
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10219",
+        "name": "Al Aqiq Demo Site 01",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Aqiq",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "On-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.610741,
+          24.771926
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10220",
+        "name": "Hittin Demo Site 01",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Hittin",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Retail"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.612313,
+          24.857178
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10221",
+        "name": "Al Arid Demo Site 01",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Arid",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "On-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.675058,
+          24.851254
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10222",
+        "name": "Al Yasmin North Demo Site 01",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Yasmin North",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "On-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.902648,
+          24.825281
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10223",
+        "name": "Al Rimal Demo Site 01",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Rimal",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Drive-through"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.96698,
+          24.851938
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10224",
+        "name": "Al Janadriyah Demo Site 01",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Janadriyah",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "On-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.715621,
+          24.79531
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10225",
+        "name": "Al Falah Demo Site 01",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Falah",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Retail"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.693843,
+          24.788018
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10226",
+        "name": "Al Izdihar Demo Site 01",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Izdihar",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Off-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.771745,
+          24.721166
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10227",
+        "name": "Al Andalus Demo Site 01",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Andalus",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Retail"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.76734,
+          24.692655
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10228",
+        "name": "Al Faisaliyah Demo Site 01",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Faisaliyah",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Drive-through"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.668178,
+          24.623665
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10229",
+        "name": "Al Badiah Demo Site 01",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Badiah",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Retail"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.643445,
+          24.60498
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10230",
+        "name": "Al Uraija Demo Site 01",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Uraija",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "On-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.690661,
+          24.597789
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10231",
+        "name": "Al Suwaidi Demo Site 01",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Suwaidi",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Off-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.557992,
+          24.648954
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10232",
+        "name": "Dhahrat Laban Demo Site 01",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Dhahrat Laban",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "On-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.551213,
+          24.591372
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10233",
+        "name": "Tuwaiq Demo Site 01",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Tuwaiq",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "On-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.53352,
+          24.67965
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10234",
+        "name": "Al Mahdiyah Demo Site 01",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Mahdiyah",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Retail"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.735341,
+          24.809299
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10235",
+        "name": "Qurtubah Demo Site 01",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Qurtubah",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Off-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.792279,
+          24.802105
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10236",
+        "name": "Ishbiliyah Demo Site 01",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Ishbiliyah",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Off-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.728592,
+          24.786558
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10237",
+        "name": "Granada Demo Site 01",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Granada",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "On-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.693933,
+          24.760373
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10238",
+        "name": "Al Mughrizat Demo Site 01",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Mughrizat",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Retail"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.679468,
+          24.783507
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10239",
+        "name": "Al Wadi Demo Site 01",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Wadi",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "On-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.840397,
+          24.814722
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10240",
+        "name": "Al Munsiyah Demo Site 01",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Munsiyah",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Off-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.571591,
+          24.839548
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10241",
+        "name": "Al Qairawan Demo Site 01",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Qairawan",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Off-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.65517,
+          24.798934
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10242",
+        "name": "Al Ghadir Demo Site 01",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Ghadir",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Retail"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.696685,
+          24.828088
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10243",
+        "name": "Al Yasmin East Demo Site 01",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Yasmin East",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "On-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.703013,
+          24.738605
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10244",
+        "name": "Al Nuzhah Demo Site 01",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Nuzhah",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Off-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.813885,
+          24.749313
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10245",
+        "name": "Al Khaleej Demo Site 01",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Khaleej",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Retail"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.826439,
+          24.721115
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10246",
+        "name": "Al Manar Demo Site 01",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Manar",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "On-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.798208,
+          24.697041
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10247",
+        "name": "Al Safa Demo Site 01",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Safa",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Retail"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.769337,
+          24.630066
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10248",
+        "name": "Al Hamdaniyah Demo Site 01",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Hamdaniyah",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "On-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.558859,
+          24.747332
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10249",
+        "name": "Al Diriyah Edge Demo Site 01",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Diriyah Edge",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Off-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.621089,
+          24.68383
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10250",
+        "name": "Diplomatic Quarter Demo Site 01",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Diplomatic Quarter",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "On-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.679802,
+          24.693696
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10251",
+        "name": "Al Olaya Demo Site 02",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Olaya",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Retail"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.715647,
+          24.663596
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10252",
+        "name": "Al Malaz Demo Site 02",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Malaz",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "On-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.716594,
+          24.653761
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10253",
+        "name": "Al Murabba Demo Site 02",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Murabba",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "On-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.706692,
+          24.694693
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10254",
+        "name": "Al Sulimaniyah Demo Site 02",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Sulimaniyah",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Off-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.624501,
+          24.742151
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10255",
+        "name": "Al Nakheel Demo Site 02",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Nakheel",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Drive-through"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.663079,
+          24.842844
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10256",
+        "name": "Al Yasmin Demo Site 02",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Yasmin",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Retail"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.642095,
+          24.894226
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10257",
+        "name": "Al Narjis Demo Site 02",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Narjis",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Drive-through"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.634242,
+          24.799642
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10258",
+        "name": "Al Sahafah Demo Site 02",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Sahafah",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "On-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.757591,
+          24.688748
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10259",
+        "name": "Al Rabwah Demo Site 02",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Rabwah",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Drive-through"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.74418,
+          24.725944
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10260",
+        "name": "Al Rawdah Demo Site 02",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Rawdah",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Retail"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.793902,
+          24.745853
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10261",
+        "name": "Al Hamra Demo Site 02",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Hamra",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Retail"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.709134,
+          24.55356
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10262",
+        "name": "Al Shifa Demo Site 02",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Shifa",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "On-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.794738,
+          24.569011
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10263",
+        "name": "Al Aziziyah Demo Site 02",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Aziziyah",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "On-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.823397,
+          24.753226
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10264",
+        "name": "Al Naseem Demo Site 02",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Naseem",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Retail"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.766783,
+          24.752521
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10265",
+        "name": "Al Quds Demo Site 02",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Quds",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Drive-through"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.677417,
+          24.720271
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10266",
+        "name": "Al Wurud Demo Site 02",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Wurud",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "On-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.69229,
+          24.737791
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10267",
+        "name": "Al Mursalat Demo Site 02",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Mursalat",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Off-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.65676,
+          24.75239
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10268",
+        "name": "King Fahd District Demo Site 02",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "King Fahd District",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Retail"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.631104,
+          24.776336
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10269",
+        "name": "Al Aqiq Demo Site 02",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Aqiq",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Off-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.597309,
+          24.773866
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10270",
+        "name": "Hittin Demo Site 02",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Hittin",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Drive-through"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.604306,
+          24.854775
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10271",
+        "name": "Al Arid Demo Site 02",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Arid",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Off-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.673224,
+          24.856193
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10272",
+        "name": "Al Yasmin North Demo Site 02",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Yasmin North",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Drive-through"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.915703,
+          24.812875
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10273",
+        "name": "Al Rimal Demo Site 02",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Rimal",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Drive-through"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.972402,
+          24.85831
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10274",
+        "name": "Al Janadriyah Demo Site 02",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Janadriyah",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Off-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.701421,
+          24.798332
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10275",
+        "name": "Al Falah Demo Site 02",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Falah",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Off-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.70627,
+          24.78903
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10276",
+        "name": "Al Izdihar Demo Site 02",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Izdihar",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Drive-through"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.776564,
+          24.721837
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10277",
+        "name": "Al Andalus Demo Site 02",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Andalus",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Retail"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.766982,
+          24.681566
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10278",
+        "name": "Al Faisaliyah Demo Site 02",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Faisaliyah",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "On-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.663804,
+          24.618053
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10279",
+        "name": "Al Badiah Demo Site 02",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Badiah",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Off-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.639159,
+          24.598883
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10280",
+        "name": "Al Uraija Demo Site 02",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Uraija",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Drive-through"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.690285,
+          24.600435
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10281",
+        "name": "Al Suwaidi Demo Site 02",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Suwaidi",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Retail"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.565927,
+          24.638583
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10282",
+        "name": "Dhahrat Laban Demo Site 02",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Dhahrat Laban",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Drive-through"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.568198,
+          24.587756
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10283",
+        "name": "Tuwaiq Demo Site 02",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Tuwaiq",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "On-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.519027,
+          24.679839
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10284",
+        "name": "Al Mahdiyah Demo Site 02",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Mahdiyah",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Retail"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.723813,
+          24.800902
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10285",
+        "name": "Qurtubah Demo Site 02",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Qurtubah",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Retail"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.800005,
+          24.810052
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10286",
+        "name": "Ishbiliyah Demo Site 02",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Ishbiliyah",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Drive-through"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.733848,
+          24.800928
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10287",
+        "name": "Granada Demo Site 02",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Granada",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Drive-through"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.697823,
+          24.755013
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10288",
+        "name": "Al Mughrizat Demo Site 02",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Mughrizat",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "On-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.666507,
+          24.789626
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10289",
+        "name": "Al Wadi Demo Site 02",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Wadi",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Off-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.857209,
+          24.805298
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10290",
+        "name": "Al Munsiyah Demo Site 02",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Munsiyah",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Drive-through"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.580373,
+          24.8311
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10291",
+        "name": "Al Qairawan Demo Site 02",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Qairawan",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "On-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.642387,
+          24.798489
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10292",
+        "name": "Al Ghadir Demo Site 02",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Ghadir",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "On-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.699142,
+          24.828609
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10293",
+        "name": "Al Yasmin East Demo Site 02",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Yasmin East",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Retail"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.71853,
+          24.747971
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10294",
+        "name": "Al Nuzhah Demo Site 02",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Nuzhah",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "On-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.814951,
+          24.758584
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10295",
+        "name": "Al Khaleej Demo Site 02",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Khaleej",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Retail"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.816686,
+          24.740272
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10296",
+        "name": "Al Manar Demo Site 02",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Manar",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Off-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.788259,
+          24.701825
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10297",
+        "name": "Al Safa Demo Site 02",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Safa",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Off-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.766238,
+          24.625673
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10298",
+        "name": "Al Hamdaniyah Demo Site 02",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Hamdaniyah",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Drive-through"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.567225,
+          24.73784
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10299",
+        "name": "Al Diriyah Edge Demo Site 02",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Diriyah Edge",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Off-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.619644,
+          24.67761
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10300",
+        "name": "Diplomatic Quarter Demo Site 02",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Diplomatic Quarter",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Retail"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.690679,
+          24.686086
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10301",
+        "name": "Al Olaya Demo Site 03",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Olaya",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Drive-through"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.720788,
+          24.673739
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10302",
+        "name": "Al Malaz Demo Site 03",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Malaz",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "On-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.718814,
+          24.65333
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10303",
+        "name": "Al Murabba Demo Site 03",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Murabba",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Retail"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.712401,
+          24.711524
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10304",
+        "name": "Al Sulimaniyah Demo Site 03",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Sulimaniyah",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Off-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.631224,
+          24.742904
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10305",
+        "name": "Al Nakheel Demo Site 03",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Nakheel",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Off-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.654087,
+          24.835356
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10306",
+        "name": "Al Yasmin Demo Site 03",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Yasmin",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "On-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.635186,
+          24.876213
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10307",
+        "name": "Al Narjis Demo Site 03",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Narjis",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "On-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.625176,
+          24.817259
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10308",
+        "name": "Al Sahafah Demo Site 03",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Sahafah",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Drive-through"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.746261,
+          24.693509
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10309",
+        "name": "Al Rabwah Demo Site 03",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Rabwah",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Retail"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.744776,
+          24.731698
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10310",
+        "name": "Al Rawdah Demo Site 03",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Rawdah",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "On-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.802237,
+          24.744644
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10311",
+        "name": "Al Hamra Demo Site 03",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Hamra",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Off-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.704722,
+          24.571167
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10312",
+        "name": "Al Shifa Demo Site 03",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Shifa",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "On-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.797386,
+          24.573868
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10313",
+        "name": "Al Aziziyah Demo Site 03",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Aziziyah",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Off-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.841525,
+          24.745437
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10314",
+        "name": "Al Naseem Demo Site 03",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Naseem",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Off-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.774649,
+          24.753781
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10315",
+        "name": "Al Quds Demo Site 03",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Quds",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Off-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.683261,
+          24.703004
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10316",
+        "name": "Al Wurud Demo Site 03",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Wurud",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Retail"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.673483,
+          24.746518
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10317",
+        "name": "Al Mursalat Demo Site 03",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Mursalat",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "On-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.658847,
+          24.733263
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10318",
+        "name": "King Fahd District Demo Site 03",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "King Fahd District",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "On-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.630084,
+          24.755728
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10319",
+        "name": "Al Aqiq Demo Site 03",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Aqiq",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Off-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.608033,
+          24.762738
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10320",
+        "name": "Hittin Demo Site 03",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Hittin",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "On-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.614123,
+          24.865843
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10321",
+        "name": "Al Arid Demo Site 03",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Arid",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Drive-through"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.663932,
+          24.845831
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10322",
+        "name": "Al Yasmin North Demo Site 03",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Yasmin North",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Off-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.912969,
+          24.807236
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10323",
+        "name": "Al Rimal Demo Site 03",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Rimal",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Retail"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.969066,
+          24.843295
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10324",
+        "name": "Al Janadriyah Demo Site 03",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Janadriyah",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "On-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.720739,
+          24.792574
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10325",
+        "name": "Al Falah Demo Site 03",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Falah",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Drive-through"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.692285,
+          24.775618
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10326",
+        "name": "Al Izdihar Demo Site 03",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Izdihar",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Retail"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.769661,
+          24.708553
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10327",
+        "name": "Al Andalus Demo Site 03",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Andalus",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Drive-through"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.777864,
+          24.69505
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10328",
+        "name": "Al Faisaliyah Demo Site 03",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Faisaliyah",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Off-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.660615,
+          24.639746
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10329",
+        "name": "Al Badiah Demo Site 03",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Badiah",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Retail"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.644724,
+          24.603837
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10330",
+        "name": "Al Uraija Demo Site 03",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Uraija",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "On-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.69148,
+          24.592285
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10331",
+        "name": "Al Suwaidi Demo Site 03",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Suwaidi",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Drive-through"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.555137,
+          24.633609
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10332",
+        "name": "Dhahrat Laban Demo Site 03",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Dhahrat Laban",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "On-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.570866,
+          24.586971
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10333",
+        "name": "Tuwaiq Demo Site 03",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Tuwaiq",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Drive-through"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.525759,
+          24.674019
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10334",
+        "name": "Al Mahdiyah Demo Site 03",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Mahdiyah",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Retail"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.728321,
+          24.798268
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10335",
+        "name": "Qurtubah Demo Site 03",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Qurtubah",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "On-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.793474,
+          24.78947
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10336",
+        "name": "Ishbiliyah Demo Site 03",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Ishbiliyah",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Retail"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.72386,
+          24.779109
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10337",
+        "name": "Granada Demo Site 03",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Granada",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Drive-through"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.698958,
+          24.752285
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10338",
+        "name": "Al Mughrizat Demo Site 03",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Mughrizat",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Retail"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.675112,
+          24.785068
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10339",
+        "name": "Al Wadi Demo Site 03",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Wadi",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Drive-through"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.8451,
+          24.799034
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10340",
+        "name": "Al Munsiyah Demo Site 03",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Munsiyah",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Drive-through"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.574956,
+          24.819827
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10341",
+        "name": "Al Qairawan Demo Site 03",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Qairawan",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Drive-through"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.640553,
+          24.783893
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10342",
+        "name": "Al Ghadir Demo Site 03",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Ghadir",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "On-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.692405,
+          24.841976
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10343",
+        "name": "Al Yasmin East Demo Site 03",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Yasmin East",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Off-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.715353,
+          24.742879
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10344",
+        "name": "Al Nuzhah Demo Site 03",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Nuzhah",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Off-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.820055,
+          24.771843
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10345",
+        "name": "Al Khaleej Demo Site 03",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Khaleej",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Drive-through"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.823005,
+          24.735153
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10346",
+        "name": "Al Manar Demo Site 03",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Manar",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Off-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.793115,
+          24.695549
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10347",
+        "name": "Al Safa Demo Site 03",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Safa",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "On-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.765552,
+          24.624534
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10348",
+        "name": "Al Hamdaniyah Demo Site 03",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Hamdaniyah",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Off-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.56755,
+          24.749707
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10349",
+        "name": "Al Diriyah Edge Demo Site 03",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Diriyah Edge",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Off-site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.633233,
+          24.681977
+        ]
+      },
+      "properties": {
+        "feature_type": "atm",
+        "id": "ATM-10350",
+        "name": "Diplomatic Quarter Demo Site 03",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Diplomatic Quarter",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Riyadh_ATM_Locations.csv",
+        "atm_type": "Drive-through"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.708807,
+          24.654661
+        ]
+      },
+      "properties": {
+        "feature_type": "branch",
+        "id": "BR-20101",
+        "name": "Al Murabba Demo Branch",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Murabba",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Smart_Banking_Demo_Datasets (1).xlsx / Branches"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.62159,
+          24.74746
+        ]
+      },
+      "properties": {
+        "feature_type": "branch",
+        "id": "BR-20102",
+        "name": "Al Nakheel Demo Branch",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Nakheel",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Smart_Banking_Demo_Datasets (1).xlsx / Branches"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.632965,
+          24.88103
+        ]
+      },
+      "properties": {
+        "feature_type": "branch",
+        "id": "BR-20103",
+        "name": "Al Narjis Demo Branch",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Narjis",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Smart_Banking_Demo_Datasets (1).xlsx / Branches"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.756645,
+          24.695811
+        ]
+      },
+      "properties": {
+        "feature_type": "branch",
+        "id": "BR-20104",
+        "name": "Al Rabwah Demo Branch",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Rabwah",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Smart_Banking_Demo_Datasets (1).xlsx / Branches"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.79136,
+          24.752864
+        ]
+      },
+      "properties": {
+        "feature_type": "branch",
+        "id": "BR-20105",
+        "name": "Al Hamra Demo Branch",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Hamra",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Smart_Banking_Demo_Datasets (1).xlsx / Branches"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.785588,
+          24.573543
+        ]
+      },
+      "properties": {
+        "feature_type": "branch",
+        "id": "BR-20106",
+        "name": "Al Aziziyah Demo Branch",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Aziziyah",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Smart_Banking_Demo_Datasets (1).xlsx / Branches"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.770777,
+          24.748619
+        ]
+      },
+      "properties": {
+        "feature_type": "branch",
+        "id": "BR-20107",
+        "name": "Al Quds Demo Branch",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Quds",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Smart_Banking_Demo_Datasets (1).xlsx / Branches"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.679704,
+          24.745725
+        ]
+      },
+      "properties": {
+        "feature_type": "branch",
+        "id": "BR-20108",
+        "name": "Al Mursalat Demo Branch",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Mursalat",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Smart_Banking_Demo_Datasets (1).xlsx / Branches"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.620607,
+          24.768816
+        ]
+      },
+      "properties": {
+        "feature_type": "branch",
+        "id": "BR-20109",
+        "name": "Al Aqiq Demo Branch",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Aqiq",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Smart_Banking_Demo_Datasets (1).xlsx / Branches"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.614674,
+          24.865054
+        ]
+      },
+      "properties": {
+        "feature_type": "branch",
+        "id": "BR-20110",
+        "name": "Al Arid Demo Branch",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Arid",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Smart_Banking_Demo_Datasets (1).xlsx / Branches"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.907106,
+          24.824835
+        ]
+      },
+      "properties": {
+        "feature_type": "branch",
+        "id": "BR-20111",
+        "name": "Al Rimal Demo Branch",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Rimal",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Smart_Banking_Demo_Datasets (1).xlsx / Branches"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.709773,
+          24.797831
+        ]
+      },
+      "properties": {
+        "feature_type": "branch",
+        "id": "BR-20112",
+        "name": "Al Falah Demo Branch",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Falah",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Smart_Banking_Demo_Datasets (1).xlsx / Branches"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.764387,
+          24.716645
+        ]
+      },
+      "properties": {
+        "feature_type": "branch",
+        "id": "BR-20113",
+        "name": "Al Andalus Demo Branch",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Andalus",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Smart_Banking_Demo_Datasets (1).xlsx / Branches"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.67114,
+          24.628485
+        ]
+      },
+      "properties": {
+        "feature_type": "branch",
+        "id": "BR-20114",
+        "name": "Al Badiah Demo Branch",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Badiah",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Smart_Banking_Demo_Datasets (1).xlsx / Branches"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.690564,
+          24.596623
+        ]
+      },
+      "properties": {
+        "feature_type": "branch",
+        "id": "BR-20115",
+        "name": "Al Suwaidi Demo Branch",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Suwaidi",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Smart_Banking_Demo_Datasets (1).xlsx / Branches"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.552009,
+          24.582787
+        ]
+      },
+      "properties": {
+        "feature_type": "branch",
+        "id": "BR-20116",
+        "name": "Tuwaiq Demo Branch",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Tuwaiq",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Smart_Banking_Demo_Datasets (1).xlsx / Branches"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.73566,
+          24.813762
+        ]
+      },
+      "properties": {
+        "feature_type": "branch",
+        "id": "BR-20117",
+        "name": "Qurtubah Demo Branch",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Qurtubah",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Smart_Banking_Demo_Datasets (1).xlsx / Branches"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.731494,
+          24.785876
+        ]
+      },
+      "properties": {
+        "feature_type": "branch",
+        "id": "BR-20118",
+        "name": "Granada Demo Branch",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Granada",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Smart_Banking_Demo_Datasets (1).xlsx / Branches"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.668205,
+          24.782615
+        ]
+      },
+      "properties": {
+        "feature_type": "branch",
+        "id": "BR-20119",
+        "name": "Al Wadi Demo Branch",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Wadi",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Smart_Banking_Demo_Datasets (1).xlsx / Branches"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.573344,
+          24.82668
+        ]
+      },
+      "properties": {
+        "feature_type": "branch",
+        "id": "BR-20120",
+        "name": "Al Qairawan Demo Branch",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Qairawan",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Smart_Banking_Demo_Datasets (1).xlsx / Branches"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.700351,
+          24.841403
+        ]
+      },
+      "properties": {
+        "feature_type": "branch",
+        "id": "BR-20121",
+        "name": "Al Yasmin East Demo Branch",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Yasmin East",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Smart_Banking_Demo_Datasets (1).xlsx / Branches"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.825341,
+          24.759631
+        ]
+      },
+      "properties": {
+        "feature_type": "branch",
+        "id": "BR-20122",
+        "name": "Al Khaleej Demo Branch",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Khaleej",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Smart_Banking_Demo_Datasets (1).xlsx / Branches"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.802409,
+          24.694398
+        ]
+      },
+      "properties": {
+        "feature_type": "branch",
+        "id": "BR-20123",
+        "name": "Al Safa Demo Branch",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Safa",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Smart_Banking_Demo_Datasets (1).xlsx / Branches"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.563231,
+          24.73572
+        ]
+      },
+      "properties": {
+        "feature_type": "branch",
+        "id": "BR-20124",
+        "name": "Al Diriyah Edge Demo Branch",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Diriyah Edge",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Smart_Banking_Demo_Datasets (1).xlsx / Branches"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.681734,
+          24.698125
+        ]
+      },
+      "properties": {
+        "feature_type": "branch",
+        "id": "BR-20125",
+        "name": "Al Olaya Demo Branch",
+        "bank_name": "Demo Riyadh Bank (Fictional)",
+        "district": "Al Olaya",
+        "data_type": "SYNTHETIC DEMO DATA",
+        "as_of_date": "2026-10-01",
+        "source_dataset": "Smart_Banking_Demo_Datasets (1).xlsx / Branches"
+      }
+    }
+  ]
+}

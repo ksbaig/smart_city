@@ -1,0 +1,61 @@
+<div class="dash">
+  @if (loading()) {
+    <p class="dash-state">Loading ATM data…</p>
+  } @else if (error()) {
+    <p class="dash-state dash-error">{{ error() }}</p>
+  } @else if (atm(); as a) {
+    <header class="dash-header">
+      <div>
+        <p class="dash-eyebrow">Monthly overview</p>
+        <h2 class="dash-title">{{ a.Site_Name }}</h2>
+      </div>
+      <span class="dash-badge"><i class="bi bi-graph-up-arrow"></i> Performance: {{ a.Performance_Status }}</span>
+    </header>
+
+    <section class="dash-info">
+      <div class="dash-card">
+        <span class="dash-icon"><i class="bi bi-geo-alt"></i></span>
+        <div><p class="dash-label">District</p><p class="dash-value">{{ a.District }}</p></div>
+      </div>
+      <div class="dash-card">
+        <span class="dash-icon"><i class="bi bi-hash"></i></span>
+        <div><p class="dash-label">ATM ID</p><p class="dash-value">{{ a.ATM_ID }}</p></div>
+      </div>
+      <div class="dash-card">
+        <span class="dash-icon"><i class="bi bi-credit-card-2-front"></i></span>
+        <div><p class="dash-label">ATM Type</p><p class="dash-value">{{ a.ATM_Type }}</p></div>
+      </div>
+    </section>
+
+    <section class="dash-main">
+      <div class="dash-map">
+        <iframe title="ATM location map" [src]="mapUrl()" loading="lazy"></iframe>
+      </div>
+
+      <div class="dash-side">
+        <div class="dash-profit">
+          <p class="dash-label"><i class="bi bi-piggy-bank"></i> Net Profit</p>
+          <p class="dash-profit-value">{{ sar(a.Net_Profit_Loss_SAR) }}</p>
+          <p class="dash-profit-sub">SAR · {{ marginText() }}% margin</p>
+        </div>
+        @for (m of metrics(); track m.label) {
+          <div class="dash-metric">
+            <span class="dash-metric-label"><i class="bi {{ m.icon }}"></i> {{ m.label }}</span>
+            <span class="dash-metric-value">
+              {{ m.value }}
+              @if (m.unit) {
+                <small>{{ m.unit }}</small>
+              }
+            </span>
+          </div>
+        }
+      </div>
+    </section>
+
+    <footer class="dash-footer">As of {{ a.As_Of_Date }} · {{ a.Data_Status }}</footer>
+  } @else {
+    <p class="dash-state">
+      No ATM found{{ searchId() ? ' for ' + searchId() : '' }}. Enter an ATM ID such as ATM-10201.
+    </p>
+  }
+</div>
