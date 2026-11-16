@@ -343,6 +343,39 @@ export class App implements OnInit {
     this.refreshView();
   }
 
+  readonly createOptions = [
+    { number: 1, label: "Utilities" },
+    { number: 2, label: "WAPDA" },
+    { number: 3, label: "PTCL" },
+    { number: 4, label: "Housing" },
+    { number: 5, label: "1122" },
+  ];
+  createOptionsOpen = false;
+  selectedCreateOption: number | null = null;
+
+  toggleCreateOptions(): void {
+    this.createOptionsOpen = !this.createOptionsOpen;
+  }
+
+  async selectCreateOption(option: number): Promise<void> {
+    this.selectedCreateOption = option;
+
+    const view = this.mapService.getMapView();
+    if (!view) {
+      console.warn("Cannot navigate to the selected location because the map is not ready.");
+      return;
+    }
+
+    try {
+      await view.goTo(
+        { center: [74.23381, 31.346485], zoom: 18 },
+        { animate: true },
+      );
+    } catch (error) {
+      console.error("Failed to navigate to the selected location.", error);
+    }
+  }
+
   showCardsButton = false;
   ngDoCheck() {
     this.updateThemeClass();

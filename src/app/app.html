@@ -20,9 +20,29 @@
   </header>
 
   <aside class="left-sidebar">
-    <button type="button" class="left-sidebar-logo" aria-label="Main menu">
+    <button
+      type="button"
+      class="left-sidebar-logo"
+      aria-label="Main menu"
+      [attr.aria-expanded]="createOptionsOpen"
+      (click)="toggleCreateOptions()"
+    >
       <i class="bi bi-compass"></i>
     </button>
+    <div class="create-options" *ngIf="createOptionsOpen" role="group" aria-label="Create options">
+      <button
+        *ngFor="let option of createOptions"
+        type="button"
+        class="create-option-btn"
+        [class.active]="selectedCreateOption === option.number"
+        [attr.aria-pressed]="selectedCreateOption === option.number"
+        [attr.aria-label]="option.number + ' ' + option.label"
+        (click)="selectCreateOption(option.number)"
+      >
+        <span class="create-option-number">{{ option.number }}</span>
+        <span class="create-option-label">{{ option.label }}</span>
+      </button>
+    </div>
     <div class="left-sidebar-buttons">
       <button
         type="button"

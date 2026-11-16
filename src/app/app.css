@@ -258,6 +258,62 @@ div[role="toolbar"] calcite-action-menu {
 	border: 1px solid rgba(18, 74, 155, 0.16);
 }
 
+.create-options {
+	position: fixed;
+	top: 34px;
+	left: 98px;
+	z-index: 1300;
+	display: flex;
+	flex-direction: column;
+	width: 164px;
+	background: #fff;
+	border: 1px solid #111;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+.create-option-btn {
+	width: 100%;
+	height: 42px;
+	display: flex;
+	align-items: center;
+	box-sizing: border-box;
+	background: #fff;
+	color: #111;
+	font-weight: 700;
+	cursor: pointer;
+	padding: 0;
+	border: 0;
+	border-bottom: 1px solid #111;
+	text-align: left;
+}
+
+.create-option-btn:last-child {
+	border-bottom: 0;
+}
+
+.create-option-number {
+	width: 48px;
+	height: 100%;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	flex: 0 0 48px;
+	border-right: 1px solid #111;
+	font-size: 1.15rem;
+}
+
+.create-option-label {
+	padding: 0 12px;
+	font-size: 1.1rem;
+	white-space: nowrap;
+}
+
+.create-option-btn:hover,
+.create-option-btn.active {
+	background: #e8f2ff;
+	color: #124a9b;
+}
+
 .left-sidebar-btn {
 	font-size: 1.15rem;
 }
